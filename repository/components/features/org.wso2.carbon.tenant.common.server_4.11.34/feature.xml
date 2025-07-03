@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.tenant.common.server" label="WSO2 Tenant Common Core Feature" provider-name="%providerName" version="4.11.34">
+  <description>This feature contains the core bundles required for Back-end servlet functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.tenant.mgt" unpack="false" version="4.11.34"/>
+  <plugin id="org.wso2.carbon.tenant.theme.mgt" unpack="false" version="4.11.34"/>
+  <plugin id="org.wso2.carbon.tenant.redirector.servlet" unpack="false" version="4.11.34"/>
+  <plugin id="json" unpack="false" version="3.0.0.wso2v4"/>
+  <plugin id="org.wso2.carbon.tenant.dispatcher" unpack="false" version="4.11.34"/>
+  <plugin id="org.wso2.carbon.tenant.mgt.core" unpack="false" version="4.11.34"/>
+  <plugin id="org.wso2.carbon.tenant.keystore.mgt" unpack="false" version="4.11.34"/>
+  <require>
+    <import match="compatible" plugin="org.wso2.carbon.application.upload" version="4.10.13"/>
+    <import feature="org.wso2.carbon.tenant.mgt.common.server" match="compatible" version="4.10.13"/>
+    <import feature="org.wso2.carbon.registry.core.server" match="compatible" version="4.7.24"/>
+    <import feature="org.wso2.carbon.core.server" match="compatible" version="4.10.22"/>
+  </require>
+</feature>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.consent.mgt.server" label="WSO2 Carbon - Consent Management Server Feature" provider-name="%providerName" version="2.6.7">
+  <description>This feature contains the core bundles required for back-end consent management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.consent.mgt.core" unpack="false" version="2.6.7"/>
+  <require>
+    <import feature="org.wso2.carbon.database.utils" match="compatible" version="2.1.0"/>
+  </require>
+</feature>

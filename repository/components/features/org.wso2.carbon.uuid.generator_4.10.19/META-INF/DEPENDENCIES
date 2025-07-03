@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - UUID Generator Composite Feature
+
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 Carbon - UUID Generator (http://wso2.org) org.wso2.carbon.commons:org.wso2.carbon.uuid.generator:bundle:4.10.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon - UUID Generator Server Feature (http://wso2.org/org.wso2.carbon.uuid.generator.server.feature) org.wso2.carbon.commons:org.wso2.carbon.uuid.generator.server.feature:pom:4.10.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.authenticator.mutualssl" label="WSO2 Carbon - Mutual SSL Authentictor Feature" provider-name="%providerName" version="5.5.0">
+  <description>This feature contains the bundles required for Mutual SSL Authentictor</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.authenticator.mutualssl" unpack="false" version="5.5.0"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.6.0"/>
+  </require>
+</feature>

@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Identity Server Apps - x509 Certificate Authentication Portal Server Feature
+
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 Identity Server Apps - X509 Certificate Authentication Portal (http://wso2.org) org.wso2.identity.apps:x509-certificate-authentication-portal:war:2.14.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

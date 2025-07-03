@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.user.mgt" label="User Management Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the bundles required for user management aggregated
+        functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="xmlbeans" unpack="false" version="5.1.1.wso2v1"/>
+  <plugin id="commons-compress" unpack="false" version="1.27.1.wso2v1"/>
+  <includes id="org.wso2.carbon.user.mgt.server" optional="false" version="7.8.23"/>
+  <includes id="org.wso2.carbon.user.mgt.ui" optional="false" version="7.8.23"/>
+</feature>

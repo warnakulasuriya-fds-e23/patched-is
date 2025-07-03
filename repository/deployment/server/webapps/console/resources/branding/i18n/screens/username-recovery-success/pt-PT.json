@@ -1,0 +1,5 @@
+{
+  "username.recovery.email.success.body": "Os detalhes de recuperação do nome de utilizador foram enviados para o e-mail fornecido. Se o e-mail não for recebido, tente novamente utilizando informações diferentes.",
+  "username.recovery.sms.success.body": "Os detalhes de recuperação do nome de utilizador foram enviados para o número de telemóvel fornecido. Se o SMS não for recebido, tente novamente utilizando informações diferentes.",
+  "username.recovery.success.action": "Voltar ao aplicativo"
+}

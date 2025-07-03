@@ -1,0 +1,50 @@
+ALTER TABLE IDN_OAUTH2_ACCESS_TOKEN_AUDIT ADD ID INTEGER NOT NULL AUTO_INCREMENT;
+ALTER TABLE IDN_OAUTH2_ACCESS_TOKEN_AUDIT ADD PRIMARY KEY(ID);
+
+ALTER TABLE IDN_OAUTH2_SCOPE_BINDING ADD ID INTEGER NOT NULL AUTO_INCREMENT;
+ALTER TABLE IDN_OAUTH2_SCOPE_BINDING ADD PRIMARY KEY(ID);
+
+ALTER TABLE IDN_AUTH_USER_SESSION_MAPPING ADD ID INTEGER NOT NULL AUTO_INCREMENT;
+ALTER TABLE IDN_AUTH_USER_SESSION_MAPPING ADD PRIMARY KEY(ID);
+
+ALTER TABLE IDN_OAUTH2_CIBA_REQUEST_SCOPES ADD ID INTEGER NOT NULL AUTO_INCREMENT;
+ALTER TABLE IDN_OAUTH2_CIBA_REQUEST_SCOPES ADD PRIMARY KEY(ID);
+
+-- Add the column if it doesn't exist
+ALTER TABLE IDN_OAUTH2_ACCESS_TOKEN ADD COLUMN IF NOT EXISTS CONSENTED_TOKEN VARCHAR(6);
+
+--<![CDATA[Start of Procedure]]>--
+CREATE ALIAS MIGRATE_IDN_FED_AUTH_SESSION_MAPPING AS $$
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+@CODE
+void migrateIdnFedAuthSessionMapping(final Connection conn) throws SQLException {
+
+    boolean isExists = false;
+    PreparedStatement ps = conn.prepareStatement("SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='IDN_FED_AUTH_SESSION_MAPPING' AND COLUMN_NAME='ID'");
+    ResultSet results =  ps.executeQuery();
+    while (results.next()) {
+        isExists = results.getBoolean(1);
+    }
+
+    if (!isExists) {
+        ps = conn.prepareStatement("ALTER TABLE IDN_FED_AUTH_SESSION_MAPPING DROP PRIMARY KEY");
+        ps.execute();
+        ps = conn.prepareStatement("ALTER TABLE IDN_FED_AUTH_SESSION_MAPPING ADD ID INTEGER NOT NULL AUTO_INCREMENT");
+        ps.execute();
+        ps = conn.prepareStatement("ALTER TABLE IDN_FED_AUTH_SESSION_MAPPING ADD PRIMARY KEY(ID)");
+        ps.execute();
+        ps = conn.prepareStatement("ALTER TABLE IDN_FED_AUTH_SESSION_MAPPING ADD TENANT_ID INTEGER NOT NULL DEFAULT 0");
+        ps.execute();
+        ps = conn.prepareStatement("ALTER TABLE IDN_FED_AUTH_SESSION_MAPPING ADD UNIQUE(IDP_SESSION_ID, TENANT_ID)");
+        ps.execute();
+    }
+}
+$$;
+--<![CDATA[End of Procedure]]>--
+
+CALL MIGRATE_IDN_FED_AUTH_SESSION_MAPPING();
+
+DROP ALIAS IF EXISTS MIGRATE_IDN_FED_AUTH_SESSION_MAPPING;

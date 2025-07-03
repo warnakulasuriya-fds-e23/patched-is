@@ -1,0 +1,11 @@
+{
+  "password.recovery.heading": "パスワード",
+  "password.recovery.body": "ご対応させていただきます。ユーザー名を入力してパスワードのリセットを開始します。",
+  "password.recovery.identifier.input.placeholder": "ユーザー名",
+  "password.recovery.button.email.link": "リセットリンクの送信",
+  "password.recovery.button.email.otp": "電子メール OTP を送信",
+  "password.recovery.button.smsotp": "SMSコードを送信する",
+  "send.email.link": "電子メールでコードを送信する",
+  "send.email.otp": "OTPをメールで送信",
+  "send.code.via.sms": "OTPをSMSで送信"
+}

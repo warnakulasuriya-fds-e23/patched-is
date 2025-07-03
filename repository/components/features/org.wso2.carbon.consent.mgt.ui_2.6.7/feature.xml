@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.consent.mgt.ui" label="WSO2 Carbon - Consent Management UI Feature" provider-name="%providerName" version="2.6.7">
+  <description>This feature contains the bundles required for the front-end consent management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.consent.mgt.ui" unpack="false" version="2.6.7"/>
+</feature>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.hash.provider.pbkdf2.server" label="WSO2 Carbon - PBKDF2 Feature" provider-name="%providerName" version="0.1.7">
+  <description>This feature contains the core bundles required for PBKDF2</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.hash.provider.pbkdf2" unpack="false" version="0.1.7"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.6.3"/>
+  </require>
+</feature>

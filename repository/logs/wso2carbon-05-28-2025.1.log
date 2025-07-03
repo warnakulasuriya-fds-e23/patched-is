@@ -1,0 +1,1263 @@
+TID: [] [] [2025-05-28 09:10:42,021] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-28 09:10:42,428] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-28 09:10:42,430] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-59-generic, amd64
+TID: [] [] [2025-05-28 09:10:42,430] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-05-28 09:10:42,430] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-05-28 09:10:42,431] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-05-28 09:10:42,431] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0
+TID: [] [] [2025-05-28 09:10:42,431] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/tmp
+TID: [] [] [2025-05-28 09:10:42,431] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-05-28 09:10:49,422] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-28 09:10:51,884] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 104ms
+TID: [] [] [2025-05-28 09:10:51,921] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 9ms
+TID: [] [] [2025-05-28 09:10:51,922] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 10ms
+TID: [] [] [2025-05-28 09:10:52,046] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-28 09:10:52,047] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-05-28 09:10:52,055] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-28 09:10:56,234] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-28 09:10:56,541] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-28 09:10:57,303] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-28 09:11:00,538] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-05-28 09:11:00,576] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-28 09:11:00,594] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-28 09:11:00,906] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-28 09:11:00,907] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-28 09:11:00,908] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-28 09:11:00,909] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-28 09:11:04,419] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-28 09:11:05,538] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-28 09:11:06,446] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-28 09:11:06,707] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-28 09:11:06,707] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-28 09:11:06,736] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-28 09:11:10,331] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-05-28 09:11:16,588] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-28 09:11:29,415] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-05-28 09:11:29,416] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-05-28 09:11:29,758] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-05-28 09:11:29,764] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-28 09:11:29,820] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-05-28 09:11:29,821] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-05-28 09:11:29,821] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-28 09:11:29,822] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 52 sec
+TID: [] [] [2025-05-28 09:11:29,848] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [-1234] [] [2025-05-28 09:11:50,739] [7bc8294f-af2a-42a6-8e7e-4a569a801e05]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [] [2025-05-28 09:20:09,662] [3618207a-c413-4cc6-aab6-db86a169c007]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:24:24,972] [4862b954-1a33-40f1-9d3b-b60b7e0160ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:24:24,974] [4862b954-1a33-40f1-9d3b-b60b7e0160ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:24:24,976] [4862b954-1a33-40f1-9d3b-b60b7e0160ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:29:21,445] [0ebf9c02-cc5a-4f30-b9fc-5ace151a2c60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+TID: [-1234] [] [2025-05-28 09:29:21,447] [0ebf9c02-cc5a-4f30-b9fc-5ace151a2c60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:29:21,448] [0ebf9c02-cc5a-4f30-b9fc-5ace151a2c60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:30:54,471] [bd8e09a5-ec80-4a10-93c0-e58f95d75aac]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: null
+TID: [-1234] [] [2025-05-28 09:30:54,473] [bd8e09a5-ec80-4a10-93c0-e58f95d75aac]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:30:54,475] [bd8e09a5-ec80-4a10-93c0-e58f95d75aac]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:31:52,436] [a75690c3-3649-41c7-b3b0-c7a206cbc318]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+TID: [-1234] [] [2025-05-28 09:31:52,437] [a75690c3-3649-41c7-b3b0-c7a206cbc318]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:31:52,438] [a75690c3-3649-41c7-b3b0-c7a206cbc318]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:36:51,387] [97474dd3-5598-4e5a-b593-413d640d6980]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+TID: [-1234] [] [2025-05-28 09:36:51,388] [97474dd3-5598-4e5a-b593-413d640d6980]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:36:51,401] [97474dd3-5598-4e5a-b593-413d640d6980]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - arya Has one of Roles: admin,manager
+TID: [-1234] [] [2025-05-28 09:37:08,902] [9b785069-a116-485e-88e3-c33ef980d187]  WARN {org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler} - Session nonce cookie validation has failed for the sessionDataKey: 50d04642-b7a7-4978-a21d-9667d4b57f05. Hence, restarting the login flow.
+TID: [-1234] [] [2025-05-28 09:37:15,266] [00a9fea3-b53b-400e-99a9-cdb4472496ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+TID: [-1234] [] [2025-05-28 09:37:15,267] [00a9fea3-b53b-400e-99a9-cdb4472496ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:37:15,270] [00a9fea3-b53b-400e-99a9-cdb4472496ec]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admin Has one of Roles: admin,manager
+TID: [-1234] [] [2025-05-28 09:37:34,526] [1bfb5400-dd4f-40d1-a55c-a846ff4e6b33]  WARN {org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler} - Session nonce cookie validation has failed for the sessionDataKey: 50d04642-b7a7-4978-a21d-9667d4b57f05. Hence, restarting the login flow.
+TID: [-1234] [] [2025-05-28 09:37:34,564] [1bfb5400-dd4f-40d1-a55c-a846ff4e6b33]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - context: [object Object]
+TID: [-1234] [] [2025-05-28 09:37:34,565] [1bfb5400-dd4f-40d1-a55c-a846ff4e6b33]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - user: [object Object]
+
+TID: [-1234] [] [2025-05-28 09:37:34,571] [1bfb5400-dd4f-40d1-a55c-a846ff4e6b33]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - janedoesn't have admin or manager role
+TID: [-1234] [] [2025-05-28 09:49:58,876] [d5938ea7-fd1b-4252-aeea-2b4038327751] ERROR {org.wso2.carbon.identity.conditional.auth.functions.notification.SendEmailFunctionImpl} - Error when sending notification of template UnseenDeviceLogin to user a****************r org.wso2.carbon.identity.event.IdentityEventException: Email notification sending failed. Sending email address is not configured for the user.
+	at org.wso2.carbon.identity.event.handler.notification.util.NotificationUtil.buildNotification(NotificationUtil.java:704)
+	at org.wso2.carbon.identity.event.handler.notification.NotificationHandler.handleEvent(NotificationHandler.java:95)
+	at org.wso2.carbon.identity.event.services.IdentityEventServiceImpl.handleEvent(IdentityEventServiceImpl.java:56)
+	at org.wso2.carbon.identity.conditional.auth.functions.notification.SendEmailFunctionImpl.sendMail(SendEmailFunctionImpl.java:64)
+	at com.oracle.truffle.host.HostMethodDesc$SingleMethod$MHBase.invokeHandle(HostMethodDesc.java:350)
+	at com.oracle.truffle.host.GuestToHostCodeCache$1.executeImpl(GuestToHostCodeCache.java:96)
+	at com.oracle.truffle.host.GuestToHostRootNode.execute(GuestToHostRootNode.java:80)
+	at com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+	at com.oracle.truffle.api.impl.DefaultRuntimeAccessor$DefaultRuntimeSupport.callInlined(DefaultRuntimeAccessor.java:177)
+	at com.oracle.truffle.host.GuestToHostRootNode.guestToHostCall(GuestToHostRootNode.java:102)
+	at com.oracle.truffle.host.HostMethodDesc$SingleMethod$MHBase.invokeGuestToHost(HostMethodDesc.java:386)
+	at com.oracle.truffle.host.HostExecuteNode.doInvoke(HostExecuteNode.java:871)
+	at com.oracle.truffle.host.HostExecuteNode.doFixed(HostExecuteNode.java:137)
+	at com.oracle.truffle.host.HostExecuteNodeGen.executeAndSpecialize(HostExecuteNodeGen.java:144)
+	at com.oracle.truffle.host.HostExecuteNodeGen.execute(HostExecuteNodeGen.java:97)
+	at com.oracle.truffle.host.HostObject.execute(HostObject.java:1329)
+	at com.oracle.truffle.host.HostObjectGen$InteropLibraryExports$Cached.executeNode_AndSpecialize(HostObjectGen.java:3341)
+	at com.oracle.truffle.host.HostObjectGen$InteropLibraryExports$Cached.execute(HostObjectGen.java:3326)
+	at com.oracle.truffle.api.interop.InteropLibraryGen$CachedDispatch.execute(InteropLibraryGen.java:7765)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode$ForeignExecuteNode.executeCall(JSFunctionCallNode.java:1494)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeAndSpecialize(JSFunctionCallNode.java:306)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeCall(JSFunctionCallNode.java:251)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode$CallNode.execute(JSFunctionCallNode.java:537)
+	at com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.execute_generic4(JSWriteCurrentFrameSlotNodeGen.java:124)
+	at com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.execute(JSWriteCurrentFrameSlotNodeGen.java:43)
+	at com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.executeVoid(JSWriteCurrentFrameSlotNodeGen.java:330)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:80)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:55)
+	at com.oracle.truffle.api.impl.DefaultBlockNode.executeVoid(DefaultBlockNode.java:73)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:70)
+	at com.oracle.truffle.js.nodes.control.IfNode.executeVoid(IfNode.java:178)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:80)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:55)
+	at com.oracle.truffle.api.impl.DefaultBlockNode.executeVoid(DefaultBlockNode.java:73)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:70)
+	at com.oracle.truffle.js.nodes.control.IfNode.executeVoid(IfNode.java:182)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:80)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:55)
+	at com.oracle.truffle.api.impl.DefaultBlockNode.executeVoid(DefaultBlockNode.java:73)
+	at com.oracle.truffle.js.nodes.control.AbstractBlockNode.executeVoid(AbstractBlockNode.java:70)
+	at com.oracle.truffle.js.nodes.control.VoidBlockNode.execute(VoidBlockNode.java:61)
+	at com.oracle.truffle.js.nodes.binary.DualNode.execute(DualNode.java:119)
+	at com.oracle.truffle.js.nodes.function.FunctionBodyNode.execute(FunctionBodyNode.java:73)
+	at com.oracle.truffle.js.nodes.function.FunctionRootNode.executeInRealm(FunctionRootNode.java:149)
+	at com.oracle.truffle.js.runtime.JavaScriptRealmBoundaryRootNode.execute(JavaScriptRealmBoundaryRootNode.java:88)
+	at com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+	at com.oracle.truffle.api.impl.DefaultDirectCallNode.call(DefaultDirectCallNode.java:59)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode$UnboundJSFunctionCacheNode.executeCall(JSFunctionCallNode.java:1314)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeAndSpecialize(JSFunctionCallNode.java:306)
+	at com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeCall(JSFunctionCallNode.java:251)
+	at com.oracle.truffle.js.nodes.interop.JSInteropExecuteNode.doDefault(JSInteropExecuteNode.java:68)
+	at com.oracle.truffle.js.nodes.interop.JSInteropExecuteNodeGen.executeAndSpecialize(JSInteropExecuteNodeGen.java:62)
+	at com.oracle.truffle.js.nodes.interop.JSInteropExecuteNodeGen.execute(JSInteropExecuteNodeGen.java:44)
+	at com.oracle.truffle.js.runtime.builtins.JSFunctionObject.execute(JSFunctionObject.java:142)
+	at com.oracle.truffle.js.runtime.builtins.JSFunctionObjectGen$InteropLibraryExports$Cached.executeNode_AndSpecialize(JSFunctionObjectGen.java:143)
+	at com.oracle.truffle.js.runtime.builtins.JSFunctionObjectGen$InteropLibraryExports$Cached.execute(JSFunctionObjectGen.java:126)
+	at com.oracle.truffle.api.interop.InteropLibraryGen$CachedDispatch.execute(InteropLibraryGen.java:7765)
+	at com.oracle.truffle.polyglot.PolyglotValueDispatch$InteropValue$AbstractExecuteNode.executeShared(PolyglotValueDispatch.java:4268)
+	at com.oracle.truffle.polyglot.PolyglotValueDispatch$InteropValue$ExecuteNode.executeImpl(PolyglotValueDispatch.java:4349)
+	at com.oracle.truffle.polyglot.HostToGuestRootNode.execute(HostToGuestRootNode.java:124)
+	at com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+	at com.oracle.truffle.api.impl.DefaultCallTarget.call(DefaultCallTarget.java:102)
+	at com.oracle.truffle.api.impl.DefaultRuntimeAccessor$DefaultRuntimeSupport.callProfiled(DefaultRuntimeAccessor.java:182)
+	at com.oracle.truffle.polyglot.PolyglotValueDispatch$InteropValue.execute(PolyglotValueDispatch.java:2396)
+	at org.graalvm.polyglot.Value.execute(Value.java:880)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.apply(GraalSerializableJsFunction.java:79)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder$JsBasedEvaluator.evaluate(JsGraalGraphBuilder.java:631)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.executeFunction(GraphBasedSequenceHandler.java:790)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleDecisionPoint(GraphBasedSequenceHandler.java:753)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:214)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:166)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:211)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:399)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doGet(CommonAuthenticationHandler.java:46)
+	at org.wso2.carbon.identity.application.authentication.framework.servlet.CommonAuthenticationServlet.doPost(CommonAuthenticationServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [] [2025-05-28 09:50:26,999] [152b2250-b7a9-4906-88e9-9522b3e34f3b]  WARN {org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler} - Session nonce cookie validation has failed for the sessionDataKey: 2abb4103-270c-40fb-b7fd-7979eba9e5b6. Hence, restarting the login flow.
+TID: [-1234] [] [2025-05-28 09:54:28,282] [cee0d80d-bcda-4a96-bca4-389455aab9e1]  WARN {org.wso2.carbon.security.keystore.service.IdentityKeyStoreGeneratorImpl} - Key store carbon-super--cookie.p12 is already available, ignoring.
+TID: [-1234] [] [2025-05-28 09:56:20,613] [00fe4c4c-120a-4878-91d7-0aa7adc1b233]  WARN {org.wso2.carbon.security.keystore.service.IdentityKeyStoreGeneratorImpl} - Key store carbon-super--cookie.p12 is already available, ignoring.
+TID: [-1234] [] [2025-05-28 09:56:33,549] [24905336-5374-4603-967f-46821866befc]  WARN {org.wso2.carbon.security.keystore.service.IdentityKeyStoreGeneratorImpl} - Key store carbon-super--cookie.p12 is already available, ignoring.
+TID: [-1234] [] [2025-05-28 10:02:00,895] [622f76f8-432b-4f94-8fd6-d70f5514ee8c]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - User: arya logged in from IP: 127.0.0.1
+TID: [-1234] [] [2025-05-28 10:02:32,176] [a40f8d4c-5b1c-44a5-8246-1dfd957dd749]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - User: arya logged in from IP: 127.0.0.1
+TID: [-1234] [] [2025-05-28 10:06:11,172] [44cf5fdd-a2f9-4c57-85d6-9cb8e797e84f]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [] [2025-05-28 10:06:20,209] [6af59635-8e92-40ce-b29b-75da5274a617]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - User: arya logged in from IP: 127.0.0.1
+TID: [-1234] [] [2025-05-28 10:07:50,054] [bcf07e4d-669e-42a4-8f3e-8c6e69f3c9e2]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - User: Daenerys logged in from IP: 127.0.0.1
+TID: [-1234] [] [2025-05-28 10:08:34,594] [de645377-0a18-487d-b69c-5963479695d1]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - User: Daenerys logged in from IP: 127.0.0.1
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:15,010] [2fe760ce-a455-44ee-968c-547413a6715c]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:15,010+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:15,106] [9d81f65f-0f6f-41c5-a34c-c65325bde217]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:15,106+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:18,374] [7d56a78b-0651-43e2-8c50-b93f8eb56dc4]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:18,374+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:18,444] [7d874113-818d-4886-aa20-e5f250a2151b]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:18,444+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:19,050] [27fe5b3d-f55e-4206-940f-a0d2fcef0e4b]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:19,050+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 10:27:19,093] [7cf5146c-8cfd-4271-b53c-aa632acd6134]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 10:27:19,093+0530]
+TID: [] [] [2025-05-28 11:50:53,879] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-28 11:50:53,884] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 11:50:53,893] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-28 11:50:53,897] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-28 11:50:53,898] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-28 11:50:53,915] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-28 11:50:53,915] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-28 11:50:54,009] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-28 11:50:54,056] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-28 11:50:54,065] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-28 11:50:54,083] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-28 11:50:54,097] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-28 11:50:54,105] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-28 11:50:54,118] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-28 11:50:54,136] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-28 11:50:54,143] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-28 11:50:54,162] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-28 11:50:54,173] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-28 11:50:54,179] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-28 11:50:54,179] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-28 11:50:54,180] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-28 11:50:54,180] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-28 11:50:54,180] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 11:50:54,181] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-28 11:50:54,201] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-28 11:50:54,203] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-28 11:50:54,384] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-28 11:50:55,006]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-28 11:50:55,006]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [] [] [2025-05-28 11:57:13,607] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-28 11:57:13,834] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-59-generic, amd64
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/tmp
+TID: [] [] [2025-05-28 11:57:13,835] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-05-28 11:57:18,659] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-28 11:57:20,330] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 51ms
+TID: [] [] [2025-05-28 11:57:20,354] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 5ms
+TID: [] [] [2025-05-28 11:57:20,354] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 6ms
+TID: [] [] [2025-05-28 11:57:20,420] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-28 11:57:20,421] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-05-28 11:57:20,426] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-28 11:57:23,185] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-28 11:57:23,475] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-28 11:57:24,030] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-28 11:57:26,290] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-05-28 11:57:26,324] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-28 11:57:26,339] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-28 11:57:26,589] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-28 11:57:26,590] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-28 11:57:26,590] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-28 11:57:26,591] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-28 11:57:29,689] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-28 11:57:30,748] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-28 11:57:31,591] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-28 11:57:31,823] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-28 11:57:31,823] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-28 11:57:31,851] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-28 11:57:34,533] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-28 11:57:34,791] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-05-28 11:57:41,120] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-28 11:57:53,946] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-05-28 11:57:53,947] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-05-28 11:57:54,208] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-05-28 11:57:54,214] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-28 11:57:54,258] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-05-28 11:57:54,258] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-05-28 11:57:54,258] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-28 11:57:54,259] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 44 sec
+TID: [-1234] [] [2025-05-28 12:00:56,755] [39edd32f-390f-425c-8bff-6614ec0c1111]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [oauth2] [2025-05-28 12:43:31,617] [7a4a504c-2b2e-4655-af00-8fae37fb55a0]  WARN {org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper} - javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:673)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:182)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:128)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-05-28 12:44:21,015] [53475457-2f1e-4915-a059-ede941b8e857]  WARN {org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper} - javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:673)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:182)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:128)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-05-28 12:46:19,973] [601d98c6-9d5a-440d-a1f5-acd0d826a789]  WARN {org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper} - javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:673)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:182)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:128)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-05-28 13:32:17,048] [70ca3177-11b8-4242-8948-40bc96a2c097]  WARN {org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper} - javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:673)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:182)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:128)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-05-28 13:32:40,349] [b4e4b0a2-7ee1-4e2c-8fe7-c3d950476b23]  WARN {org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper} - javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:673)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:182)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:128)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [] [2025-05-28 14:47:39,973] [ef567b67-2783-4453-9fed-8224bd4f49fd]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 386599c4-af86-459e-bbeb-a828ba656107-v2
+TID: [-1234] [scim2] [2025-05-28 14:51:29,162] [efea9134-4a95-4975-ad2e-dd44cb93b3e4]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity outboundtester1 For operation = POST
+TID: [-1234] [] [2025-05-28 14:52:10,768] [b5f9bc12-b0e4-49b0-9ca0-f5ce03539511]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 9e4d4206-0dec-4635-9590-102b262b9806-v2
+TID: [-1234] [scim2] [2025-05-28 14:54:08,667] [2528fe2d-cf53-4f43-840c-3143aed77df9]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity outboundtester2 For operation = POST
+TID: [-1234] [] [2025-05-28 14:54:59,397] [a08a2d37-376a-4e8b-b317-3f98c15f768e]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : b97592d9-70ad-48ef-a2f3-f21709c53d83-v2
+TID: [-1234] [] [2025-05-28 15:03:16,214] [f5bf01a8-e5c6-4306-89ba-05b3fff6b16b]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : a3cfefc0-71f7-48aa-88cb-e9f2211a2073-v2
+TID: [-1234] [scim2] [2025-05-28 16:29:10,407] [029b4f5e-6922-4465-b6e4-8d1a0644fe73]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity outboundtester3 For operation = POST
+TID: [-1234] [scim2] [2025-05-28 16:32:07,977] [ce7f1a3e-73cb-45d9-8d8c-cf63be689e54]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity outboundtester4 For operation = POST
+TID: [-1234] [] [2025-05-28 16:42:58,285] [4c0e6556-ceb3-45bc-8a95-dd19e92141d0]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : e3d88ae8-a16a-4c82-93d6-5db70f18d5d0-v2
+TID: [-1234] [scim2] [2025-05-28 16:50:19,203] [bdeb5f2e-fd1e-4af9-88a5-aa684736ea5b]  INFO {org.wso2.scim2.operation.UserOperations} - SCIM - create user operation returned with response code: 201
+TID: [-1234] [scim2] [2025-05-28 16:52:43,950] [1f246a16-5dee-45d6-9049-a4b15c923232]  INFO {org.wso2.scim2.operation.UserOperations} - SCIM - create user operation returned with response code: 201
+TID: [-1234] [] [2025-05-28 16:54:54,385] [2010bef5-10d0-426b-9190-cbc9a743ca46]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 22a75e89-fb0e-4f58-a569-cb40c057feb1-v2
+TID: [-1234] [scim2] [2025-05-28 16:56:19,613] [4f5a28c9-54d7-4f22-a49a-675bc50b2b13]  INFO {org.wso2.scim2.operation.UserOperations} - SCIM - create user operation returned with response code: 201
+TID: [-1234] [] [2025-05-28 16:56:42,883] [2152c25c-4fc6-4077-9eb5-be4b31bc5bfc]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : ffab5a77-b522-4841-9dd1-15d57c7eeaab-v2
+TID: [-1234] [scim2] [2025-05-28 17:02:54,519] [e086edce-b294-481b-9f5d-0ae8a693e642]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity usertestaaaaa For operation = POST
+TID: [-1234] [] [2025-05-28 17:05:24,094] [3ed790ec-ddb4-47c3-9e67-03fddcbeaaa1]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : 2ed0d26f-b117-4819-bee0-371cc69bbaff-v2
+TID: [-1234] [scim2] [2025-05-28 17:07:24,357] [b5ed1160-3f0e-4424-b35e-0ab98c9ec984]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity Userbbb For operation = POST
+TID: [-1234] [] [2025-05-28 17:08:14,363] [48d76d3c-d12a-4409-95fc-5f1bc0295c09]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : fbee00b2-fca0-48a4-b65a-e08c14a0ef11-v2
+TID: [] [] [2025-05-28 17:10:25,601] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-28 17:10:25,810] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-28 17:10:25,811] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-59-generic, amd64
+TID: [] [] [2025-05-28 17:10:25,811] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-05-28 17:10:25,811] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-05-28 17:10:25,811] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-05-28 17:10:25,812] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0
+TID: [] [] [2025-05-28 17:10:25,812] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/tmp
+TID: [] [] [2025-05-28 17:10:25,812] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-05-28 17:10:30,324] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-28 17:10:32,033] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 57ms
+TID: [] [] [2025-05-28 17:10:32,060] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 7ms
+TID: [] [] [2025-05-28 17:10:32,061] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 8ms
+TID: [] [] [2025-05-28 17:10:32,142] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-28 17:10:32,143] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-05-28 17:10:32,149] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-28 17:10:33,690] [] ERROR {org.apache.solr.core.SolrCore} - Solr index directory '/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/conf/solr/registry-indexing/../../../../solr/data/index/' is locked (lockType=native).  Throwing exception.
+TID: [] [] [2025-05-28 17:10:33,700] [] ERROR {org.apache.solr.core.CoreContainer} - SolrCore failed to load on startup org.apache.solr.common.SolrException: Unable to create core [registry-indexing]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1750)
+	at org.apache.solr.core.CoreContainer.lambda$loadInternal$12(CoreContainer.java:1057)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedRunnable.run(InstrumentedExecutorService.java:212)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:299)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.solr.common.SolrException: Index dir '/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/conf/solr/registry-indexing/../../../../solr/data/index/' of core 'registry-indexing' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1229)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1057)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1717)
+	... 8 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index dir '/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/conf/solr/registry-indexing/../../../../solr/data/index/' of core 'registry-indexing' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:884)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1135)
+	... 10 more
+
+TID: [] [] [2025-05-28 17:10:34,275] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-28 17:10:34,502] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-28 17:10:35,097] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-28 17:10:37,367] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-05-28 17:10:37,432] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-28 17:10:37,456] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-28 17:10:37,691] [] ERROR {org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent} - Error in starting Thrift Authentication Service org.apache.thrift.transport.TTransportException: Could not bind to port 10711
+	at org.apache.thrift.transport.TSSLTransportFactory.createServer(TSSLTransportFactory.java:130)
+	at org.apache.thrift.transport.TSSLTransportFactory.getServerSocket(TSSLTransportFactory.java:115)
+	at org.wso2.carbon.identity.thrift.authentication.TCPThriftAuthenticationService.start(TCPThriftAuthenticationService.java:94)
+	at org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent.startThriftTcpAuthenticatorService(ThriftAuthenticationServiceComponent.java:250)
+	at org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent.startThriftServices(ThriftAuthenticationServiceComponent.java:176)
+	at org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent.activate(ThriftAuthenticationServiceComponent.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:529)
+	at org.wso2.carbon.core.init.CarbonServerManager.removePendingItem(CarbonServerManager.java:305)
+	at org.wso2.carbon.core.init.PreAxis2ConfigItemListener.bundleChanged(PreAxis2ConfigItemListener.java:118)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	at java.base/javax.net.ssl.SSLServerSocket.<init>(SSLServerSocket.java:181)
+	at java.base/sun.security.ssl.SSLServerSocketImpl.<init>(SSLServerSocketImpl.java:78)
+	at java.base/sun.security.ssl.SSLServerSocketFactoryImpl.createServerSocket(SSLServerSocketFactoryImpl.java:87)
+	at org.apache.thrift.transport.TSSLTransportFactory.createServer(TSSLTransportFactory.java:121)
+	... 32 more
+
+TID: [] [] [2025-05-28 17:10:37,736] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-28 17:10:37,737] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-28 17:10:37,738] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-28 17:10:37,739] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-28 17:10:40,704] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-28 17:10:41,790] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-28 17:10:42,680] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-28 17:10:42,920] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-28 17:10:42,920] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-28 17:10:42,946] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-28 17:10:45,806] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - User store: ABCDEmployees of tenant:-1234 is removed from realm chain.
+TID: [] [] [2025-05-28 17:10:45,807] []  INFO {org.wso2.carbon.user.core.common.AbstractUserStoreManager} - User store: ABCDEMPLOYEES of tenant:-1234 is removed from user store chain.
+TID: [] [] [2025-05-28 17:10:45,862] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-05-28 17:10:45,881] [] ERROR {org.wso2.carbon.user.core.common.AbstractUserStoreManager} - Cannot create org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.createSecondaryUserStoreManager(AbstractUserStoreManager.java:10482)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.addSecondaryUserStoreManager(AbstractUserStoreManager.java:10554)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager$2.run(AbstractUserStoreManager.java:248)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.callSecure(AbstractUserStoreManager.java:245)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.addSecondaryUserStoreManager(AbstractUserStoreManager.java:10540)
+	at org.wso2.carbon.user.core.common.UserStoreDeploymentManager.deploy(UserStoreDeploymentManager.java:73)
+	at org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer.deploy(UserStoreConfigurationDeployer.java:165)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807)
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153)
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)
+	at org.apache.axis2.deployment.RepositoryListener.startListener(RepositoryListener.java:371)
+	at org.apache.axis2.deployment.scheduler.SchedulerTask.checkRepository(SchedulerTask.java:59)
+	at org.apache.axis2.deployment.scheduler.SchedulerTask.run(SchedulerTask.java:67)
+	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.runAxisDeployment(CarbonDeploymentSchedulerTask.java:93)
+	at org.wso2.carbon.core.deployment.CarbonDeploymentSchedulerTask.run(CarbonDeploymentSchedulerTask.java:138)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.wso2.carbon.user.core.UserStoreException: DB error occurred while persisting domain : ABCDEMPLOYEES & tenant id : -1234
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:948)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.persistDomain(AbstractUserStoreManager.java:10351)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:393)
+	at org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager.<init>(JDBCUserStoreManager.java:324)
+	at org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager.<init>(UniqueIDJDBCUserStoreManager.java:163)
+	... 32 more
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/database/WSO2SHARED_DB.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.wso2.carbon.user.core.util.DatabaseUtil.getDBConnection(DatabaseUtil.java:1087)
+	at org.wso2.carbon.user.core.util.UserCoreUtil.persistDomain(UserCoreUtil.java:928)
+	... 36 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/database/WSO2SHARED_DB.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 51 more
+
+TID: [] [] [2025-05-28 17:10:47,522] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-28 17:10:53,517] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-05-28 17:10:53,518] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-05-28 17:10:53,533] [] ERROR {org.apache.catalina.util.LifecycleBase} - Failed to start component [Connector["http-nio-9763"]] org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1058)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.startConnectors(CarbonTomcat.java:441)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.startTransports(ServletTransportManager.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:195)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:309)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:529)
+	at org.wso2.carbon.core.init.CarbonServerManager.removePendingItem(CarbonServerManager.java:305)
+	at org.wso2.carbon.core.init.PreAxis2ConfigItemListener.bundleChanged(PreAxis2ConfigItemListener.java:118)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:459)
+	at java.base/sun.nio.ch.Net.bind(Net.java:448)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1459)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:674)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1055)
+	... 47 more
+
+TID: [] [] [2025-05-28 17:10:53,537] [] ERROR {org.apache.catalina.util.LifecycleBase} - Failed to start component [Connector["https-jsse-nio-9443"]] org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1058)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.startConnectors(CarbonTomcat.java:441)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.startTransports(ServletTransportManager.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:195)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:309)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:529)
+	at org.wso2.carbon.core.init.CarbonServerManager.removePendingItem(CarbonServerManager.java:305)
+	at org.wso2.carbon.core.init.PreAxis2ConfigItemListener.bundleChanged(PreAxis2ConfigItemListener.java:118)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:459)
+	at java.base/sun.nio.ch.Net.bind(Net.java:448)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1459)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:674)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1055)
+	... 47 more
+
+TID: [] [] [2025-05-28 17:10:53,600] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-05-28 17:10:53,601] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-05-28 17:10:53,601] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-28 17:10:53,602] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 31 sec
+TID: [] [] [2025-05-28 17:10:53,625] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-28 17:12:33,621] [] ERROR {org.wso2.carbon.logging.updater.RemoteLoggingConfigUpdater} - Error while updating logging configuration org.apache.commons.configuration.ConfigurationException: org.wso2.carbon.logging.service.RemoteLoggingServerException: Error occurred while loading Remote Logger configuration.
+	at org.wso2.carbon.logging.service.RemoteLoggingConfig.getRemoteServerConfig(RemoteLoggingConfig.java:186)
+	at org.wso2.carbon.logging.service.RemoteLoggingConfig.getRemoteServerConfigs(RemoteLoggingConfig.java:240)
+	at org.wso2.carbon.logging.service.RemoteLoggingConfig.syncRemoteServerConfigs(RemoteLoggingConfig.java:192)
+	at org.wso2.carbon.logging.updater.RemoteLoggingConfigUpdater.run(RemoteLoggingConfigUpdater.java:49)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.wso2.carbon.logging.service.RemoteLoggingServerException: Error occurred while loading Remote Logger configuration.
+	at org.wso2.carbon.identity.system.config.mgt.remotelogging.DBBasedRemoteLoggingConfigDAO.getRemoteServerConfig(DBBasedRemoteLoggingConfigDAO.java:120)
+	at org.wso2.carbon.logging.service.RemoteLoggingConfig.getRemoteServerConfig(RemoteLoggingConfig.java:183)
+	... 9 more
+Caused by: org.wso2.carbon.identity.configuration.mgt.core.exception.ConfigurationManagementServerException: Error while getting the resource type: REMOTE_LOGGING_CONFIG.
+	at org.wso2.carbon.identity.configuration.mgt.core.util.ConfigurationUtils.handleServerException(ConfigurationUtils.java:105)
+	at org.wso2.carbon.identity.configuration.mgt.core.dao.impl.ConfigurationDAOImpl.getResourceTypeByIdentifier(ConfigurationDAOImpl.java:1365)
+	at org.wso2.carbon.identity.configuration.mgt.core.dao.impl.ConfigurationDAOImpl.getResourceTypeByName(ConfigurationDAOImpl.java:787)
+	at org.wso2.carbon.identity.configuration.mgt.core.dao.impl.CachedBackedConfigurationDAO.getResourceTypeByName(CachedBackedConfigurationDAO.java:176)
+	at org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl.getResourceType(ConfigurationManagerImpl.java:306)
+	at org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl.getResource(ConfigurationManagerImpl.java:212)
+	at org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl.getResource(ConfigurationManagerImpl.java:198)
+	at org.wso2.carbon.identity.system.config.mgt.remotelogging.DBBasedRemoteLoggingConfigDAO.getRemoteServerConfig(DBBasedRemoteLoggingConfigDAO.java:102)
+	... 10 more
+Caused by: org.wso2.carbon.database.utils.jdbc.exceptions.DataAccessException: Error in performing Database query: '%s'SELECT ID, NAME, DESCRIPTION FROM IDN_CONFIG_TYPE WHERE NAME = ? 
+	at org.wso2.carbon.database.utils.jdbc.JdbcTemplate.fetchSingleRecord(JdbcTemplate.java:206)
+	at org.wso2.carbon.identity.configuration.mgt.core.dao.impl.ConfigurationDAOImpl.getResourceTypeByIdentifier(ConfigurationDAOImpl.java:1352)
+	... 16 more
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/database/WSO2IDENTITY_DB.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:347)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:228)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:769)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:697)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:198)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:136)
+	at org.wso2.carbon.database.utils.jdbc.JdbcTemplate.fetchSingleRecord(JdbcTemplate.java:186)
+	... 17 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/database/WSO2IDENTITY_DB.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 31 more
+
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:33,746] [55248cc1-cb69-4a5f-8bcd-fc446eda7488]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:33,746+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:33,889] [1a535b85-0cc9-4317-8b35-82f538f05efe]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:33,888+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:37,345] [9475a1f8-c0b1-4c9b-bd3d-a43ae0533d6c]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:37,344+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:37,399] [6bd6da2b-3224-4b9a-9181-6542952e7294]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:37,399+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:40,332] [926471de-7b6e-4fcc-bf24-8e7dcd3d1553]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:40,332+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 17:19:40,389] [59cf71c9-d4ef-4802-9de8-5e4e99f8d081]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 17:19:40,389+0530]
+TID: [] [] [2025-05-28 17:23:01,636] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-28 17:23:01,641] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 17:23:01,649] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-28 17:23:01,652] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-28 17:23:01,654] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-28 17:23:01,664] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-28 17:23:01,665] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-28 17:23:01,722] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-28 17:23:01,753] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-28 17:23:01,758] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-28 17:23:01,768] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-28 17:23:01,777] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-28 17:23:01,782] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-28 17:23:01,787] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-28 17:23:01,794] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-28 17:23:01,799] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-28 17:23:01,815] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-28 17:23:01,820] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-28 17:23:01,826] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-28 17:23:01,826] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-28 17:23:01,826] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-28 17:23:01,827] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-28 17:23:01,828] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 17:23:01,828] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-28 17:23:01,842] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-28 17:23:01,845] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-28 17:23:01,900] [] ERROR {org.wso2.carbon.identity.authenticator.thrift} - [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = configuration.context, interface = org.wso2.carbon.utils.ConfigurationContextService, policy = dynamic, cardinality = 1..1, target = null, bind = setConfigurationContext, unbind = unsetConfigurationContext]
+		Reference[name = http.service, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = org.wso2.carbon.user.core, interface = org.wso2.carbon.user.core.service.RealmService, policy = dynamic, cardinality = 1..1, target = null, bind = setRealmService, unbind = unsetRealmService]
+	}
+	located in bundle = org.wso2.carbon.identity.authenticator.thrift_7.8.23 [277]
+] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:227)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.unregisterServices(ServiceRegistry.java:668)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.close(BundleContextImpl.java:133)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1029)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1861)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1753)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:653)
+	at org.eclipse.osgi.container.Module.stop(Module.java:515)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException
+	at org.wso2.carbon.identity.thrift.authentication.TCPThriftAuthenticationService.stop(TCPThriftAuthenticationService.java:130)
+	at org.wso2.carbon.identity.thrift.authentication.internal.ThriftAuthenticationServiceComponent.deactivate(ThriftAuthenticationServiceComponent.java:111)
+	... 34 more
+
+TID: [] [] [2025-05-28 17:23:02,044] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-28 17:23:02,587]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-28 17:23:02,587]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [-1234] [] [2025-05-28 17:46:00,523] [39d44842-54d3-470a-b782-9589b2268ccc]  WARN {org.wso2.carbon.identity.oidc.session.OIDCInboundSessionContextMgtListener} - No session state found for the received Session ID : cd9e271a-3484-4631-ab4f-559fa87f04dd-v2
+TID: [-1234] [api] [2025-05-28 18:43:01,759] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Tenant 1 is not initialized correctly. Hence initializing the tenant registry
+TID: [-1234] [api] [2025-05-28 18:43:01,777] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:01,778] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:01,786] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:01,786] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:02,348] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: ocspvalidator added successfully
+TID: [-1234] [api] [2025-05-28 18:43:02,350] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: crlvalidator added successfully
+TID: [-1234] [api] [2025-05-28 18:43:02,351] [137c4bac-1053-4dea-a334-fd11019fd780]  INFO {org.wso2.carbon.tenant.mgt.services.TenantMgtImpl} - Added the tenant 'a5d4e48d-7565-4c63-adf7-8ba3ac0c3472 [1]' by 'a***n'
+TID: [-1234] [api] [2025-05-28 18:43:02,833] [137c4bac-1053-4dea-a334-fd11019fd780]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity admin For operation = POST
+TID: [-1234] [api] [2025-05-28 18:43:13,351] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Tenant 2 is not initialized correctly. Hence initializing the tenant registry
+TID: [-1234] [api] [2025-05-28 18:43:13,358] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:13,359] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:13,364] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [api] [2025-05-28 18:43:13,365] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 1ms
+TID: [-1234] [api] [2025-05-28 18:43:13,689] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: ocspvalidator added successfully
+TID: [-1234] [api] [2025-05-28 18:43:13,690] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: crlvalidator added successfully
+TID: [-1234] [api] [2025-05-28 18:43:13,690] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  INFO {org.wso2.carbon.tenant.mgt.services.TenantMgtImpl} - Added the tenant '4d83da41-81ee-472d-9f0d-9cf21c42e567 [2]' by 'a***n'
+TID: [-1234] [api] [2025-05-28 18:43:13,790] [afb6f4fb-ce6c-439a-9aad-912cadd71428]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity admin For operation = POST
+TID: [-1234] [scim2] [2025-05-28 18:44:17,711] [3fcab29f-5f9c-4110-b4c4-f5ec1b6a1a71] ERROR {org.wso2.charon3.core.protocol.endpoints.AbstractResourceManager} - Error occurred while listing roles. org.wso2.charon3.core.exceptions.CharonException: Error occurred while listing roles.
+	at org.wso2.carbon.identity.scim2.common.impl.SCIMRoleManagerV2.listRoles(SCIMRoleManagerV2.java:608)
+	at org.wso2.carbon.identity.scim2.common.impl.SCIMRoleManagerV2.listRolesWithGET(SCIMRoleManagerV2.java:390)
+	at org.wso2.charon3.core.protocol.endpoints.RoleResourceV2Manager.listWithGETRole(RoleResourceV2Manager.java:179)
+	at org.wso2.carbon.identity.scim2.provider.resources.RoleResourceV2.getRoles(RoleResourceV2.java:167)
+	at jdk.internal.reflect.GeneratedMethodAccessor671.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:157)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:153)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.wso2.carbon.identity.role.v2.mgt.core.exception.IdentityRoleManagementServerException: Error occurred while resolving username for the userName: ABCDEMPLOYEES/tester1
+	at org.wso2.carbon.identity.role.v2.mgt.core.util.UserIDResolver.resolveIDFromUserName(UserIDResolver.java:137)
+	at org.wso2.carbon.identity.role.v2.mgt.core.util.UserIDResolver.getIDByName(UserIDResolver.java:78)
+	at org.wso2.carbon.identity.role.v2.mgt.core.dao.RoleDAOImpl.getUserIDByName(RoleDAOImpl.java:3093)
+	at org.wso2.carbon.identity.role.v2.mgt.core.dao.RoleDAOImpl.getUserListOfRole(RoleDAOImpl.java:2937)
+	at org.wso2.carbon.identity.role.v2.mgt.core.dao.RoleDAOImpl.getRolesRequestedAttributes(RoleDAOImpl.java:449)
+	at org.wso2.carbon.identity.role.v2.mgt.core.dao.RoleDAOImpl.getRoles(RoleDAOImpl.java:340)
+	at org.wso2.carbon.identity.role.v2.mgt.core.RoleManagementServiceImpl.getRoles(RoleManagementServiceImpl.java:198)
+	at org.wso2.carbon.identity.scim2.common.impl.SCIMRoleManagerV2.listRoles(SCIMRoleManagerV2.java:597)
+	... 66 more
+Caused by: org.wso2.carbon.user.core.UserStoreException: Invalid Domain Name
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.getUserStoreInternal(AbstractUserStoreManager.java:8210)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.lambda$getUserStore$11(AbstractUserStoreManager.java:8127)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.getUserStore(AbstractUserStoreManager.java:8127)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.getUserIDFromUserName(AbstractUserStoreManager.java:13781)
+	at org.wso2.carbon.identity.role.v2.mgt.core.util.UserIDResolver.resolveIDFromUserName(UserIDResolver.java:135)
+	... 73 more
+
+TID: [2] [] [2025-05-28 18:47:59,911] [853d1c53-376f-4309-a0a2-15a6098896cb]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity Tommy For operation = POST
+TID: [1] [] [2025-05-28 18:50:53,083] [691345ba-3aac-4efd-9478-6046392c76b1]  INFO {org.wso2.scim2.operation.UserOperations} - SCIM - create user operation returned with response code: 201
+TID: [2] [] [2025-05-28 18:53:49,490] [a9312743-6194-4700-9d0e-16a39625d4c4]  INFO {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Loading configuration context for tenant domain: 4d83da41-81ee-472d-9f0d-9cf21c42e567
+TID: [2] [] [2025-05-28 18:53:49,495] [a9312743-6194-4700-9d0e-16a39625d4c4]  INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} - Creating tenant AxisConfiguration for tenant: 4d83da41-81ee-472d-9f0d-9cf21c42e567[2]
+TID: [2] [] [2025-05-28 18:53:49,531] [a9312743-6194-4700-9d0e-16a39625d4c4]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant 2
+TID: [2] [] [2025-05-28 18:53:49,546] [a9312743-6194-4700-9d0e-16a39625d4c4]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Loaded tenant 4d83da41-81ee-472d-9f0d-9cf21c42e567 in 74 ms
+TID: [] [] [2025-05-28 19:09:43,813] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.PushedAuthReqCleanupService} - Pushed authorization request cleanup task is running successfully for removing expired requests
+TID: [] [] [2025-05-28 19:09:43,846] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data
+TID: [] [] [2025-05-28 19:24:06,961] []  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Starting to clean tenant : 4d83da41-81ee-472d-9f0d-9cf21c42e567
+TID: [] [] [2025-05-28 19:24:06,997] []  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Cleaned up tenant 4d83da41-81ee-472d-9f0d-9cf21c42e567
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:30,236] [d312a59d-cded-4a7b-b012-e6cdc4b58a68]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:30,236+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:30,314] [287e5788-5d1e-4231-9288-e2c2ac4698a8]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:30,314+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:33,981] [556b53ff-c495-4753-92ed-e2d816424c4d]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:33,981+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:34,038] [76eef806-bb20-4973-a290-e78811b2d777]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:34,037+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:36,260] [475642a9-29c2-4a67-8b41-af3da41ffe99]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:36,260+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-28 19:40:36,295] [621bd7af-e386-4c15-9d80-4b274906283e]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-28 19:40:36,295+0530]
+TID: [] [] [2025-05-28 20:20:20,203] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-28 20:20:20,206] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 20:20:20,210] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-28 20:20:20,211] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-28 20:20:20,211] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-28 20:20:20,220] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-28 20:20:20,220] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-28 20:20:20,327] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-28 20:20:20,375] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-28 20:20:20,382] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-28 20:20:20,402] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-28 20:20:20,415] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-28 20:20:20,424] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-28 20:20:20,433] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-28 20:20:20,441] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-28 20:20:20,447] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-28 20:20:20,483] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-28 20:20:20,489] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-28 20:20:20,494] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-28 20:20:20,494] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-28 20:20:20,494] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-28 20:20:20,495] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-28 20:20:20,495] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-28 20:20:20,495] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-28 20:20:20,519] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-28 20:20:20,521] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-28 20:20:20,724] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-28 20:20:21,320]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-28 20:20:21,321]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

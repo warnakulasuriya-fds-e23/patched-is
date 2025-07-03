@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.local.auth.push" label="Push Authenticator - Feature" provider-name="%providerName" version="1.0.8">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.local.auth.push.authenticator" unpack="false" version="1.0.8"/>
+  <plugin id="org.wso2.carbon.identity.local.auth.push.servlet" unpack="false" version="1.0.8"/>
+</feature>

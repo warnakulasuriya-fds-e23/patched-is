@@ -1,0 +1,8 @@
+{
+  "username.recovery.channel.selection.heading": "ユーザー名を回復する",
+  "username.recovery.channel.selection.body": "回復オプションを選択してください",
+  "send.username.via.email": "電子メールでユーザー名を送信",
+  "send.username.via.sms": "SMS 経由でユーザー名を送信",
+  "username.recovery.channel.selection.next.button": "次",
+  "username.recovery.channel.selection.cancel.button": "キャンセル"
+}

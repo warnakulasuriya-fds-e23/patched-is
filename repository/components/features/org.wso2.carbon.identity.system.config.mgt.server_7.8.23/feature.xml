@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.system.config.mgt.server" label="System Config Management Server Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for System Config Management Feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.system.config.mgt" unpack="false" version="7.8.23"/>
+</feature>

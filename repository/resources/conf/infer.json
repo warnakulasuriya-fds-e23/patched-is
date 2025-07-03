@@ -1,0 +1,654 @@
+{
+  "user_store.type": {
+    "database": {
+      "user_store.properties.UsernameJavaRegEx": "^[^\\s*?%]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.JDBCTenantManager",
+      "user_store.properties.ReadOnly": false,
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.RolenameJavaRegEx": "^[\\S]{3,30}$",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.PasswordDigest": "SHA-256",
+      "user_store.properties.StoreSaltedPassword": true,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.UserNameUniqueAcrossTenants": false,
+      "tenant_mgt.tenant_manager.type": "jdbc"
+    },
+    "database_unique_id": {
+      "user_store.properties.UsernameJavaRegEx": "^[^\\s*?%]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.JDBCTenantManager",
+      "user_store.properties.ReadOnly": false,
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.RolenameJavaRegEx": "^[\\S]{3,30}$",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.PasswordDigest": "SHA-256",
+      "user_store.properties.StoreSaltedPassword": true,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.UserNameUniqueAcrossTenants": false,
+      "user_store.properties.StoreUserAttributeValueAsUnicode": false,
+      "user_store.properties.GroupIDEnabled": true,
+      "tenant_mgt.tenant_manager.type": "jdbc"
+    },
+    "read_only_ldap": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.ReadOnlyLDAPUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "ou\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "ou\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.UserNameAttribute": "uid",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": true,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.ListServicePrincipalEntities": false
+    },
+    "read_only_ldap_unique_id": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.UniqueIDReadOnlyLDAPUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "ou\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "ou\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.UserNameAttribute": "uid",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": true,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.UserIDAttribute": "scimId",
+      "user_store.properties.UserIdSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.GroupIDEnabled": true,
+      "user_store.properties.GroupIdAttribute": "entryUUID",
+      "user_store.properties.GroupLastModifiedDateAttribute": "modifyTimestamp",
+      "user_store.properties.GroupCreatedDateAttribute": "createTimestamp",
+      "user_store.properties.ListServicePrincipalEntities": false
+    },
+    "read_write_ldap": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.ReadWriteLDAPUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "ou\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "ou\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.UserEntryObjectClass": "identityPerson",
+      "user_store.properties.UserNameAttribute": "uid",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.GroupEntryObjectClass": "groupOfNames",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": false,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.EmptyRolesAllowed": true,
+      "user_store.properties.kdcEnabled": false,
+      "user_store.properties.defaultRealmName": "WSO2.ORG",
+      "user_store.properties.StartTLSEnabled": false,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.ListServicePrincipalEntities": false
+    },
+    "read_write_ldap_unique_id": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.UniqueIDReadWriteLDAPUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "ou\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "ou\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.UserEntryObjectClass": "identityPerson",
+      "user_store.properties.UserNameAttribute": "uid",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.GroupEntryObjectClass": "groupOfNames",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.SCIMEnabled": true,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": false,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.EmptyRolesAllowed": true,
+      "user_store.properties.kdcEnabled": false,
+      "user_store.properties.defaultRealmName": "WSO2.ORG",
+      "user_store.properties.StartTLSEnabled": false,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.UserIDAttribute": "scimId",
+      "user_store.properties.UserIdSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.GroupIDEnabled": true,
+      "user_store.properties.GroupIdAttribute": "entryUUID",
+      "user_store.properties.GroupLastModifiedDateAttribute": "modifyTimestamp",
+      "user_store.properties.GroupCreatedDateAttribute": "createTimestamp",
+      "user_store.properties.ListServicePrincipalEntities": false
+    },
+    "active_directory": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.ActiveDirectoryUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "cn\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "cn\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.UserEntryObjectClass": "identityPerson",
+      "user_store.properties.UserNameAttribute": "uid",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.GroupEntryObjectClass": "groupOfNames",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.MemberOfAttribute": "memberOf",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": false,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.EmptyRolesAllowed": true,
+      "user_store.properties.kdcEnabled": false,
+      "user_store.properties.defaultRealmName": "WSO2.ORG",
+      "user_store.properties.Referral": "follow",
+      "user_store.properties.isADLDSRole": false,
+      "user_store.properties.userAccountControl": 512.0,
+      "user_store.properties.MembershipAttributeRange": 1500.0,
+      "user_store.properties.StartTLSEnabled": false,
+      "user_store.properties.SCIMEnabled": false,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.ListServicePrincipalEntities": false
+    },
+    "active_directory_unique_id": {
+      "user_store.properties.UsernameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,50}$",
+      "user_store.class": "org.wso2.carbon.user.core.ldap.UniqueIDActiveDirectoryUserStoreManager",
+      "user_store.properties.TenantManager": "org.wso2.carbon.user.core.tenant.CommonHybridLDAPTenantManager",
+      "user_store.properties.UserSearchBase": "cn\u003dUsers,$ref{user_store.base_dn}",
+      "user_store.properties.GroupSearchBase": "cn\u003dGroups,$ref{user_store.base_dn}",
+      "user_store.properties.AnonymousBind": false,
+      "user_store.properties.UserEntryObjectClass": "identityPerson",
+      "user_store.properties.UserNameAttribute": "cn",
+      "user_store.properties.UserNameSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.UserNameListFilter": "(objectClass\u003dperson)",
+      "user_store.properties.DisplayNameAttribute": "",
+      "user_store.properties.WriteGroups": true,
+      "user_store.properties.GroupEntryObjectClass": "groupOfNames",
+      "user_store.properties.GroupNameAttribute": "cn",
+      "user_store.properties.GroupNameSearchFilter": "(\u0026amp;(objectClass\u003dgroupOfNames)(cn\u003d?))",
+      "user_store.properties.GroupNameListFilter": "(objectClass\u003dgroupOfNames)",
+      "user_store.properties.MembershipAttribute": "member",
+      "user_store.properties.MemberOfAttribute": "memberOf",
+      "user_store.properties.BackLinksEnabled": false,
+      "user_store.properties.IsBulkImportSupported": true,
+      "user_store.properties.RolenameJavaRegEx": "[a-zA-Z0-9._\\-|//]{3,30}$",
+      "user_store.properties.PasswordHashMethod": "PLAIN_TEXT",
+      "user_store.properties.ConnectionPoolingEnabled": false,
+      "user_store.properties.LDAPConnectionTimeout": 5000.0,
+      "user_store.properties.ReplaceEscapeCharactersAtUserLogin": true,
+      "user_store.properties.EmptyRolesAllowed": true,
+      "user_store.properties.kdcEnabled": false,
+      "user_store.properties.defaultRealmName": "WSO2.ORG",
+      "user_store.properties.Referral": "follow",
+      "user_store.properties.isADLDSRole": false,
+      "user_store.properties.userAccountControl": 512.0,
+      "user_store.properties.MembershipAttributeRange": 1500.0,
+      "user_store.properties.StartTLSEnabled": false,
+      "user_store.properties.SCIMEnabled": false,
+      "user_store.properties.UserRolesCacheEnabled": true,
+      "user_store.properties.ConnectionRetryDelay": "2m",
+      "user_store.properties.UserIDAttribute": "objectGuid",
+      "user_store.properties.\u0027java.naming.ldap.attributes.binary\u0027": "objectGuid",
+      "user_store.properties.ImmutableAttributes": "objectGuid",
+      "user_store.properties.UserIdSearchFilter": "(\u0026amp;(objectClass\u003dperson)(uid\u003d?))",
+      "user_store.properties.CaseInsensitiveUsername": true,
+      "user_store.properties.GroupIDEnabled": true,
+      "user_store.properties.GroupIdAttribute": "objectGUID",
+      "user_store.properties.GroupLastModifiedDateAttribute": "whenCreated",
+      "user_store.properties.GroupCreatedDateAttribute": "whenChanged",
+      "user_store.properties.ListServicePrincipalEntities": false
+    }
+  },
+  "authenticationendpoint.enable_url_parameter_filtering": {
+    "true": {
+      "authentication.endpoint.redirect_params.filter_policy": "include",
+      "authentication.endpoint.redirect_params.parameters": [
+        "sessionDataKey",
+        "sessionDataKeyConsent",
+        "errorKey",
+        "tenantDomain",
+        "t"
+      ]
+    }
+  },
+  "resident_idp.enable": {
+    "true": {
+      "server.hide_menu_items": [
+        "claim_mgt_menu",
+        "remote_fetch_providers_menu",
+        "identity_mgt_emailtemplate_menu",
+        "identity_security_questions_menu",
+        "metrics_menu",
+        "shutdown_restart_menu",
+        "user_mgt_menu",
+        "userstores_mgt_menu",
+        "service_providers_menu",
+        "identity_providers_add",
+        "identity_providers_list",
+        "identity_verification_providers_menu",
+        "identity_emailtemplate_menu",
+        "scope_menu",
+        "identity_admin_advisory_banner_menu",
+        "server-roles-mgt_menu",
+        "logging_config_menu",
+        "multitenancy_menu",
+        "resource_browser_menu",
+        "identity_entitlement_menu"
+      ]
+    }
+  },
+  "database.$1.type": {
+    "mysql": {
+      "database.$1.driver": "com.mysql.jdbc.Driver",
+      "database.$1.url": "jdbc:mysql://$ref{database.$1.hostname}:$ref{database.$1.port}/$ref{database.$1.name}",
+      "database.$1.validationQuery": "SELECT 1"
+    },
+    "mariadb": {
+      "database.$1.driver": "org.mariadb.jdbc.Driver",
+      "database.$1.url": "jdbc:mariadb://$ref{database.$1.hostname}:$ref{database.$1.port}/$ref{database.$1.name}",
+      "database.$1.validationQuery": "SELECT 1"
+    },
+    "oracle": {
+      "database.$1.driver": "oracle.jdbc.OracleDriver",
+      "database.$1.url": "jdbc:oracle:thin:@$ref{database.$1.hostname}:$ref{database.$1.port}/$ref{database.$1.sid}",
+      "database.$1.validationQuery": "SELECT 1 FROM DUAL"
+    },
+    "mssql": {
+      "database.$1.driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+      "database.$1.url": "jdbc:sqlserver://$ref{database.$1.hostname}:$ref{database.$1.port};databaseName\u003d$ref{database.$1.name};SendStringParametersAsUnicode\u003dfalse",
+      "database.$1.validationQuery": "SELECT 1"
+    },
+    "db2": {
+      "database.$1.driver": "com.ibm.db2.jcc.DB2Driver",
+      "database.$1.url": "jdbc:db2://$ref{database.$1.hostname}:$ref{database.$1.port}/$ref{database.$1.name}:progressiveStreaming\u003d2;",
+      "database.$1.validationQuery": "SELECT 1 FROM sysibm.sysdummy1"
+    },
+    "postgre": {
+      "database.$1.driver": "org.postgresql.Driver",
+      "database.$1.url": "jdbc:postgresql://$ref{database.$1.hostname}:$ref{database.$1.port}/$ref{database.$1.name}",
+      "database.$1.validationQuery": "SELECT 1; COMMIT"
+    },
+    "h2": {
+      "database.$1.driver": "org.h2.Driver",
+      "database.$1.url": "jdbc:h2:async:./repository/database/WSO2CARBON_DB;DB_CLOSE_ON_EXIT\u003dFALSE;LOCK_TIMEOUT\u003d60000",
+      "database.$1.validationQuery": "SELECT 1"
+    }
+  },
+  "tenant_mgt.tenant_manager.type": {
+    "jdbc": {
+      "tenant_mgt.tenant_manager.config_builder": "org.wso2.carbon.user.core.config.multitenancy.SimpleRealmConfigBuilder",
+      "tenant_mgt.tenant_manager.class": "org.wso2.carbon.user.core.tenant.JDBCTenantManager"
+    }
+  },
+  "encryption.type": {
+    "asymmetric": {
+      "encryption.internal_crypto_provider": "org.wso2.carbon.crypto.provider.KeyStoreBasedInternalCryptoProvider"
+    },
+    "symmetric": {
+      "encryption.internal_crypto_provider": "org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider"
+    }
+  },
+  "tasks.resolver_type": {
+    "RoundRobin": {
+      "tasks.resolver_class": "org.wso2.carbon.ntask.core.impl.RoundRobinTaskLocationResolver"
+    },
+    "Random": {
+      "tasks.resolver_class": "org.wso2.carbon.ntask.core.impl.RandomTaskLocationResolver"
+    },
+    "RuleBased": {
+      "tasks.resolver_class": "org.wso2.carbon.ntask.core.impl.RuleBasedLocationResolver"
+    }
+  },
+  "registry.versioning_configuration.enable": {
+    "true": {
+      "versioning_configuration.enable_versioning_properties": true,
+      "versioning_configuration.enable_versioning_comments": true,
+      "versioning_configuration.enable_versioning_tags": true,
+      "versioning_configuration.enable_versioning_ratings": true
+    },
+    "false": {
+      "versioning_configuration.enable_versioning_properties": false,
+      "versioning_configuration.enable_versioning_comments": false,
+      "versioning_configuration.enable_versioning_tags": false,
+      "versioning_configuration.enable_versioning_ratings": false
+    }
+  },
+  "clustering.membership_scheme": {
+    "aws-ecs": {
+      "clustering.local_member_port": 5701.0,
+      "clustering.properties.tagKey": "aws:cloudformation:stack-name",
+      "clustering.properties.tagValue": "EC2ContainerService-$ref{clustering.properties.clusterName}"
+    }
+  },
+  "authentication.sign_auth_response_with_tenant_of": {
+    "sp": {
+      "oauth.oidc.id_token.sign_with_sp_key": true,
+      "oauth.oidc.id_token.add_tenant_domain_to_realm": false,
+      "oauth.oidc.id_token.add_userstore_domain_to_realm": false,
+      "oauth.access_token.generate_with_sp_tenant_domain": true,
+      "saml.enable_user_domain_crpto": false
+    },
+    "user": {
+      "oauth.oidc.id_token.sign_with_sp_key": false,
+      "oauth.oidc.id_token.add_tenant_domain_to_realm": true,
+      "oauth.oidc.id_token.add_userstore_domain_to_realm": true,
+      "oauth.access_token.generate_with_sp_tenant_domain": false,
+      "saml.enable_user_domain_crpto": true
+    }
+  },
+  "oauth.token_generation.access_token_type": {
+    "self_contained": {
+      "oauth.extensions.token_generator": "org.wso2.carbon.identity.oauth2.token.JWTTokenIssuer"
+    }
+  },
+  "oauth.token_generation.access_token_value_type": {
+    "md5": {
+      "oauth.extensions.token_value_generator": "org.apache.oltu.oauth2.as.issuer.MD5Generator"
+    },
+    "sha256": {
+      "oauth.extensions.token_value_generator": "org.wso2.carbon.identity.oauth.tokenvaluegenerator.SHA256Generator"
+    },
+    "uuid": {
+      "oauth.extensions.token_value_generator": "org.apache.oltu.oauth2.as.issuer.UUIDValueGenerator"
+    }
+  },
+  "oauth.oidc.user_info.response_type": {
+    "json": {
+      "oauth.oidc.extensions.user_info_response_builder": "org.wso2.carbon.identity.oauth.endpoint.user.impl.UserInfoJSONResponseBuilder"
+    },
+    "jwt": {
+      "oauth.oidc.extensions.user_info_response_builder": "org.wso2.carbon.identity.oauth.endpoint.user.impl.UserInfoJWTResponse"
+    }
+  },
+  "oauth.token_storage_method": {
+    "hashed": {
+      "oauth.extensions.token_persistence_processor": "org.wso2.carbon.identity.oauth.tokenprocessor.HashingPersistenceProcessor"
+    },
+    "encrypted": {
+      "oauth.extensions.token_persistence_processor": "org.wso2.carbon.identity.oauth.tokenprocessor.EncryptionDecryptionPersistenceProcessor"
+    },
+    "plaintext": {
+      "oauth.extensions.token_persistence_processor": "org.wso2.carbon.identity.oauth.tokenprocessor.PlainTextPersistenceProcessor"
+    }
+  },
+  "oauth.validation_response_subject_identifier_format": {
+    "fqn": {
+      "oauth.build_subject_identifier_from_sp_config": false
+    },
+    "app_configured": {
+      "oauth.build_subject_identifier_from_sp_config": true
+    }
+  },
+  "authentication.adaptive.event_publisher.authentication_type": {
+    "basic": {
+      "authentication.adaptive.event_publisher.url": "https://localhost:8280/",
+      "authentication.adaptive.event_publisher.authentication.basic.enable": true,
+      "authentication.adaptive.event_publisher.authentication.basic.username": "admin",
+      "authentication.adaptive.event_publisher.authentication.basic.password": "admin"
+    }
+  },
+  "session_data.cleanup.clean_pre_session_data_at": {
+    "invalidation": {
+      "session_data.cleanup.pre_session_data_cleanup_thread_pool_size": 0.0
+    }
+  },
+  "event.default_recorder.user_delete_event.write_to_separate_csv.enable": {
+    "true": {
+      "event.default_recorder.user_delete_event.write_to_separate_csv.path": "${carbon.home}/repository/logs/delete-records.csv"
+    }
+  },
+  "console.org_mgt.additional_features.enabled": {
+    "true": {
+      "console.user_stores.enabled": true,
+      "console.certificates.enabled": true,
+      "console.secrets_management.enabled": true,
+      "console.oidc_scopes.enabled": true,
+      "console.governance_connectors.enabled": true,
+      "console.email_templates.enabled": true,
+      "console.attribute_dialects.enabled": true
+    },
+    "false": {
+      "console.user_stores.enabled": false,
+      "console.certificates.enabled": false,
+      "console.secrets_management.enabled": false,
+      "console.oidc_scopes.enabled": false,
+      "console.governance_connectors.enabled": false,
+      "console.email_templates.enabled": false,
+      "console.attribute_dialects.enabled": false,
+      "console.product_version.configs.productVersion": ""
+    }
+  },
+  "identity_mgt.email_sender": {
+    "internal": {
+      "identity_mgt.recovery.notification.manage_internally": true,
+      "identity_mgt.user_onboarding.notification.manage_internally": true,
+      "identity_mgt.user_self_registration.notification.manage_internally": true,
+      "identity_mgt.events.schemes.\u0027account.lock.handler\u0027.properties.\u0027notification.manageInternally\u0027": true,
+      "identity_mgt.events.schemes.\u0027account.disable.handler\u0027.properties.\u0027notification.manageInternally\u0027": true
+    },
+    "external": {
+      "identity_mgt.recovery.notification.manage_internally": false,
+      "identity_mgt.user_onboarding.notification.manage_internally": false,
+      "identity_mgt.user_self_registration.notification.manage_internally": false,
+      "identity_mgt.events.schemes.\u0027account.lock.handler\u0027.properties.\u0027notification.manageInternally\u0027": false,
+      "identity_mgt.events.schemes.\u0027account.disable.handler\u0027.properties.\u0027notification.manageInternally\u0027": false
+    }
+  },
+  "resource_access_control.default_access": {
+    "allow": {
+      "resource_access_control.default_access_allow": true
+    }
+  },
+  "schemas.profile": {
+    "default": {
+      "schemas.remove_from_default_schema": [
+        {
+          "id": "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:accountDisabled",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:accountLocked",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:accountState",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:askPassword",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:country",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:dateOfBirth",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:emailOTPDisabled",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:emailVerified",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedEmailOTPAttempts",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedLoginAttempts",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedLoginAttemptsBeforeSuccess",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedLoginLockoutCount",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedPasswordRecoveryAttempts",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedSMSOTPAttempts",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:failedTOTPAttempts",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:forcePasswordReset",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:isLiteUser",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:isReadOnlyUser",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:lastLoginTime",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:lastLogonTime",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:lastPasswordUpdateTime",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:lockedReason",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:oneTimePassword",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:pendingMobileNumber",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:phoneVerified",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:preferredChannel",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:smsOTPDisabled",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:tenantAdminAskPassword",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:unlockTime",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:userSourceId",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:verifyEmail",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:verifyMobile",
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:pendingEmails.value"
+          ]
+        },
+        {
+          "id": "urn:ietf:params:scim:schemas:core:2.0",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.pager",
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.fax"
+          ]
+        },
+        {
+          "id": "urn:ietf:params:scim:schemas:core:2.0:User",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses.home",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses.work",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses.other",
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers",
+            "urn:ietf:params:scim:schemas:core:2.0:User:photos",
+            "urn:ietf:params:scim:schemas:core:2.0:User:x509Certificates.default"
+          ]
+        }
+      ],
+      "schemas.add_to_default_schema": [
+        {
+          "id": "urn:ietf:params:scim:schemas:core:2.0:User",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.pager",
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.fax",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#home.country",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#home.formatted",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.country",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.formatted",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.locality",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.postalCode",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.region",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#work.streetAddress",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.country",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.formatted",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.locality",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.postalCode",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.region",
+            "urn:ietf:params:scim:schemas:core:2.0:User:addresses#other.streetAddress"
+          ]
+        }
+      ]
+    },
+    "legacy_scim2_core": {
+      "schemas.remove_from_default_schema": [
+        {
+          "id": "urn:ietf:params:scim:schemas:core:2.0:User",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.pager",
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.fax"
+          ]
+        }
+      ],
+      "schemas.add_to_default_schema": [
+        {
+          "id": "urn:ietf:params:scim:schemas:core:2.0",
+          "attributes": [
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.pager",
+            "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.fax"
+          ]
+        }
+      ]
+    }
+  },
+  "server.legacy_mode": {
+    "true": {
+      "oauth.enable_sha256": false,
+      "oauth.jwk_thumbprint_enable_sha256": false,
+      "use_client_id_as_sub_claim_for_app_tokens": false,
+      "remove_username_from_introspection_response_for_app_tokens": false,
+      "legacy_authz_runtime.enable": true,
+      "tenant_context.enable_tenant_qualified_urls": "false",
+      "tenant_context.enable_tenanted_sessions": "false",
+      "session.nonce.cookie.default_whitelist_authenticators": [],
+      "identity_mgt.callback_url": "[http://localhost:9443].*[/authenticationendpoint/login.do]*",
+      "authentication.endpoint.consent_page_redirect_params.allow": true,
+      "user_account_association.enable_sha256": false,
+      "identity_util.enable_sha256": false,
+      "cert_thumbprint.enable_sha256": false,
+      "saml.metadata.sp_enable_sha256": false,
+      "saml.metadata.idp_enable_sha256": false,
+      "saml.enable_saml_idp_init_logout_response_signing": false,
+      "sts.signature_algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+      "sts.digest_algorithm": "http://www.w3.org/2000/09/xmldsig#sha1",
+      "passive_sts.enable_logout_wreply_validation": false,
+      "oauth.oidc.allow_additional_params_from_post_logout_redirect_uri": true,
+      "oauth.grant_type.client_credentials.skip_oidc_claims": false,
+      "oauth.grant_type.client_credentials.allow_public_client": "true",
+      "signature_util.enable_sha256_algo": false,
+      "tenant_mgt.signing_alg": "MD5withRSA",
+      "identity_mgt.recovery.enable_v1_api": true,
+      "identity_mgt.password_reset_sms.sms_otp_regex": "[a-zA-Z0-9]{6}",
+      "event.default_listener.mutual_tls_authenticator.priority": 158.0,
+      "idp_role_management.return_manually_added_local_roles": false,
+      "oauth.revoked_token_headers_in_response.enable": true,
+      "console.ui.legacy_mode.applicationListSystemApps": false,
+      "console.ui.legacy_mode.applicationSystemAppsSettings": true,
+      "console.ui.legacy_mode.roleMapping": false
+    }
+  },
+  "scim2.primary_authentication_scheme": {
+    "oauth_bearer_token": {
+      "scim2.oauth_bearer.primary": true,
+      "scim2.http_basic.primary": false
+    },
+    "http_basic": {
+      "scim2.oauth_bearer.primary": false,
+      "scim2.http_basic.primary": true
+    }
+  }
+}

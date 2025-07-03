@@ -1,0 +1,5 @@
+{
+  "username.recovery.email.success.body": "用户名恢复详细信息已发送至提供的电子邮件。如果未收到电子邮件，请使用不同的信息重试。",
+  "username.recovery.sms.success.body": "用户名恢复详细信息已发送至提供的手机号码。如果未收到短信，请使用不同的信息重试。",
+  "username.recovery.success.action": "返回应用程序"
+}

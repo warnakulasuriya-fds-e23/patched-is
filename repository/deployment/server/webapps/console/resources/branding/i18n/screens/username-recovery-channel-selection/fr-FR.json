@@ -1,0 +1,8 @@
+{
+  "username.recovery.channel.selection.heading": "Récupérer le nom d'utilisateur",
+  "username.recovery.channel.selection.body": "Sélectionnez une option de récupération",
+  "send.username.via.email": "Envoyer le nom d'utilisateur par e-mail",
+  "send.username.via.sms": "Envoyer le nom d'utilisateur par SMS",
+  "username.recovery.channel.selection.next.button": "Suivante",
+  "username.recovery.channel.selection.cancel.button": "Annuler"
+}

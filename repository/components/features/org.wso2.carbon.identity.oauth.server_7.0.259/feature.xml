@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.oauth.server" label="Identity OAuth Server Feature" provider-name="%providerName" version="7.0.259">
+  <description>This feature contains the core bundles required for Back-end OAuth functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="gdata-core" unpack="false" version="1.47.0.wso2v1"/>
+  <plugin id="org.objectweb.asm.all" unpack="false" version="5.2"/>
+  <plugin id="org.wso2.carbon.identity.discovery" unpack="false" version="7.0.259"/>
+  <plugin id="waffle-jna" unpack="false" version="1.6.0.wso2v6"/>
+  <plugin id="joda-time" unpack="false" version="2.9.4.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.oauth" unpack="false" version="7.0.259"/>
+  <plugin id="vertx-json-schema" unpack="false" version="4.5.11.wso2v1"/>
+  <plugin id="net.minidev.json-smart" unpack="false" version="2.4.10"/>
+  <plugin id="org.wso2.carbon.identity.webfinger" unpack="false" version="7.0.259"/>
+  <plugin id="java-property-utils" unpack="false" version="1.9.0.wso2v1"/>
+  <plugin id="opensaml" unpack="false" version="3.3.1.wso2v12"/>
+  <plugin id="org.wso2.carbon.identity.oidc.session" unpack="false" version="7.0.259"/>
+  <plugin id="cors-filter" unpack="false" version="1.7.0.wso2v1"/>
+  <plugin id="netty-all" unpack="false" version="4.1.115.wso2v2"/>
+  <plugin id="org.wso2.carbon.identity.oauth.rar" unpack="false" version="7.0.259"/>
+  <plugin id="nimbus-jose-jwt" unpack="false" version="7.9.0.wso2v1"/>
+  <plugin id="json-simple" unpack="false" version="1.1.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.oauth.par" unpack="false" version="7.0.259"/>
+  <plugin id="org.objectweb.asm" unpack="false" version="9.2.0"/>
+  <plugin id="com.google.gson" unpack="false" version="2.9.0"/>
+  <plugin id="org.wso2.carbon.identity.oauth.ciba" unpack="false" version="7.0.259"/>
+  <plugin id="net.minidev.accessors-smart" unpack="false" version="2.4.7"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.identity.oauth.common" match="compatible" version="7.0.259"/>
+    <import feature="org.wso2.carbon.security.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.identity.saml.common.util" match="equivalent" version="1.4.1"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.idp.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.claim.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.identity.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.10.22"/>
+    <import feature="org.wso2.carbon.identity.central.log.mgt.server" match="greaterOrEqual" version="7.8.3"/>
+    <import feature="org.wso2.carbon.identity.event.server" match="greaterOrEqual" version="7.8.3"/>
+  </require>
+</feature>

@@ -1,0 +1,27 @@
+{
+  "username.recovery.heading": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-claim",
+    "MULTI_LINE": false
+  },
+  "username.recovery.body": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-claim",
+    "MULTI_LINE": false
+  },
+  "contact": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-claim",
+    "MULTI_LINE": false
+  },
+  "username.recovery.next.button": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-claim",
+    "MULTI_LINE": false
+  },
+  "username.recovery.cancel.button": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-claim",
+    "MULTI_LINE": false
+  }
+}

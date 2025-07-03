@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.output.adapter.http.server" label="WSO2 Carbon - Event Output HTTP Adapter Server Feature" provider-name="%providerName" version="5.2.61">
+  <description>This feature contains the bundles required for HTTP Event Adapter functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.event.output.adapter.http" unpack="false" version="5.2.61"/>
+  <plugin id="httpclient" unpack="false" version="4.5.13.wso2v1"/>
+</feature>

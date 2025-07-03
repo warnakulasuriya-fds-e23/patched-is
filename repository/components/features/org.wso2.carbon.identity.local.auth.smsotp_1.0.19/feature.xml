@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.local.auth.smsotp" label="SMS OTP - Feature" provider-name="%providerName" version="1.0.19">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.local.auth.smsotp.event.handler" unpack="false" version="1.0.19"/>
+  <plugin id="client.wso2" unpack="false" version="7.10.0.wso2v1"/>
+  <plugin id="twilio.wso2" unpack="false" version="9.14.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.local.auth.smsotp.authenticator" unpack="false" version="1.0.19"/>
+  <plugin id="org.wso2.carbon.identity.local.auth.smsotp.provider" unpack="false" version="1.0.19"/>
+</feature>

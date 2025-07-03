@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.tenant.common" label="WSO2 Tenant Common Composite Feature" provider-name="%providerName" version="4.11.34">
+  <description>This feature contains the bundles required for Common feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.tenant.mgt.common" match="compatible" version="4.10.13"/>
+    <import feature="org.wso2.carbon.registry.core" match="compatible" version="4.7.24"/>
+  </require>
+  <includes id="org.wso2.carbon.tenant.common.server" optional="false" version="4.11.34"/>
+  <includes id="org.wso2.carbon.tenant.common.ui" optional="false" version="4.11.34"/>
+</feature>

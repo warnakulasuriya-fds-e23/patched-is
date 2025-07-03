@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.user.action" label="User Action Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for User Action Framework</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.user.action" unpack="false" version="7.8.23"/>
+  <plugin id="org.wso2.carbon.identity.user.pre.update.password.action" unpack="false" version="7.8.23"/>
+</feature>

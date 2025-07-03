@@ -1,0 +1,7 @@
+{
+  "sms.otp.heading": {
+    "EDITABLE": true,
+    "SCREEN": "sms-otp",
+    "MULTI_LINE": false
+  }
+}

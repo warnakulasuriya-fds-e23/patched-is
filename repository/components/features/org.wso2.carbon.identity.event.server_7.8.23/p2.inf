@@ -1,0 +1,17 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/identity-event.properties,target:${installFolder}/../../conf/identity/identity-event.properties,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources/conf); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources/conf/templates); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources/conf/templates/repository); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources/conf/templates/repository/conf); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/resources/conf/templates/repository/conf/identity); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/identity-event.properties.j2,target:${installFolder}/../../resources/conf/templates/repository/conf/identity/identity-event.properties.j2,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/org.wso2.carbon.identity.event.server.feature.default.json,target:${installFolder}/../../resources/conf/org.wso2.carbon.identity.event.server.feature.default.json,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/org.wso2.carbon.identity.event.server.feature.infer.json,target:${installFolder}/../../resources/conf/org.wso2.carbon.identity.event.server.feature.infer.json,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/org.wso2.carbon.identity.event.server.feature.key-mappings.json,target:${installFolder}/../../resources/conf/org.wso2.carbon.identity.event.server.feature.key-mappings.json,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_7.8.23/org.wso2.carbon.identity.event.server.feature.unit-resolve.json,target:${installFolder}/../../resources/conf/org.wso2.carbon.identity.event.server.feature.unit-resolve.json,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

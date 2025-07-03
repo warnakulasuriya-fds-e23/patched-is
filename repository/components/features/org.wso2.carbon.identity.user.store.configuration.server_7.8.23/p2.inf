@@ -1,0 +1,8 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.user.store.configuration.server_7.8.23/conf/attributes/userstore/unique-id-active-directory.xml,target:${installFolder}/../../conf/attributes/userstore/unique-id-active-directory.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.user.store.configuration.server_7.8.23/conf/attributes/userstore/unique-id-jdbc.xml,target:${installFolder}/../../conf/attributes/userstore/unique-id-jdbc.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.user.store.configuration.server_7.8.23/conf/attributes/userstore/unique-id-read-only-ldap.xml,target:${installFolder}/../../conf/attributes/userstore/unique-id-read-only-ldap.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.user.store.configuration.server_7.8.23/conf/attributes/userstore/unique-id-read-write-ldap.xml,target:${installFolder}/../../conf/attributes/userstore/unique-id-read-write-ldap.xml,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

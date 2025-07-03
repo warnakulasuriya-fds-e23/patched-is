@@ -1,0 +1,5 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.auth.server_1.9.18/invalid_tenant_domain_response.html,target:${installFolder}/../../resources/identity/pages/invalid_tenant_domain_response.html,overwrite:true); \
+
+properties.0.name=org.wupaliso2.carbon.p2.category.type
+properties.0.value=server

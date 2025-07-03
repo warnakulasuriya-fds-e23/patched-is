@@ -1,0 +1,8 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes/); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes/cxf3/); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.servlet.mgt.server_7.8.23/runtimes/cxf3/,target:${installFolder}/../../../lib/runtimes/cxf3/,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

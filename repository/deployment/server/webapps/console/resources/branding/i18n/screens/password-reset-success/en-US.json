@@ -1,0 +1,5 @@
+{
+  "password.reset.success.heading": "Check Your Email",
+  "password.reset.success.body": "An email with a password reset link and instructions has been sent to your email.\\n\\nDidn't receive an email yet? Your email address might not be registered or you have signed up using a social account with the provided email. Create an account or use a different login option.",
+  "password.reset.success.action": "Back to application"
+}

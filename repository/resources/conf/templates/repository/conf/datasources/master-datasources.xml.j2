@@ -1,0 +1,168 @@
+<datasources-configuration xmlns:svns="http://org.wso2.securevault/configuration">
+
+    <providers>
+        <provider>org.wso2.carbon.ndatasource.rdbms.RDBMSDataSourceReader</provider>
+    </providers>
+
+    <datasources>
+
+        <datasource>
+            <name>WSO2_CARBON_DB</name>
+            <description>The datasource used for registry and user manager</description>
+            <jndiConfig>
+                <name>jdbc/WSO2CarbonDB</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                    <url>{{database.registry_db.url}}</url>
+                    <username>{{database.registry_db.username}}</username>
+                    <password>{{database.registry_db.password}}</password>
+                    <driverClassName>{{database.registry_db.driver}}</driverClassName>
+                    {% if database.registry_db.db_props %}
+                        <databaseProps>
+                             {% for property_name,property_value in database.registry_db.db_props.items() %}
+                                 <property name="{{property_name}}">{{property_value}}</property>
+                             {% endfor %}
+                        </databaseProps>
+                    {% endif %}
+                    {% for property_name,property_value in database.registry_db.pool_options.items() %}
+                    <{{property_name}}>{{property_value}}</{{property_name}}>
+                    {% endfor %}
+                </configuration>
+            </definition>
+        </datasource>
+        <datasource>
+            <name>WSO2_SHARED_DB</name>
+            <description>Shared Database for user and registry data</description>
+            <jndiConfig>
+                <name>jdbc/SHARED_DB</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                    <url>{{database.shared_db.url}}</url>
+                    <username>{{database.shared_db.username}}</username>
+                    <password>{{database.shared_db.password}}</password>
+                    <driverClassName>{{database.shared_db.driver}}</driverClassName>
+                    {% if database.shared_db.db_props %}
+                        <databaseProps>
+                                {% for property_name,property_value in database.shared_db.db_props.items() %}
+                                    <property name="{{property_name}}">{{property_value}}</property>
+                                {% endfor %}
+                        </databaseProps>
+                    {% endif %}
+                    {% for property_name,property_value in database.shared_db.pool_options.items() %}
+                    <{{property_name}}>{{property_value}}</{{property_name}}>
+                        {% endfor %}
+                    <jmxEnabled>{{database.shared_db.jmx_enable}}</jmxEnabled>
+                 </configuration>
+            </definition>
+        </datasource>
+
+{% if database.user is defined %}
+        <datasource>
+            <name>WSO2USER_DB</name>
+            <description>Shared Database for user and registry data</description>
+            <jndiConfig>
+                <name>jdbc/WSO2USER_DB</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                    <url>{{database.user.url}}</url>
+                    <username>{{database.user.username}}</username>
+                    <password>{{database.user.password}}</password>
+                    <driverClassName>{{database.user.driver}}</driverClassName>
+                    {% if database.user.db_props %}
+                        <databaseProps>
+                                {% for property_name,property_value in database.user.db_props.items() %}
+                                    <property name="{{property_name}}">{{property_value}}</property>
+                                {% endfor %}
+                        </databaseProps>
+                    {% endif %}
+                    {% for property_name,property_value in database.user.pool_options.items() %}
+                    <{{property_name}}>{{property_value}}</{{property_name}}>
+                        {% endfor %}
+                    <jmxEnabled>{{database.user.jmx_enable}}</jmxEnabled>
+                 </configuration>
+            </definition>
+        </datasource>
+{% endif%}
+
+{% if database.config is defined %}
+        <datasource>
+            <name>WSO2CONFIG_DB</name>
+            <description>Shared Database for user and registry data</description>
+            <jndiConfig>
+                <name>jdbc/WSO2CONFIG_DB</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                    <url>{{database.config.url}}</url>
+                    <username>{{database.config.username}}</username>
+                    <password>{{database.config.password}}</password>
+                    <driverClassName>{{database.config.driver}}</driverClassName>
+                    {% if database.config.db_props %}
+                        <databaseProps>
+                                {% for property_name,property_value in database.config.db_props.items() %}
+                                    <property name="{{property_name}}">{{property_value}}</property>
+                                {% endfor %}
+                        </databaseProps>
+                    {% endif %}
+                    {% for property_name,property_value in database.config.pool_options.items() %}
+                    <{{property_name}}>{{property_value}}</{{property_name}}>
+                        {% endfor %}
+                    <jmxEnabled>{{database.config.jmx_enable}}</jmxEnabled>
+                 </configuration>
+            </definition>
+        </datasource>
+{% endif%}
+
+        {% for data in datasource %}
+        <datasource>
+            <name>{{data.id}}</name>
+            <description>this database is {{data.id}}</description>
+            <jndiConfig>
+                <name>jdbc/{{data.id}}</name>
+            </jndiConfig>
+            <definition type="RDBMS">
+                <configuration>
+                     <url>{{data.url}}</url>
+                     <username>{{data.username}}</username>
+                     <password>{{data.password}}</password>
+                     <driverClassName>{{data.driver}}</driverClassName>
+                    {% if data.db_props %}
+                        <databaseProps>
+                             {% for property_name,property_value in data.db_props.items() %}
+                                 <property name="{{property_name}}">{{property_value}}</property>
+                             {% endfor %}
+                        </databaseProps>
+                    {% endif %}
+                    {% for property_name,property_value in data.pool_options.items() %}
+                     <{{property_name}}>{{property_value}}</{{property_name}}>
+                    {% endfor %}
+                     <jmxEnabled>{{data.jmx_enable}}</jmxEnabled>
+                </configuration>
+            </definition>
+        </datasource>
+        {% endfor %}
+
+     <datasource>
+   <name>WSO2_IDENTITY_DB</name>
+   <description>Shared database for identity data</description>
+   <jndiConfig>
+    <name>jdbc/WSO2IdentityDB</name>
+   </jndiConfig>
+   <definition type="RDBMS">
+    <configuration>
+     <url>{{database.identity_db.url}}</url>
+     <username>{{database.identity_db.username}}</username>
+     <password>{{database.identity_db.password}}</password>
+     <driverClassName>{{database.identity_db.driver}}</driverClassName>
+     {% for property_name,property_value in database.identity_db.pool_options.items() %}
+      <{{property_name}}>{{property_value}}</{{property_name}}>
+     {% endfor %}
+    </configuration>
+   </definition>
+  </datasource>
+ </datasources>
+
+</datasources-configuration>

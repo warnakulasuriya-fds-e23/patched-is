@@ -1,0 +1,5 @@
+{
+  "username.recovery.email.success.body": "ユーザー名の回復の詳細が、指定された電子メールに送信されました。メールが届かない場合は、別の情報を使用して再度お試しください。",
+  "username.recovery.sms.success.body": "ユーザー名の回復の詳細が、指定された携帯電話番号に送信されました。 SMS が受信されない場合は、別の情報を使用して再試行してください。",
+  "username.recovery.success.action": "アプリケーションに戻る"
+}

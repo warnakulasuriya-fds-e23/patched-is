@@ -1,0 +1,11 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_7.8.23/identity-mgt.properties,target:${installFolder}/../../conf/identity/identity-mgt.properties,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_7.8.23/RecoveryEndpointConfig.properties,target:${installFolder}/../../conf/identity/RecoveryEndpointConfig.properties,overwrite:true); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_7.8.23/RecoveryEndpointConfig.properties.j2,target:${installFolder}/../../resources/conf/templates/repository/conf/identity/RecoveryEndpointConfig.properties.j2,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes/); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes/cxf3/); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_7.8.23/runtimes/cxf3/,target:${installFolder}/../../../lib/runtimes/cxf3/,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

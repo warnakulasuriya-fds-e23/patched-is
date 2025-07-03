@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.oauth.common" label="Identity OAuth Common Feature" provider-name="%providerName" version="7.0.259">
+  <description>This feature contains the common bundles required for OAuth BE and FE functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.oauth.common" unpack="false" version="7.0.259"/>
+  <plugin id="json" unpack="false" version="3.0.0.wso2v4"/>
+  <plugin id="oltu" unpack="false" version="1.0.0.wso2v3"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.core.server" match="greaterOrEqual" version="7.8.3"/>
+  </require>
+</feature>

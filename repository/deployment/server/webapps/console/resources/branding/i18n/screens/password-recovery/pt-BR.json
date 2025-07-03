@@ -1,0 +1,11 @@
+{
+  "password.recovery.heading": "Esqueceu a senha?",
+  "password.recovery.body": "Estamos protegendo você. Digite seu nome de usuário para começar a redefinir sua senha.",
+  "password.recovery.identifier.input.placeholder": "Nome de usuário",
+  "password.recovery.button.email.link": "Enviar link de redefinição",
+  "password.recovery.button.email.otp": "Enviar e-mail OTP",
+  "password.recovery.button.smsotp": "enviar codigo sms",
+  "send.email.link": "Enviar link de redefinição por e-mail",
+  "send.email.otp": "Enviar OTP por e-mail",
+  "send.code.via.sms": "Enviar OTP via SMS"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.identity.apps.x509certificate.portal.server" label="WSO2 Identity Server Apps - x509 Certificate Authentication Portal Server Feature" provider-name="%providerName" version="2.14.2">
+  <description>This feature contains the x509 certificate authentication portal module</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+</feature>

@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Organization Management Core Server Feature
+
+
+From: 'an unknown organization'
+  - SpotBugs Annotations (https://spotbugs.github.io/) com.github.spotbugs:spotbugs-annotations:jar:4.1.3
+    License: GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1  (https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 - Organization Management Service (http://wso2.org/components/org.wso2.carbon.identity.organization.management.service) org.wso2.carbon.identity.organization.management.core:org.wso2.carbon.identity.organization.management.service:bundle:1.1.23
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

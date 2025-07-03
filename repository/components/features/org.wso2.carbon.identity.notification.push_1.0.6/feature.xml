@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.notification.push" label="Push Notification - Feature" provider-name="%providerName" version="1.0.6">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.notification.push.common" unpack="false" version="1.0.6"/>
+  <plugin id="httpcore5" unpack="false" version="5.3.1.wso2v1"/>
+  <plugin id="firebase-admin" unpack="false" version="9.4.2.wso2v2"/>
+  <plugin id="httpclient5" unpack="false" version="5.4.1.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.notification.push.provider" unpack="false" version="1.0.6"/>
+  <plugin id="org.wso2.carbon.identity.notification.push.device.handler" unpack="false" version="1.0.6"/>
+  <plugin id="api-common" unpack="false" version="2.42.0.wso2v1"/>
+</feature>

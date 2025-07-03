@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.application.authenticator.oidc.server" label="OpenID Connect Application Authenticator Server Feature" provider-name="%providerName" version="5.12.19">
+  <description>This feature contains the core bundles required for OpendID Connect Application Authenticator</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.application.authenticator.oidc" unpack="false" version="5.12.19"/>
+  <plugin id="json" unpack="false" version="3.0.0.wso2v4"/>
+  <plugin id="oltu" unpack="false" version="1.0.0.wso2v3"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.mgt.server" match="greaterOrEqual" version="7.1.39"/>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="greaterOrEqual" version="7.1.39"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.9.10"/>
+  </require>
+</feature>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.extension.identity.verification.provider" label="WSO2 Carbon - Identity Verification Provider Feature" provider-name="%providerName" version="1.0.16">
+  <description>This feature contains the bundles required for identity verification providers</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.extension.identity.verification.provider" unpack="false" version="1.0.16"/>
+</feature>

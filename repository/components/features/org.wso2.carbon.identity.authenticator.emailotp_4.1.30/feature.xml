@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.authenticator.emailotp" label="WSO2 Carbon - Identity Email OTP Feature" provider-name="%providerName" version="4.1.30">
+  <description>This feature contains extension feature for EmailOTP</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.authenticator.emailotp" unpack="false" version="4.1.30"/>
+</feature>

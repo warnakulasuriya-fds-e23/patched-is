@@ -1,0 +1,22 @@
+{
+  "copyright": {
+    "EDITABLE": true,
+    "SCREEN": "common",
+    "MULTI_LINE": true
+  },
+  "site.title": {
+    "EDITABLE": true,
+    "SCREEN": "common",
+    "MULTI_LINE": false
+  },
+  "privacy.policy": {
+    "EDITABLE": true,
+    "SCREEN": "common",
+    "MULTI_LINE": false
+  },
+  "terms.of.service": {
+    "EDITABLE": true,
+    "SCREEN": "common",
+    "MULTI_LINE": false
+  }
+}

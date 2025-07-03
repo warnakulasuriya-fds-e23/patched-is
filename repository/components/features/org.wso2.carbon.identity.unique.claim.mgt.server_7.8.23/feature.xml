@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.unique.claim.mgt.server" label="Unique Claim Mgt Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the bundles required for enable claim uniqueness service</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.unique.claim.mgt" unpack="false" version="7.8.23"/>
+</feature>

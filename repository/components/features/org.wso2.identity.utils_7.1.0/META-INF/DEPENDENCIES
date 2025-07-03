@@ -1,0 +1,67 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 IS - Utils Features
+
+
+From: 'an unknown organization'
+  - bcel  bcel:bcel:jar:5.1
+
+  - Code Generation Library (http://cglib.sourceforge.net/) cglib:cglib:jar:2.2
+    License: ASF 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon Orbit - CGLib Bundle (http://wso2.org) cglib.wso2:cglib:bundle:2.2.wso2v1
+
+  - ehcache.wso2 (http://wso2.org) net.sf.ehcache.wso2:ehcache:bundle:1.5.0.wso2v3
+
+  - jsr107cache (http://maven.apache.org) net.sf.jsr107cache:jsr107cache:jar:1.0
+
+  - axis2.jaxbri.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-jaxbri:bundle:1.6.1-wso2v42
+
+  - axis2.jibx.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-jibx:bundle:1.6.1.wso2v11
+
+  - bcel.wso2 (http://wso2.org) org.apache.bcel.wso2:bcel:bundle:6.7.0.wso2v1
+
+  - jibx-bind (http://jibx.sourceforge.net) org.jibx:jibx-bind:jar:1.2.1
+    License: BSD  (http://jibx.sourceforge.net/jibx-license.html)
+  - jibx-run (http://jibx.sourceforge.net) org.jibx:jibx-run:jar:1.2.1
+    License: BSD  (http://jibx.sourceforge.net/jibx-license.html)
+  - jibx.wso2 (http://wso2.org) org.jibx.wso2:jibx:bundle:1.2.1.wso2v1
+
+  - regexp  regexp:regexp:jar:1.2
+
+  - StAX API (http://stax.codehaus.org/) stax:stax-api:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Dawid Kurzyniec' (http://www.mathcs.emory.edu/~dawidk/)
+  - Backport of JSR 166 (http://backport-jsr166.sourceforge.net/) backport-util-concurrent:backport-util-concurrent:jar:3.1
+    License: Public Domain  (http://creativecommons.org/licenses/publicdomain)
+
+From: 'Luck Consulting Pty Ltd' (http://gregluck.com)
+  - Ehcache Core (http://ehcache.sf.net/ehcache) net.sf.ehcache:ehcache:jar:1.5.0-wso2v3
+    License: The Apache Software License, Version 2.0  (http://ehcache.sourceforge.net/LICENSE.txt)
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+  - ASM Core (http://asm.objectweb.org/asm/) asm:asm:jar:3.1
+
+  - ASM All (http://asm.objectweb.org/asm-all/) org.ow2.asm:asm-all:jar:5.2
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons BCEL (https://commons.apache.org/proper/commons-bcel) org.apache.bcel:bcel:jar:6.7.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

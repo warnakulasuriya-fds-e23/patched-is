@@ -1,0 +1,8 @@
+{
+  "username.recovery.channel.selection.heading": "恢复用户名",
+  "username.recovery.channel.selection.body": "选择恢复选项",
+  "send.username.via.email": "通过电子邮件发送用户名",
+  "send.username.via.sms": "通过短信发送用户名",
+  "username.recovery.channel.selection.next.button": "下一个",
+  "username.recovery.channel.selection.cancel.button": "取消"
+}

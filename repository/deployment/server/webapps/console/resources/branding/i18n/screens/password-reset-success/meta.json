@@ -1,0 +1,17 @@
+{
+  "password.reset.success.heading": {
+    "EDITABLE": true,
+    "SCREEN": "password-reset-success",
+    "MULTI_LINE": false
+  },
+  "password.reset.success.body": {
+    "EDITABLE": true,
+    "SCREEN": "password-reset-success",
+    "MULTI_LINE": true
+  },
+  "password.reset.success.action": {
+    "EDITABLE": true,
+    "SCREEN": "password-reset-success",
+    "MULTI_LINE": false
+  }
+}

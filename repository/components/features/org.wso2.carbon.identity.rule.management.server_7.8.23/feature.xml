@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.rule.management.server" label="Rule Management Server Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for Rule Management Framework</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.rule.evaluation" unpack="false" version="7.8.23"/>
+  <plugin id="org.wso2.carbon.identity.rule.management" unpack="false" version="7.8.23"/>
+  <plugin id="org.wso2.carbon.identity.rule.metadata" unpack="false" version="7.8.23"/>
+</feature>

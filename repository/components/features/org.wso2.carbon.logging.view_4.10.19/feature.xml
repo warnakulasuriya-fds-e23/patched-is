@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.logging.view" label="WSO2 Carbon - Logging Update Feature" provider-name="%providerName" version="4.10.19">
+  <description>This feature is to view logs</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.logging.view" unpack="false" version="4.10.19"/>
+</feature>

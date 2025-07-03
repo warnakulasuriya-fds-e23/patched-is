@@ -1,0 +1,12 @@
+{
+  "password.reset.heading": {
+    "EDITABLE": true,
+    "SCREEN": "password-reset",
+    "MULTI_LINE": false
+  },
+  "password.reset.button": {
+    "EDITABLE": true,
+    "SCREEN": "password-reset",
+    "MULTI_LINE": false
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.action.management.server" label="Action Management Server Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for Action Management Framework</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.action.management" unpack="false" version="7.8.23"/>
+  <plugin id="org.wso2.carbon.identity.action.execution" unpack="false" version="7.8.23"/>
+</feature>

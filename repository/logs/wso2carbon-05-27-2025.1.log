@@ -1,0 +1,123 @@
+TID: [] [] [2025-05-27 10:11:45,749] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-05-27 10:11:46,420] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-05-27 10:11:46,422] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-59-generic, amd64
+TID: [] [] [2025-05-27 10:11:46,423] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-05-27 10:11:46,423] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-05-27 10:11:46,424] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-05-27 10:11:46,424] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0
+TID: [] [] [2025-05-27 10:11:46,424] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/tmp
+TID: [] [] [2025-05-27 10:11:46,425] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-05-27 10:12:00,026] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-05-27 10:12:05,684] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 194ms
+TID: [] [] [2025-05-27 10:12:05,780] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 20ms
+TID: [] [] [2025-05-27 10:12:05,784] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 24ms
+TID: [] [] [2025-05-27 10:12:05,953] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-05-27 10:12:05,956] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 4ms
+TID: [] [] [2025-05-27 10:12:05,989] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-05-27 10:12:15,195] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-05-27 10:12:15,847] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-05-27 10:12:17,266] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-05-27 10:12:22,438] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-05-27 10:12:22,595] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-05-27 10:12:22,647] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-05-27 10:12:23,180] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-05-27 10:12:23,182] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-05-27 10:12:23,183] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-05-27 10:12:23,185] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-05-27 10:12:30,104] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-05-27 10:12:32,059] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-05-27 10:12:33,493] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-05-27 10:12:33,940] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-05-27 10:12:33,941] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-05-27 10:12:33,993] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-05-27 10:12:39,584] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-05-27 10:12:40,133] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-05-27 10:12:51,924] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-05-27 10:13:13,276] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-05-27 10:13:13,278] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-05-27 10:13:13,800] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-05-27 10:13:13,812] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/WSO2 Identity Server/wso2is-7.1.0.8/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-05-27 10:13:13,891] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-05-27 10:13:13,891] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-05-27 10:13:13,892] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-05-27 10:13:13,893] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 98 sec
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 10:24:28,078] [e8feed31-134e-4376-b8e5-de3cd7bcac33]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 10:24:28,077+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 10:24:28,213] [a0d96d16-b89a-4d60-a8d0-8c274266d00e]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 10:24:28,213+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 10:24:29,488] [9995a420-01be-4d47-80cb-95ce1125e8c3]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 10:24:29,488+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 10:24:29,560] [ad8bf7b2-e72f-4f95-b2dd-a8e607da6abb]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 10:24:29,560+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:12:00,578] [e0146406-a40b-4989-a826-c40f9fd57d5b]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:12:00,578+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:12:00,662] [b7ae4d07-d961-4c0c-b136-5681d572d776]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:12:00,662+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:15:41,913] [531d83ce-0d59-4255-9683-444ead7c8733]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:15:41,913+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:15:42,027] [62792e8f-5756-47e1-b3ad-4221ec343705]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:15:42,026+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:16:03,260] [8710e270-d48e-451b-ba24-4620c2901762]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:16:03,260+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:16:03,330] [47117aaa-2353-459e-bd37-78b2e0066bc8]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:16:03,325+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:17:17,870] [85580491-46bb-4e11-a71b-544bbc934223]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:17:17,870+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:17:17,915] [a0b51c7e-8131-44e2-8deb-e516337d4d9f]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:17:17,915+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:20:06,911] [d970a208-bbff-4542-adfe-d6b0a12f6d36]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:20:06,910+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:20:06,959] [d1018949-649a-4093-a04f-0635a3001e5f]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:20:06,958+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:23:31,653] [03907961-c90b-4254-8cbf-7176e42e987d]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:23:31,653+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:23:31,739] [4e4a4cf5-1624-4395-b0cc-173cc3902ea9]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:23:31,738+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:24:38,834] [8dce356b-5d2a-4c9c-b02c-ad758b210ad4]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:24:38,834+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:24:38,888] [5c29cfd8-fc0f-484f-b2b6-51ec6b0efa69]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:24:38,887+0530]
+TID: [-1234] [] [2025-05-27 11:30:31,652] [8e753415-9c12-4343-9fed-0efabd4574b6]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:32:47,764] [e283ffe0-8525-4a89-85cb-8b93715ad144]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:32:47,764+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:32:47,839] [89c95b5a-69d4-4863-8267-cbdf4c225216]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:32:47,839+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:33:29,790] [15733ae0-6c8e-43ae-9ba6-88bfc3275c94]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:33:29,790+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 11:33:29,832] [4faa2fbc-b089-40ee-9854-dafb7c8f3da0]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 11:33:29,832+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:50,899] [e84ac25f-09ec-47c5-abfa-6a769d314425]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:50,899+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:50,947] [4583a417-b884-4604-a55c-a1bfb21d9126]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:50,947+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:54,631] [0411077e-b5fa-4cdb-8d9a-3dc9701cd4e3]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:54,631+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:54,692] [1d6a8416-1843-42f9-bec0-81509a67e80a]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:54,692+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:55,353] [a2b63ef9-ba14-440b-a240-7e2a51a2f286]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:55,353+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:10:55,391] [eef5e403-7118-4a44-890a-81172515506b]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:10:55,391+0530]
+TID: [-1234] [] [2025-05-27 12:14:10,337] [2d2722d3-eb7d-4e48-9dc0-65f083dca55e]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:21,692] [96645900-a65e-4176-bd81-fe6013af64ae]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:21,692+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:21,739] [0bd8028b-b789-4c5e-b40a-dfe1b403a8f6]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:21,739+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:24,997] [47b13911-b1b2-471b-922f-053c134e1895]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:24,997+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:25,048] [a0a9fd61-31ac-4b46-add0-ac855c622fb4]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:25,048+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:25,631] [cd8f60fb-cb57-416b-94e9-22227379c560]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:25,631+0530]
+TID: [-1234] [ClaimMetadataManagementService] [2025-05-27 12:21:25,665] [af4d9a84-e46c-40dd-bdf5-a63e8ddd563c]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-05-27 12:21:25,665+0530]
+TID: [-1234] [api] [2025-05-27 15:03:11,565] [25113977-45a1-42d0-9168-b725171592dd]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - Resource: SMSPublisher added successfully
+TID: [-1234] [] [2025-05-27 15:13:58,623] [ca4edbd3-762b-4e74-815d-d42e63a81fee]  WARN {org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler} - Session nonce cookie validation has failed for the sessionDataKey: 01cca2b7-8026-45e6-9296-59215d0eac6b. Hence, restarting the login flow.
+TID: [-1234] [api] [2025-05-27 15:18:55,428] [9b385b7b-3149-4592-876c-ace0db2c2635]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - SMSPublisher resource created successfully.
+TID: [-1234] [api] [2025-05-27 15:19:23,568] [844a7645-7e25-41d7-8b25-832a28cfb9a5]  INFO {org.wso2.carbon.identity.configuration.mgt.core.ConfigurationManagerImpl} - SMSPublisher resource created successfully.
+TID: [-1234] [] [2025-05-27 15:32:59,163] [96086060-6a60-40a9-940d-172ef1935d14]  WARN {org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler} - Session nonce cookie validation has failed for the sessionDataKey: 73ebff4f-f9c2-4066-a176-91a44923b613. Hence, restarting the login flow.
+TID: [-1234] [] [2025-05-27 16:12:35,051] [956730a3-0356-41ed-a026-664bd46ae803]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - aryadoesn't have admin or manager role
+TID: [-1234] [] [2025-05-27 16:13:58,470] [9a98401b-c186-46d2-b7ba-a27997a53c05]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - admindoesn't have admin or manager role
+TID: [-1234] [] [2025-05-27 16:21:37,069] [5271dbb5-d784-48b4-9c6b-6dbe37235e13]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - aryadoesn't have admin or manager role
+TID: [] [] [2025-05-27 16:24:58,782] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-05-27 16:24:58,786] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-27 16:24:58,790] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-05-27 16:24:58,791] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-05-27 16:24:58,791] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-05-27 16:24:58,799] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-05-27 16:24:58,799] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-05-27 16:24:58,895] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-05-27 16:24:58,936] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-05-27 16:24:58,943] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-05-27 16:24:58,960] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-05-27 16:24:58,973] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-05-27 16:24:58,979] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-05-27 16:24:58,989] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-05-27 16:24:59,003] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-05-27 16:24:59,009] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-05-27 16:24:59,026] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-05-27 16:24:59,036] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-05-27 16:24:59,041] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-05-27 16:24:59,041] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-05-27 16:24:59,041] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-05-27 16:24:59,042] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-05-27 16:24:59,042] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-05-27 16:24:59,042] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-05-27 16:24:59,063] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-05-27 16:24:59,064] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-05-27 16:24:59,265] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-05-27 16:24:59,836]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-05-27 16:24:59,837]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

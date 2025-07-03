@@ -1,0 +1,7 @@
+{
+  "username.recovery.email.success.heading": "Check Your Email",
+  "username.recovery.sms.success.heading": "Check Your Mobile",
+  "username.recovery.email.success.body": "Username recovery details have been sent to the email provided. If the email is not received, try again using different information.",
+  "username.recovery.sms.success.body": "Username recovery details have been sent to the mobile number provided. If the SMS is not received, try again using different information.",
+  "username.recovery.success.action": "Back to application"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.extension.identity.authenticator.totp.connector" label="WSO2 Carbon - identity TOTP Feature" provider-name="%providerName" version="3.3.35">
+  <description>This feature contains extension feature for totp</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.extension.identity.authenticator.totp.connector" unpack="false" version="3.3.35"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="greaterOrEqual" version="7.7.231"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="greaterOrEqual" version="7.7.231"/>
+    <import feature="org.wso2.carbon.extension.identity.helper" match="compatible" version="1.0.8"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.9.10"/>
+  </require>
+</feature>

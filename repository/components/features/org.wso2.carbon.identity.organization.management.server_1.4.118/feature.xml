@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.organization.management.server" label="Organization Management Server Feature" provider-name="%providerName" version="1.4.118">
+  <description>This feature contains the core bundles required for Organization Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.organization.management.governance.connector" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.resource.sharing.policy.management" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.tenant.association" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.application" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.claim.provider" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.handler" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.authz.service" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.tomcat.ext.tenant.resolver" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.discovery.service" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.role.management.service" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.config.service" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.resource.hierarchy.traverse.service" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.organization.user.sharing" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.management.ext" unpack="false" version="1.4.118"/>
+  <plugin id="org.wso2.carbon.identity.organization.user.invitation.management" unpack="false" version="1.4.118"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.authenticator.oidc.server" match="compatible" version="5.12.15"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.6.0"/>
+  </require>
+</feature>

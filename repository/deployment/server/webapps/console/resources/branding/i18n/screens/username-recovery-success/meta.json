@@ -1,0 +1,31 @@
+{
+  "username.recovery.email.success.heading": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-success",
+    "MULTI_LINE": false,
+    "VARIATIONS": "email"
+  },
+  "username.recovery.sms.success.heading": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-success",
+    "MULTI_LINE": false,
+    "VARIATIONS": "sms"
+  },
+  "username.recovery.email.success.body": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-success",
+    "MULTI_LINE": true,
+    "VARIATIONS": "email"
+  },
+  "username.recovery.sms.success.body": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-success",
+    "MULTI_LINE": true,
+    "VARIATIONS": "sms"
+  },
+  "username.recovery.success.action": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-success",
+    "MULTI_LINE": false
+  }
+}

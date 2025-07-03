@@ -1,0 +1,12 @@
+{
+  "password.recovery.heading": "Forgot Password?",
+  "password.recovery.body": "We've got you covered. Enter your username to begin resetting your password.",
+  "password.recovery.identifier.input.placeholder": "Username",
+  "password.recovery.button.email.link": "Send Reset Link",
+  "password.recovery.button.email.otp": "Send Email OTP",
+  "password.recovery.button.smsotp": "Send SMS OTP",
+  "password.recovery.button.multi": "Proceed",
+  "send.email.link": "Send reset link via email",
+  "send.email.otp": "Send OTP via email",
+  "send.code.via.sms": "Send OTP via SMS"
+}

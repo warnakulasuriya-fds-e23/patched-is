@@ -1,0 +1,7 @@
+{
+  "email.otp.heading": {
+    "EDITABLE": true,
+    "SCREEN": "email-otp",
+    "MULTI_LINE": false
+  }
+}

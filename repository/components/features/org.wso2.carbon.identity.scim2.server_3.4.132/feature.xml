@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.scim2.server" label="SCIM2 Feature" provider-name="%providerName" version="3.4.132">
+  <description>This aggregator feature contains the bundles required for Identity SCIM2 functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.scim2.common" optional="false" version="3.4.132"/>
+  <includes id="org.wso2.carbon.identity.scim2.provider" optional="false" version="3.4.132"/>
+</feature>

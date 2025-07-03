@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.branding.preference.management.core.server" label="WSO2 Carbon - Branding Preference Management Core Feature" provider-name="%providerName" version="1.1.20">
+  <description>This feature contains the core bundles required for Branding Preference Management</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.branding.preference.management.core" unpack="false" version="1.1.20"/>
+  <plugin id="org.wso2.carbon.identity.branding.preference.resolver" unpack="false" version="1.1.20"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.configuration.mgt.server" match="greaterOrEqual" version="7.7.95"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.6.0"/>
+  </require>
+</feature>

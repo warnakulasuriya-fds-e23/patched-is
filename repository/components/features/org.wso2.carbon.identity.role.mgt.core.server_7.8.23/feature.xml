@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.role.mgt.core.server" label="WSO2 Carbon - Role Management Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for role management functionality.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.role.mgt.core" unpack="false" version="7.8.23"/>
+  <require>
+    <import feature="org.wso2.carbon.database.utils" match="compatible" version="2.2.2"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="7.8.23"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.7.0"/>
+    <import feature="org.wso2.carbon.user.mgt.server" match="compatible" version="7.8.23"/>
+  </require>
+</feature>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.piicontroller.server" label="WSO2 Carbon - Identity PII Controller Core Feature" provider-name="%providerName" version="1.11.48">
+  <description>This feature contains the core bundles required for PII Controller</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.piicontroller" unpack="false" version="1.11.48"/>
+</feature>

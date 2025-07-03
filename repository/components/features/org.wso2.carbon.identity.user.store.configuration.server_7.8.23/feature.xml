@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.user.store.configuration.server" label="Userstore Configuration Feature" provider-name="%providerName" version="7.8.23">
+  <description>This feature contains the core bundles required for Back-end User Store Configuration functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+</feature>

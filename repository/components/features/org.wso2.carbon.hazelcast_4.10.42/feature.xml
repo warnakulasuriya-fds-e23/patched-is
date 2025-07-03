@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.hazelcast" label="WSO2 Carbon - Hazelcast Feature" provider-name="%providerName" version="4.10.42">
+  <description>This feature contains the hazelcast feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.hazelcast" unpack="false" version="4.10.42"/>
+  <plugin id="hazelcast" unpack="false" version="5.3.6.wso2v1"/>
+</feature>

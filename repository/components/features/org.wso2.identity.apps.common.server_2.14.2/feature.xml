@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.identity.apps.common.server" label="WSO2 Identity Server Apps - Common Server Feature" provider-name="%providerName" version="2.14.2">
+  <description>This feature contains common utils for identity app portals.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.identity.apps.common" unpack="false" version="2.14.2"/>
+</feature>

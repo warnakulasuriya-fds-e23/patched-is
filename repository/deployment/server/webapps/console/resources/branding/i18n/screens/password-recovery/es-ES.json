@@ -1,0 +1,11 @@
+{
+  "password.recovery.heading": "¿Has olvidado tu contraseña?",
+  "password.recovery.body": "Te tenemos cubierto. Ingrese su nombre de usuario para comenzar a restablecer su contraseña.",
+  "password.recovery.identifier.input.placeholder": "Correo electrónico",
+  "password.recovery.button.email.link": "Enviar enlace de reinicio",
+  "password.recovery.button.email.otp": "Enviar OTP por correo electrónico",
+  "password.recovery.button.smsotp": "Enviar codigo sms",
+  "send.email.link": "Enviar enlace de reinicio por correo electrónico",
+  "send.email.otp": "Enviar OTP por correo electrónico",
+  "send.code.via.sms": "Enviar OTP por SMS"
+}

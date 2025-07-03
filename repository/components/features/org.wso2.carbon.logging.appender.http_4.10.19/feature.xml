@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.logging.appender.http" label="WSO2 Carbon - Logging Appender Feature" provider-name="%providerName" version="4.10.19">
+  <description>This feature is to the log4j2 appender</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.logging.appender.service" unpack="false" version="4.10.19"/>
+  <plugin id="org.wso2.carbon.logging.appender.http" unpack="false" version="4.10.19"/>
+</feature>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.database.utils" label="WSO2 Carbon - Database Utils Feature" provider-name="%providerName" version="2.2.4">
+  <description>This feature contains the carbon-database-utils</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.database.utils" unpack="false" version="2.2.4"/>
+  <require/>
+</feature>

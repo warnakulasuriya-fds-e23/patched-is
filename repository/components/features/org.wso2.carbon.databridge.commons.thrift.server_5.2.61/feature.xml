@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.databridge.commons.thrift.server" label="WSO2 Carbon - Data Bridge - Thrift Commons Server Feature" provider-name="%providerName" version="5.2.61">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="libthrift" unpack="false" version="0.16.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.databridge.commons.thrift" unpack="false" version="5.2.61"/>
+  <require>
+    <import feature="org.wso2.carbon.databridge.commons.server" match="equivalent" version="5.2.61"/>
+  </require>
+</feature>

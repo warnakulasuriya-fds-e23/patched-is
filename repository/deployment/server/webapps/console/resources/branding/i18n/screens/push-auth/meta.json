@@ -1,0 +1,12 @@
+{
+  "push.auth.heading": {
+    "EDITABLE": true,
+    "SCREEN": "push-auth",
+    "MULTI_LINE": false
+  },
+  "push.notification.sent.msg": {
+    "EDITABLE": true,
+    "SCREEN": "push-auth",
+    "MULTI_LINE": false
+  }
+}

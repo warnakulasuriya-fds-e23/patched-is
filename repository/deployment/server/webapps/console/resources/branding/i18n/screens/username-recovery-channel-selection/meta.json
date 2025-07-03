@@ -1,0 +1,32 @@
+{
+  "username.recovery.channel.selection.heading": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  },
+  "username.recovery.channel.selection.body": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  },
+  "send.username.via.email": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  },
+  "send.username.via.sms": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  },
+  "username.recovery.channel.selection.next.button": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  },
+  "username.recovery.channel.selection.cancel.button": {
+    "EDITABLE": true,
+    "SCREEN": "username-recovery-channel-selection",
+    "MULTI_LINE": false
+  }
+}

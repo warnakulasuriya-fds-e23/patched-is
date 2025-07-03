@@ -1,0 +1,8 @@
+{
+  "username.recovery.channel.selection.heading": "Benutzernamen wiederherstellen",
+  "username.recovery.channel.selection.body": "Wählen Sie eine Wiederherstellungsoption",
+  "send.username.via.email": "Benutzernamen per E-Mail senden",
+  "send.username.via.sms": "Benutzernamen per SMS senden",
+  "username.recovery.channel.selection.next.button": "Nächste",
+  "username.recovery.channel.selection.cancel.button": "Stornieren"
+}

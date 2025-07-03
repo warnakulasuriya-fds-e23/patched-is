@@ -1,0 +1,59 @@
+{
+  "password.recovery.heading": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false
+  },
+  "password.recovery.body": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": true
+  },
+  "password.recovery.identifier.input.placeholder": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false
+  },
+  "password.recovery.button.email.link": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "email-link"
+  },
+  "password.recovery.button.email.otp": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "email-otp"
+  },
+  "password.recovery.button.smsotp": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "sms-otp"
+  },
+  "password.recovery.button.multi": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "multi"
+  },
+  "send.email.link": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "multi"
+  },
+  "send.email.otp": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "multi"
+  },
+  "send.code.via.sms": {
+    "EDITABLE": true,
+    "SCREEN": "password-recovery",
+    "MULTI_LINE": false,
+    "VARIATIONS": "multi"
+  }
+}

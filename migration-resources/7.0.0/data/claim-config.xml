@@ -1,0 +1,74 @@
+<!--
+  ~ Copyright (c) 2024, WSO2 LLC. (http://www.wso2.com).
+  ~
+  ~  WSO2 LLC. licenses this file to you under the Apache License,
+  ~  Version 2.0 (the "License"); you may not use this file except
+  ~  in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied.  See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License.
+  -->
+
+<ClaimConfig>
+    <Dialects>
+        <Dialect dialectURI="http://wso2.org/claims">
+            <Claim>
+                <ClaimURI>http://wso2.org/claims/identity/managedOrg</ClaimURI>
+                <DisplayName>Managed Organization</DisplayName>
+                <AttributeID>managedOrg</AttributeID>
+                <Description>Claim to store the organization which the user is stored</Description>
+                <ReadOnly />
+            </Claim>
+            <Claim>
+                <ClaimURI>http://wso2.org/claims/identity/preferredMFAOption</ClaimURI>
+                <DisplayName>PreferredMFAOption</DisplayName>
+                <!-- If user store based identity store is used, a proper mapped attribute
+                in your user store must be configured for this. -->
+                <AttributeID>preferredMFAOption</AttributeID>
+                <SupportedByDefault/>
+                <RegEx>^\\s*(\\{[\\s\\S]*\\}|\\[[\\s\\S]*\\])\\s*$</RegEx>
+                <ReadOnly>true</ReadOnly>
+                <Description>Set the user preferred MFA option</Description>
+            </Claim>
+        </Dialect>
+        <Dialect dialectURI="http://wso2.org/oidc/claim">
+            <Claim>
+                <ClaimURI>preferredMFAOption</ClaimURI>
+                <DisplayName>PreferredMFAOption</DisplayName>
+                <AttributeID>preferredMFAOption</AttributeID>
+                <Description>Preferred MFA option</Description>
+                <Required/>
+                <SupportedByDefault/>
+                <MappedLocalClaim>http://wso2.org/claims/identity/preferredMFAOption</MappedLocalClaim>
+            </Claim>
+        </Dialect>
+        <Dialect dialectURI="urn:ietf:params:scim:schemas:extension:enterprise:2.0:User">
+            <Claim>
+                <ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:managedOrg</ClaimURI>
+                <DisplayName>Managed Organization</DisplayName>
+                <AttributeID>managedOrg</AttributeID>
+                <Description>Organization where the user is managed</Description>
+                <DisplayOrder>1</DisplayOrder>
+                <SupportedByDefault />
+                <MappedLocalClaim>http://wso2.org/claims/identity/managedOrg</MappedLocalClaim>
+            </Claim>
+            <Claim>
+                <ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:preferredMFAOption</ClaimURI>
+                <DisplayName>PreferredMFAOption</DisplayName>
+                <AttributeID>preferredMFAOption</AttributeID>
+                <Description>Preferred MFA option</Description>
+                <Required/>
+                <DisplayOrder>1</DisplayOrder>
+                <SupportedByDefault/>
+                <MappedLocalClaim>http://wso2.org/claims/identity/preferredMFAOption</MappedLocalClaim>
+            </Claim>
+        </Dialect>
+    </Dialects>
+</ClaimConfig>

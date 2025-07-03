@@ -1,0 +1,7 @@
+{
+  "totp.heading": {
+    "EDITABLE": true,
+    "SCREEN": "totp",
+    "MULTI_LINE": false
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.identity.apps.console.server" label="WSO2 Identity Server Apps - Console Server Feature" provider-name="%providerName" version="2.41.52">
+  <description>This feature contains the console application</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+</feature>

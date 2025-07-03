@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.extension.identity.authenticator.backupcode.connector" label="WSO2 Carbon - identity Backup Code Feature" provider-name="%providerName" version="0.0.20">
+  <description>This feature contains extension feature for backup codes</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.extension.identity.authenticator.backupcode.connector" unpack="false" version="0.0.20"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="greaterOrEqual" version="5.25.522"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="greaterOrEqual" version="5.25.522"/>
+    <import feature="org.wso2.carbon.extension.identity.helper" match="compatible" version="1.0.8"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.9.10"/>
+  </require>
+</feature>

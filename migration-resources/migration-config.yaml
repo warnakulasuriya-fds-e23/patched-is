@@ -1,0 +1,744 @@
+migrationEnable: "true"
+
+# Migration Start Version
+currentVersion: "6.x.x"
+# Migration End Version
+migrateVersion: "7.x.x"
+
+continueOnError: "false"
+batchUpdate: "true"
+ignoreForInactiveTenants: "true"
+isSeparateRegistryDB: "false"
+
+migrateTenantRange: "false"
+migrationStartingTenantID: "0"
+migrationEndingTenantID: "0"
+
+exitOnComplete: "false"
+
+isForceRerun: "false"
+
+versions:
+ -
+  version: "5.0.0-SP1"
+  migratorConfigs:
+   -
+    name: "SchemaMigrator"
+    order: 1
+    parameters:
+      location: "step1"
+      schema: "identity"
+ -
+  version: "5.1.0"
+  migratorConfigs:
+   -
+    name: "IdentityDataCleaner"
+    order: 1
+    parameters:
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 2
+    parameters:
+      location: "step1"
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 3
+    parameters:
+      location: "step1"
+      schema: "um"
+   -
+    name: "IdentityDataMigrator"
+    order: 4
+    parameters:
+      schema: "identity"
+   -
+    name: "UMDataMigrator"
+    order: 5
+    parameters:
+      schema: "um"
+   -
+    name: "RegistryDataMigrator"
+    order: 6
+    parameters:
+      schema: "um"
+ -
+  version: "5.2.0"
+  migratorConfigs:
+   -
+    name: "SchemaMigrator"
+    order: 1
+    parameters:
+      location: "step1"
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 2
+    parameters:
+      location: "step1"
+      schema: "um"
+   -
+     name: "SchemaMigrator"
+     order: 3
+     parameters:
+       location: "step1"
+       schema: "reg"
+ -
+  version: "5.3.0"
+  migratorConfigs:
+   -
+    name: "SchemaMigrator"
+    order: 1
+    parameters:
+      location: "step1"
+      schema: "identity"
+   -
+    name: "UserStorePasswordMigrator"
+    order: 2
+    parameters:
+      schema: "identity"
+   -
+    name: "ClaimDataMigrator"
+    order: 3
+    parameters:
+      schema: "um"
+   -
+    name: "PermissionDataMigrator"
+    order: 4
+    parameters:
+      schema: "um"
+   -
+    name: "EmailTemplateDataMigrator"
+    order: 5
+    parameters:
+      schema: "identity"
+   -
+    name: "ResidentIdpMetadataMigrator"
+    order: 6
+    parameters:
+      schema: "identity"
+   -
+    name: "OIDCScopeDataMigrator"
+    order: 7
+    parameters:
+      schema: "identity"
+ -
+  version: "5.4.0"
+  migratorConfigs:
+   -
+    name: "PermissionMigrator"
+    order: 1
+    parameters:
+      schema: "um"
+   -
+    name: "SchemaMigrator"
+    order: 2
+    parameters:
+      location: "step1"
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 3
+    parameters:
+      location: "step1"
+      schema: "um"
+   -
+    name: "UserStorePasswordMigrator"
+    order: 4
+    parameters:
+      schema: "identity"
+   -
+    name: "ClaimDataMigrator"
+    order: 5
+    parameters:
+      schema: "um"
+      # Absolute path for the dry report. This is required in the dry run mode.
+      # reportPath:
+   -
+    name: "OAuthDataMigrator"
+    order: 6
+    parameters:
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 7
+    parameters:
+      location: "step2"
+      schema: "identity"
+ -
+  version: "5.5.0"
+  migratorConfigs:
+   -
+    name: "SchemaMigrator"
+    order: 1
+    parameters:
+      location: "step1"
+      schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 2
+    parameters:
+      location: "step1"
+      schema: "consent"
+   -
+    name: "OAuthDataMigrator"
+    order: 3
+    parameters:
+      batchSize: 10000
+      schema: "identity"
+   -
+    name: "BPSProfileDataMigrator"
+    order: 4
+    parameters:
+      schema: "identity"
+   -
+    name: "UserStorePasswordMigrator"
+    order: 5
+    parameters:
+      schema: "identity"
+   -
+    name: "SysLogPropertiesMigrator"
+    order: 6
+   -
+    name: "SchemaMigrator"
+    order: 7
+    parameters:
+      location: "step2"
+      schema: "identity"
+   -
+    name: "PolicySubscriberDataMigrator"
+    order: 8
+    parameters:
+      schema: "identity"
+   -
+    name: "KeyStorePasswordMigrator"
+    order: 9
+    parameters:
+      schema: "identity"
+      currentEncryptionAlgorithm: "RSA"
+      migratedEncryptionAlgorithm: "RSA/ECB/OAEPwithSHA1andMGF1Padding"
+      transformToSymmetric: "false"
+   -
+    name: "SecurityPolicyPasswordMigrator"
+    order: 10
+    parameters:
+      schema: "identity"
+   -
+    name: "EventPublisherMigrator"
+    order: 11
+ -
+  version: "5.6.0"
+  migratorConfigs:
+    -
+      name: "SchemaMigrator"
+      order: 1
+      parameters:
+        location: "step1"
+        schema: "identity"
+    -
+      name: "SpClaimDialectSchemaMigrator"
+      order: 2
+      parameters:
+        location: "step2"
+        schema: "identity"
+    -
+      name: "ClaimDataMigrator"
+      order: 3
+    -
+      name: "SessionDataMigrator"
+      order: 4
+      parameters:
+        schema: "identity"
+ -
+  version: "5.7.0"
+  migratorConfigs:
+    -
+      name: "SchemaMigrator"
+      order: 1
+      parameters:
+        location: "step1"
+        schema: "uma"
+    -
+      name: "SchemaMigrator"
+      order: 2
+      parameters:
+        location: "step1"
+        schema: "identity"
+    -
+      name: "SchemaMigrator"
+      order: 3
+      parameters:
+        location: "step1"
+        schema: "consent"
+    -
+      name: "OAuthDataMigrator"
+      order: 4
+      parameters:
+        batchSize: 10000
+        schema: "identity"
+    -
+      name: "OIDCScopeDataMigrator"
+      order: 5
+ -
+  version: "5.8.0"
+  migratorConfigs:
+    -
+      name: "SchemaMigrator"
+      order: 1
+      parameters:
+        location: "step1"
+        schema: "identity"
+    -
+      name: "IDPIDColumnAdditionInH2Migrator"
+      order: 2
+      parameters:
+        schema: "identity"
+    -
+      name: "UMAPermissionTicketSchemaMigrator"
+      order: 3
+      parameters:
+        location: "step2"
+        schema: "uma"
+    -
+      name: "SchemaMigrator"
+      order: 4
+      parameters:
+        location: "step3"
+        schema: "identity"
+    -
+      name: "OAuthDataMigrator"
+      order: 5
+      parameters:
+        schema: "identity"
+ -
+   version: "5.9.0"
+   migratorConfigs:
+   -
+     name: "SchemaMigrator"
+     order: 1
+     parameters:
+       location: "step1"
+       schema: "identity"
+   -
+     name: "ClaimDataMigrator"
+     order: 2
+ -
+   version: "5.10.0"
+   migratorConfigs:
+   -
+     name: "ScopeDataMigrator"
+     order: 1
+   -
+     name: "MigrationValidator"
+     order: 2
+   -
+     name: "SchemaMigrator"
+     order: 3
+     parameters:
+       location: "step1"
+       schema: "identity"
+   -
+     name: "SchemaMigrator"
+     order: 4
+     parameters:
+       location: "step1"
+       schema: "um"
+   -
+     name: "SchemaMigrator"
+     order: 5
+     parameters:
+       location: "step2"
+       schema: "identity"
+   -
+     name: "OAuth2ScopesMigrator"
+     order: 6
+   -
+     name: "ClaimDataMigrator"
+     order: 7
+   -
+     name: "EmailTemplateDataMigrator"
+     order: 8
+   -
+     name: "SchemaMigrator"
+     order: 9
+     parameters:
+       location: "step2"
+       schema: "um"
+   -
+     name: "UserIDMigrator"
+     order: 10
+     parameters:
+       # Migrate all the tenants and all the user store domains in it.
+       migrateAll: true
+       # Absolute path for the dry report. This is required in the dry run mode.
+       # reportPath:
+       # If migrating only few tenants, this configuration should be repeated for each tenant. (Optional)
+       # tenant1:
+         # Domain name of the tenant. (Mandatory)
+         # tenantDomain: carbon.super
+         # Number of users to be updated in each iteration. (Optional)
+         # increment: 100
+         # Where should the migration should start from (Offset). This is useful if the migration stopped middle and needs to restart. (Optional)
+         # startingPoint: 0
+         # Whether SCIM enabled for user stores in this tenant. (Optional)
+         # scimEnabled: false
+         # List of comma separated domain names which should be migrated in this domain. (Optional)
+         # migratingDomains: "PRIMARY"
+         # Mark whether user IDs should be updated even though there is already an ID there. (Optional)
+         # forceUpdateUserId: true
+   -
+     name: "TenantPortalMigrator"
+     order: 11
+
+ -
+   version: "5.11.0"
+   migratorConfigs:
+   -
+     name: "EncryptionAdminFlowMigrator"
+     order: 1
+     parameters:
+       currentEncryptionAlgorithm: "RSA/ECB/OAEPwithSHA1andMGF1Padding"
+       migratedEncryptionAlgorithm: "AES/GCM/NoPadding"
+       schema: "identity"
+   -
+     name: "EncryptionUserFlowMigrator"
+     order: 2
+     parameters:
+       currentEncryptionAlgorithm: "RSA/ECB/OAEPwithSHA1andMGF1Padding"
+       migratedEncryptionAlgorithm: "AES/GCM/NoPadding"
+       schema: "identity"
+   -
+    name: "SchemaMigrator"
+    order: 3
+    parameters:
+      location: "step1"
+      schema: "um"
+   -
+     name: "GroupsAndRolesMigrator"
+     order: 4
+     # parameters:
+       # Absolute path for the dry report. This is required in the dry run mode.
+       # reportPath:
+       # Admin role of the current version. This is required only if changing the name of admin role in migrate Version.
+       # currentAdminRoleName:
+   - name: "ConfigurationManagementSchemaMigrator"
+     order: 5
+     parameters:
+       location: "step1"
+       schema: "identity"
+   - name: "SchemaMigrator"
+     order: 6
+     parameters:
+       location: "step2"
+       schema: "identity"
+   - name: "SchemaMigrator"
+     order: 7
+     parameters:
+       location: "step3"
+       schema: "um"
+   - name: "SchemaMigrator"
+     order: 8
+     parameters:
+       location: "step3"
+       schema: "identity"
+   - name: "UserPortalDataMigrator"
+     order: 9
+     parameters:
+       location: "step4"
+       schema: "identity"
+   - name: "UserPortalDataMigrator"
+     order: 10
+     parameters:
+       location: "step4"
+       schema: "um"
+   - name: "TokenBindingValidationMigrator"
+     order: 11
+     # parameters:
+      # Absolute path for the dry report. This is required in the dry run mode.
+      # reportPath:
+   - name: "ClaimDataMigrator"
+     order: 12
+   - name: "SchemaMigrator"
+     order: 13
+     parameters:
+       location: "step5"
+       schema: "identity"
+   - name: "SchemaMigrator"
+     order: 14
+     parameters:
+       location: "step5"
+       schema: "um"
+   - name: "EmailTemplateDataMigrator"
+     order: 15
+   - name: "SchemaMigrator"
+     order: 16
+     parameters:
+       location: "step6"
+       schema: "identity"
+   - name: "SchemaMigrator"
+     order: 17
+     parameters:
+       location: "step6"
+       schema: "um"
+   - name: "SCIMGroupRoleMigrator"
+     order: 18
+ -
+   version: "6.0.0"
+   migratorConfigs:
+   -
+     name: "ApplicationAccessURLMigrator"
+     order: 1
+     # parameters:
+       # Absolute path for the dry report. This is required in the dry run mode.
+       # reportPath:
+
+   - name: "SchemaMigrator"
+     order: 2
+     parameters:
+       location: "step1"
+       schema: "identity"
+
+   - name: "SchemaMigrator"
+     order: 3
+     parameters:
+       location: "step2"
+       schema: "identity"
+
+   - name: "SchemaMigrator"
+     order: 4
+     parameters:
+       location: "step3"
+       schema: "consent"
+
+   - name: "SchemaMigrator"
+     order: 5
+     parameters:
+       location: "step4"
+       schema: "identity"
+
+   - name: "ClaimDataMigrator"
+     order: 6
+     parameters:
+       overrideExistingClaims: "true"
+       useOwnClaimDataFile: "true"
+
+   - name: "SchemaMigrator"
+     order: 7
+     parameters:
+       location: "step5"
+       schema: "identity"
+
+   - name: "SchemaMigrator"
+     order: 8
+     parameters:
+       location: "step5"
+       schema: "um"
+
+   - name: "SchemaMigrator"
+     order: 9
+     parameters:
+       location: "step6"
+       schema: "identity"
+
+   - name: "SchemaMigrator"
+     order: 10
+     parameters:
+       location: "step7"
+       schema: "identity"
+
+   - name: "SchemaMigrator"
+     order: 11
+     parameters:
+       location: "step7"
+       schema: "consent"
+
+   - name: "SchemaMigrator"
+     order: 12
+     parameters:
+       location: "step7"
+       schema: "um"
+
+   - name: "SchemaMigrator"
+     order: 13
+     parameters:
+       location: "step7"
+       schema: "reg"
+
+   - name: "RecoveryDataMigrator"
+     order: 14
+
+   - name: "SCIMGroupSchemaMigrator"
+     order: 15
+     parameters:
+       location: "step8"
+       schema: "identity"
+       # Absolute path for the dry report. This is required in the dry run mode.
+       # reportPath:
+
+   - name: "SystemAppMigrator"
+     order: 16
+     parameters:
+        consoleRedirectUrl: "regexp=(<PROTOCOL>://<HOSTNAME>:<PORT>/console|<PROTOCOL>://<HOSTNAME>:<PORT>/t/(.*)/console)"
+        consoleAccessUrl: "https://localhost:9443/console"
+        myaccountRedirectUrl: "regexp=(<PROTOCOL>://<HOSTNAME>:<PORT>/myaccount|<PROTOCOL>://<HOSTNAME>:<PORT>/t/(.*)/myaccount)"
+        myaccountAccessUrl: "https://localhost:9443/myaccount"
+        accessTokenBindingType: "cookie"
+
+   - name: "AppInboundAuthMigrator"
+     order: 17
+
+   - name: "OIDCScopeDataMigrator"
+     order: 18
+
+   - name: "TOTPClaimDataMigrator"
+     order: 19
+   - name: "RoleClaimMigrator"
+     order: 20
+     parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         # reportPath:
+         # Based on the dry-run execution, if you decide to migrate the role claims, set the value to true.
+         migrateRoleClaim: false
+ -
+   version: "6.1.0"
+   migratorConfigs:
+     - name: "SchemaMigrator"
+       order: 1
+       parameters:
+         location: "step1"
+         schema: "identity"
+     - name: "UMAGrantMigrator"
+       order: 2
+       parameters:
+         # UMA grant is removed from OAuth apps since UMA grant is not supported out of the box from IS 6.1.0.
+         # If the UMA connector is used, set the value to false.
+         removeUMAGrantFromApps: true
+ -
+   version: "7.0.0"
+   migratorConfigs:
+     - name: "OAuth2ScopeGroupRoleMigrator"
+       order: 1
+     - name: "ClientIdTenantUnificationMigrator"
+       order: 2
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         reportPath: <absolute-path>
+     - name: "SchemaMigrator"
+       order: 3
+       parameters:
+         location: "step1"
+         schema: "identity"
+     - name: "SchemaMigrator"
+       order: 4
+       parameters:
+         location: "step1"
+         schema: "um"
+     - name: "SchemaMigrator"
+       order: 5
+       parameters:
+         location: "step1"
+         schema: "reg"
+     - name: "SchemaMigrator"
+       order: 6
+       parameters:
+         location: "step2"
+         schema: "identity"
+     - name: "LegacyToNewRuntimeMigrator"
+       order: 7
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         reportPath: <absolute-path>
+         # Based on the dry-run execution, if you decide not to subscribe to all APIs (Option 3), set the value to false.
+         subscribeAllAPIs: "true"
+     - name: "ClaimDataMigrator"
+       order: 8
+       parameters:
+         overrideExistingClaims: "true"
+         useOwnClaimDataFile: "false"
+     - name: "ConsoleRoleMigrator"
+       order: 9
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         reportPath: <absolute-path>
+     - name: "EmailTemplateDataMigrator"
+       order: 10
+     - name: "GroupUUIDMigrator"
+       order: 11
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         reportPath: <absolute-path>
+     - name: "CustomClaimDialectMigrator"
+       order: 12
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         # reportPath:
+     - name: "RoleClaimMigrator"
+       order: 13
+       parameters:
+         # Absolute path for the dry report. This is required in the dry run mode.
+         # reportPath:
+         # When migrating to IS 7.0.0, role claim migrator is mandatory.
+         migrateRoleClaim: true
+     - name: "FederateSessionMappingMigrator"
+       order: 14
+       parameters:
+          # Absolute path for the dry report. This is required in the dry run mode.
+          reportPath: <absolute-path>
+ -
+   version: "7.1.0"
+   migratorConfigs:
+     - name: "SchemaMigrator"
+       order: 1
+       parameters:
+         location: "step0"
+         schema: "identity"
+         isPreMigrationStep: "true"
+     - name: "SchemaMigrator"
+       order: 2
+       parameters:
+         location: "step1"
+         schema: "identity"
+     - name: "SchemaMigrator"
+       order: 3
+       parameters:
+         location: "step1"
+         schema: "um"
+     - name: "SchemaMigrator"
+       order: 4
+       parameters:
+         location: "step2"
+         schema: "reg"
+     - name: "SchemaMigrator"
+       order: 5
+       parameters:
+         location: "step2"
+         schema: "identity"
+     - name: "RemoteLoggingConfigMigrator"
+       order: 6
+     - name: "AdminAdvisoryBannerMigrator"
+       order: 7
+     - name: "KeyStoreMigrator"
+       order: 8
+       parameters:
+         waitTime: 100
+         rollbackAllowed: "true"
+     - name: "NotificationTemplateMigrator"
+       order: 9
+       parameters:
+         waitTime: 100
+         rollbackAllowed: "true"
+     - name: "B2BOrgNotificationTemplateMigrator"
+       order: 10
+       parameters:
+         waitTime: 100
+         rollbackAllowed: "true"
+     - name: "SAMLMigrator"
+       order: 11
+       parameters:
+         waitTime: 100
+         rollbackAllowed: "true"
+     - name: "CertificateValidationConfigMigrator"
+       order: 12
+       parameters:
+         waitTime: 100

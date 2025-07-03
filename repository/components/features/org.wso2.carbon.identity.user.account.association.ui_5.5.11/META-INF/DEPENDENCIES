@@ -1,0 +1,123 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon User Account Association UI Feature
+
+
+From: 'an unknown organization'
+  - CLI  commons-cli:commons-cli:jar:1.0
+
+  - Codec  commons-codec:commons-codec:jar:1.2
+
+  - commons.codec.wso2 (http://wso2.org) commons-codec.wso2:commons-codec:bundle:1.3.0.wso2v1
+
+  - Lang  commons-lang:commons-lang:jar:1.0
+
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
+    License: BSD  (LICENSE.txt)
+  - axis2.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2:bundle:1.6.1-wso2v38
+
+  - axis2.client.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-client:bundle:1.6.1-wso2v38
+
+  - axis2.json.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-json:bundle:1.6.1-wso2v38
+
+  - stax.impl.wso2 (http://wso2.org) org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:bundle:1.0.1.wso2v1
+
+  - httpcore.wso2 (http://wso2.org) org.apache.httpcomponents.wso2:httpcore:bundle:4.3.0.wso2v1
+
+  - woden.wso2 (http://wso2.org) org.apache.woden.wso2:woden:bundle:1.0.0.M8-wso2v1
+
+  - xmlschema.wso2 (http://wso2.org) org.apache.ws.commons.schema.wso2:XmlSchema:bundle:1.4.7.wso2v3
+
+  - commons-fileupload orbit bundle (http://wso2.org) org.wso2.orbit.commons-fileupload:commons-fileupload:bundle:1.3.1.wso2v1
+
+  - Commons HTTP Client - Orbit (http://wso2.org) org.wso2.orbit.commons-httpclient:commons-httpclient:bundle:3.1.0.wso2v3
+
+  - activation  org.wso2.orbit.javax.activation:activation:bundle:1.1.1.wso2v1
+
+  - neethi.wso2 (http://wso2.org) org.wso2.orbit.org.apache.neethi:neethi:bundle:2.0.4.wso2v5
+
+  - WSDL4J (http://sf.net/projects/wsdl4j) wsdl4j:wsdl4j:jar:1.6.2
+    License: CPL  (http://www.opensource.org/licenses/cpl1.0.txt)
+  - wsdl4j.wso2 (http://wso2.org) wsdl4j.wso2:wsdl4j:bundle:1.6.2.wso2v2
+
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Log4j (http://logging.apache.org/log4j/docs/) log4j:log4j:jar:1.2.14
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Activation 1.1 (http://geronimo.apache.org/specs/geronimo-activation_1.1_spec) org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Streaming API for XML (STAX API 1.0) (http://geronimo.apache.org/specs/geronimo-stax-api_1.0_spec) org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:bundle:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://codehaus.org)
+  - jaxen (http://jaxen.codehaus.org/) jaxen:jaxen:jar:1.1.1
+
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus Plexus' (http://codehaus-plexus.github.io/)
+  - Plexus Common Utilities (http://codehaus-plexus.github.io/plexus-utils/) org.codehaus.plexus:plexus-utils:jar:3.0.24
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:3.8.1
+    License: Common Public License Version 1.0  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'Mountainminds GmbH & Co. KG'
+  - JaCoCo :: Maven Plugin (https://www.jacoco.org/jacoco/trunk/doc/maven.html) org.jacoco:jacoco-maven-plugin:maven-plugin:0.8.12
+    License: EPL-2.0  (https://www.eclipse.org/legal/epl-2.0/)
+  - JaCoCo :: Agent (http://org.jacoco.agent) org.jacoco:org.jacoco.agent:jar:0.8.12
+    License: EPL-2.0  (https://www.eclipse.org/legal/epl-2.0/)
+  - JaCoCo :: Core (http://org.jacoco.core) org.jacoco:org.jacoco.core:jar:0.8.12
+    License: EPL-2.0  (https://www.eclipse.org/legal/epl-2.0/)
+  - JaCoCo :: Report (http://org.jacoco.report) org.jacoco:org.jacoco.report:jar:0.8.12
+    License: EPL-2.0  (https://www.eclipse.org/legal/epl-2.0/)
+
+From: 'OW2' (http://www.ow2.org/)
+  - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.7
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-commons (http://asm.ow2.io/) org.ow2.asm:asm-commons:jar:9.7
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-tree (http://asm.ow2.io/) org.ow2.asm:asm-tree:jar:9.7
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - JavaMail 1.4 (http://geronimo.apache.org/maven/specs/geronimo-javamail_1.4_spec/1.6) org.apache.geronimo.specs:geronimo-javamail_1.4_spec:bundle:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Doxia :: Sink API (http://maven.apache.org/doxia/doxia/doxia-sink-api) org.apache.maven.doxia:doxia-sink-api:jar:1.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Reporting API (http://maven.apache.org/shared/maven-reporting-api/) org.apache.maven.reporting:maven-reporting-api:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Axiom API (http://ws.apache.org/axiom/) org.apache.ws.commons.axiom:axiom-api:bundle:1.2.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Axiom Impl (http://ws.apache.org/axiom/) org.apache.ws.commons.axiom:axiom-impl:bundle:1.2.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Maven File Management API (https://maven.apache.org/shared/file-management/) org.apache.maven.shared:file-management:jar:3.1.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 Carbon User Account Association Stub (http://wso2.org) org.wso2.carbon.identity.association.account:org.wso2.carbon.identity.user.account.association.stub:bundle:5.5.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Secure Vault (http://www.wso2.org/org.wso2.securevault/) org.wso2.securevault:org.wso2.securevault:bundle:1.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.logging.remote.config.mgt" label="WSO2 Carbon - Remote Logging Config Management Feature" provider-name="%providerName" version="4.10.19">
+  <description>This feature is to update remote server logging configuration</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.apache.commons.configuration" unpack="false" version="1.10.0"/>
+  <plugin id="org.wso2.carbon.logging.service" unpack="false" version="4.10.19"/>
+  <includes id="org.wso2.carbon.logging.remote.config.mgt.ui" optional="false" version="4.10.19"/>
+</feature>

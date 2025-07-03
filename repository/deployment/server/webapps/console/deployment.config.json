@@ -1,0 +1,1493 @@
+{
+    "accountApp": {
+                "path": "/myaccount/overview"
+    },
+    "adminApp": {
+            "path": "/users",
+            "basePath": "",
+            "displayName": "Manage"
+    },
+    "analytics": {
+        "metrics": {
+            "dependencyTrackingEnabled": false
+        }
+    },
+    "appBaseName": "console",
+    "clientID": "CONSOLE",
+    "debug": false,
+    "developerApp": {
+            "basePath": "",
+            "path": "/applications",
+            "displayName": "Develop"
+    },
+        "superTenantProxy" : "",
+    "idpConfigs": {
+            "logoutEndpointURL": "${serverOrigin}/oidc/logout",
+            "oidcSessionIFrameEndpointURL": "${serverOrigin}/oidc/checksession",
+            "baseUrls": [
+            ],
+            "clockTolerance": 300.0,
+            "periodicTokenRefresh": false,
+            "authorizeEndpointURL": "${serverOrigin}/oauth2/authorize",
+            "scope": [
+                    "SYSTEM",
+                    "profile",
+                    "openid"
+            ],
+            "storage": "webWorker"
+    },
+    "i18nResourcePath": "",
+    "loginCallbackPath": "",
+    "logoutCallbackPath": "",
+    "routePaths": {
+            "login": "",
+            "home": "/getting-started",
+            "logout": "/logout"
+    },
+    "extensions": {
+            "defaultBrandedLoginScreenCopyright": "${copyright} ${year} WSO2 LLC.",
+            "smsTemplates": [
+                        {
+                                    "description": "This SMS is sent when a user registers and needs to confirm their account.",
+                                    "displayName": "Account Confirmation",
+                                    "id": "YWNjb3VudGNvbmZpcm1hdGlvbg"
+                        },
+                        {
+                                    "description": "This SMS is sent when a user requests to recover their username.",
+                                    "displayName": "Account ID Recovery",
+                                    "id": "YWNjb3VudElkUmVjb3Zlcnk"
+                        },
+                        {
+                                    "description": "This SMS is sent to notify the user of a successful password reset.",
+                                    "displayName": "Password Reset Success",
+                                    "id": "cGFzc3dvcmRSZXNldFN1Y2Vzcw"
+                        },
+                        {
+                                    "description": "This SMS is sent when a user initiates a password reset.",
+                                    "displayName": "Password Reset",
+                                    "id": "cGFzc3dvcmRSZXNldA"
+                        },
+                        {
+                                    "description": "This SMS is sent when a user requests to resend the OTP for password reset.",
+                                    "displayName": "Resend Password Reset",
+                                    "id": "cmVzZW5kUGFzc3dvcmRSZXNldA"
+                        },
+                        {
+                                    "description": "This SMS is sent to provide a one-time password for verification.",
+                                    "displayName": "SMS OTP",
+                                    "id": "U01TT1RQ"
+                        },
+                        {
+                                    "description": "This SMS is sent to verify the user's mobile number after an update.",
+                                    "displayName": "Verify Mobile On Update",
+                                    "id": "dmVyaWZ5TW9iaWxlT25VcGRhdGU"
+                        }
+            ],
+            "emailTemplates": [
+                        {
+                                    "id": "cmVzZW5kUGFzc3dvcmRSZXNldA",
+                                    "displayName": "Resend Password Reset",
+                                    "description": "This email is sent when the organization admin reinitiates password reset for a user"
+                        },
+                        {
+                                    "id": "cGFzc3dvcmRSZXNldFN1Y2Vzcw",
+                                    "displayName": "Password Reset Success",
+                                    "description": "This email notifies the user that password reset is successfully completed"
+                        },
+                        {
+                                    "id": "QWRtaW5Gb3JjZWRQYXNzd29yZFJlc2V0",
+                                    "displayName": "Admin-Requested Password Reset",
+                                    "description": "This email notifies the user that the organization admin has requested a password reset."
+                        },
+                        {
+                                    "id": "VW5zZWVuRGV2aWNlTG9naW4",
+                                    "displayName": "New Device Login",
+                                    "description": "This email notifies the user that a login from a new device is detected"
+                        },
+                        {
+                                    "id": "QWNjb3VudFVubG9ja0FkbWlu",
+                                    "displayName": "Account Unlocked By Admin",
+                                    "description": "This email notifies the user that their account is unlocked by the organization admin"
+                        },
+                        {
+                                    "id": "QWNjb3VudENvbmZpcm1hdGlvbg",
+                                    "displayName": "Account Confirmation",
+                                    "description": "This email is used to request the user to confirm their email address for the new account"
+                        },
+                        {
+                                    "id": "UGFzc3dvcmRSZXNldA",
+                                    "displayName": "Password Reset",
+                                    "description": "This email is sent when the user has requested a password reset"
+                        },
+                        {
+                                    "id": "QXNrUGFzc3dvcmQ",
+                                    "displayName": "Request New User Password",
+                                    "description": "This email is sent to request a password from the user when the new account is created"
+                        },
+                        {
+                                    "id": "QWNjb3VudFVubG9ja1RpbWVCYXNlZA",
+                                    "displayName": "Account Unlocked",
+                                    "description": "This email notifies the user that their account is now unlocked (Time-Based)"
+                        },
+                        {
+                                    "id": "bWFnaWNMaW5r",
+                                    "displayName": "Magic Link",
+                                    "description": "This email sends the Magic Link to the user"
+                        },
+                        {
+                                    "id": "QWNjb3VudExvY2tBZG1pbg",
+                                    "displayName": "Account Locked By Admin",
+                                    "description": "This email notifies the user that the account is locked by the organization admin"
+                        },
+                        {
+                                    "id": "QWNjb3VudExvY2tGYWlsZWRBdHRlbXB0",
+                                    "displayName": "Account Locked By Failed Attempts",
+                                    "description": "This email notifies the user that the account is locked by due to too many failed login attempts"
+                        },
+                        {
+                                    "id": "QWNjb3VudEVuYWJsZQ",
+                                    "displayName": "Account Enabled",
+                                    "description": "This email notifies the user that the account is now enabled"
+                        },
+                        {
+                                    "id": "UmVzZW5kQWNjb3VudENvbmZpcm1hdGlvbg",
+                                    "displayName": "Resend Account Confirmation",
+                                    "description": "This email is used to re-send the notification to confirm user's email address"
+                        },
+                        {
+                                    "id": "UmVzZW5kRW1haWxPVFA",
+                                    "displayName": "Resend Email OTP",
+                                    "description": "This email resends the Email OTP to a user"
+                        },
+                        {
+                                    "id": "RW1haWxPVFA",
+                                    "displayName": "Email OTP",
+                                    "description": "This email sends the Email OTP to a user"
+                        },
+                        {
+                                    "id": "QWNjb3VudERpc2FibGU",
+                                    "displayName": "Account Disabled"
+                        },
+                        {
+                                    "id": "RW1haWxDb25maXJt",
+                                    "displayName": "Email Confirmation",
+                                    "description": "This email is used to request the user to confirm their email address"
+                        },
+                        {
+                                    "id": "QWNjb3VudElkUmVjb3Zlcnk",
+                                    "displayName": "Recover user account",
+                                    "description": "This email is sent when a user account needs to be recovered"
+                        },
+                        {
+                                    "id": "VGVtcG9yYXJ5UGFzc3dvcmQ",
+                                    "displayName": "Temporary Password",
+                                    "description": "This email is used to sent a temporary password to the user"
+                        },
+                        {
+                                    "id": "T25lVGltZVBhc3N3b3Jk",
+                                    "displayName": "One-Time Password",
+                                    "description": "This email is used to sent a One-Time Password (OTP) to the user"
+                        },
+                        {
+                                    "id": "cmVzZW5kQXNrUGFzc3dvcmQ",
+                                    "displayName": "Resend Request New User Password",
+                                    "description": "This email is sent when the organization admin re-initiates the request for a new user password."
+                        },
+                        {
+                                    "id": "cmVzZW5kQWRtaW5Gb3JjZWRQYXNzd29yZFJlc2V0",
+                                    "displayName": "Resend Admin-Requested Forced Password Reset",
+                                    "description": "This email is sent when the organization admin re-initiates the forced password reset for a user"
+                        },
+                        {
+                                    "id": "QWRtaW5Gb3JjZWRQYXNzd29yZFJlc2V0V2l0aE9UUA",
+                                    "displayName": "Admin Forced Password Reset with OTP",
+                                    "description": "This email is sent when the organization admin initiates the forced password reset for a user with OTP"
+                        },
+                        {
+                                    "id": "cmVzZW5kQWRtaW5Gb3JjZWRQYXNzd29yZFJlc2V0V2l0aE9UUA",
+                                    "displayName": "Resend Admin Forced Password Reset with OTP",
+                                    "description": "This email is sent when the organization admin reinitiates the forced password reset for a user with OTP"
+                        },
+                        {
+                                    "id": "YWNjb3VudEFjdGl2YXRpb25TdWNjZXNz",
+                                    "displayName": "Account Activation Confirmation",
+                                    "description": "This email notifies the user that the account activation is successful"
+                        },
+                        {
+                                    "id": "aW5pdGlhdGVSZWNvdmVyeQ",
+                                    "displayName": "Password Reset Initiation",
+                                    "description": "This email is sent when the user initiates a password reset"
+                        },
+                        {
+                                    "id": "aWRsZUFjY291bnRSZW1pbmRlcg",
+                                    "displayName": "Idle Account Reminder",
+                                    "description": "This email is sent when the user account is idle for a configured amount of time"
+                        },
+                        {
+                                    "id": "VmVyaWZ5RW1haWxPblVwZGF0ZQ",
+                                    "displayName": "Email Update Verification",
+                                    "description": "This email is sent when the user changes the email address"
+                        },
+                        {
+                                    "id": "bm90aWZ5T25FeGlzdGluZ0VtYWlsVXBkYXRlV2l0aG91dFZlcmlmaWNhdGlvbg",
+                                    "displayName": "Email update without verification",
+                                    "description": "This email informs the user that the email address is updated"
+                        },
+                        {
+                                    "id": "bm90aWZ5T25FeGlzdGluZ0VtYWlsVXBkYXRl",
+                                    "displayName": "Email Update Notification",
+                                    "description": "This email informs the user that the email address is updated"
+                        },
+                        {
+                                    "id": "VE9UUA",
+                                    "displayName": "Time-Based One-Time Passcode",
+                                    "description": "This email is used to sent a Time-Based One-Time Password (TOTP) to the user"
+                        },
+                        {
+                                    "id": "VGVuYW50UmVnaXN0cmF0aW9uQ29uZmlybWF0aW9u",
+                                    "displayName": "Organization Registration Confirmation",
+                                    "description": "This email confirms the organization registration"
+                        },
+                        {
+                                    "id": "TGl0ZVVzZXJFbWFpbENvbmZpcm1hdGlvbg",
+                                    "displayName": "Lite User Email Confirmation",
+                                    "description": "This email is used to confirm a Lite User's email address"
+                        },
+                        {
+                                    "id": "UmVzZW5kTGl0ZVVzZXJFbWFpbENvbmZpcm1hdGlvbg",
+                                    "displayName": "Resend Lite User Email Confirmation",
+                                    "description": "This email is used to re-send the notification to confirm a Lite User's email address"
+                        },
+                        {
+                                    "id": "UmVzZW5kVmVyaWZ5RW1haWxPblVwZGF0ZQ",
+                                    "displayName": "Resend Email Update Verification",
+                                    "description": "This email is used to re-send the notification to verify the email address update"
+                        },
+                        {
+                                    "id": "c2VsZlNpZ25VcFN1Y2Nlc3M",
+                                    "displayName": "Self-Signup Success",
+                                    "description": "This email is sent when the user successfully signs up"
+                        },
+                        {
+                                    "id": "c2VsZlNpZ25VcE5vdGlmeQ",
+                                    "displayName": "Self-Signup Notification",
+                                    "description": "This email is sent when the user signs up"
+                        },
+                        {
+                                    "id": "T3JnYW5pemF0aW9uVXNlckludml0YXRpb24",
+                                    "displayName": "Organization User Invitation",
+                                    "description": "This email is sent when the organization admin invites a user to the organization"
+                        },
+                        {
+                                    "id": "SW1wZXJzb25hdGlvbkVtYWlsTm90aWZpY2F0aW9u",
+                                    "displayName": "Impersonation Email Notification",
+                                    "description": "This email is sent to the impersonated user when the impersonation session is started"
+                        }
+            ]
+    },
+    "session": {
+            "sessionRefreshTimeOut": 300.0,
+            "userIdleWarningTimeOut": 580.0,
+            "checkSessionInterval": 3.0,
+            "userIdleTimeOut": 600.0
+    },
+    "getProfileInfoFromIDToken": false,
+    "tenantContext": {
+        "enableTenantQualifiedUrls": true,
+        "requireSuperTenantInUrls": false,
+        "requireSuperTenantInAppUrls": true
+    },
+    "ui": {
+        "announcements": [
+        ],
+        "appCopyright": "WSO2 Identity Server",
+        "appTitle": "WSO2 Identity Server Console",
+        "appName": "Console",
+        "appLogoPath": "/assets/images/branding/logo.svg",
+        "appWhiteLogoPath": "/assets/images/branding/logo-inverted.svg",
+        "emailTemplates": {
+            "defaultLogoUrl": "/libs/themes/default/assets/images/branding/logo.svg",
+            "defaultWhiteLogoUrl": "/libs/themes/default/assets/images/branding/logo-inverted.svg"
+        },
+        "appFaviconPath": "/assets/images/branding/favicon.ico",
+        "googleOneTapEnabledTenants": [
+        ],
+        "showAppSwitchButton": true,
+        "isMultipleEmailsAndMobileNumbersEnabled": true,
+        "features": {
+            "actions": {
+                "disabledFeatures": [
+                    "actions.types.list.preRegistration",
+                    "actions.types.list.preUpdateProfile"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_action_mgt_view",
+                            "internal_rule_metadata_view",
+                            "internal_application_mgt_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "feature": [
+                            "console:actions"
+                    ],
+                    "create": [
+                            "internal_action_mgt_create"
+                    ],
+                    "delete": [
+                            "internal_action_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_action_mgt_update"
+                    ]
+                }
+            },
+            "loginAndRegistration": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_governance_update",
+                            "internal_validation_rule_mgt_update",
+                            "internal_config_update"
+                    ]
+                }
+            },
+            "internalNotificationSending": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ]
+                }
+            },
+            "accountLogin": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_config_mgt_update"
+                    ],
+                    "feature": [
+                    ]
+                }
+            },
+            "accountSecurity": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ]
+                }
+            },
+            "accountRecovery": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ]
+                }
+            },
+            "administrators": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                    "feature": [
+                    ],
+                    "create": [
+                    ],
+                    "read": [
+                    ],
+                    "delete": [
+                    ],
+                    "update": [
+                    ]
+                }
+            },
+            "ai": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,                     
+                "scopes": {
+                    "delete": [
+                    ],
+                    "feature": [
+                    ],
+                    "create": [
+                    ],
+                    "read": [
+                    ],
+                    "update": [
+                    ]
+                }
+            },
+            "analytics": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ]
+                }
+            },
+            "apiResources": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:apiResources"
+                    ],
+                    "create": [
+                            "internal_api_resource_create"
+                    ],
+                    "update": [
+                            "internal_api_resource_update"
+                    ],
+                    "read": [
+                            "internal_api_resource_view"
+                    ],
+                    "delete": [
+                            "internal_api_resource_delete"
+                    ]
+                }
+            },
+            "applications": {
+                "disabledFeatures": [
+                    "applications.loginFlow.legacyEditor"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:applications"
+                    ],
+                    "create": [
+                            "internal_application_mgt_create"
+                    ],
+                    "read": [
+                            "internal_application_mgt_view",
+                            "internal_claim_meta_view",
+                            "internal_role_mgt_view",
+                            "internal_userstore_view",
+                            "internal_idp_view"
+                    ],
+                    "update": [
+                            "internal_application_mgt_update"
+                    ],
+                    "delete": [
+                            "internal_application_mgt_delete"
+                    ]
+                }
+            },
+            "applicationRoles": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "approvals": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                    "update": [
+                            "internal_humantask_view"
+                    ],
+                    "delete": [
+                            "internal_humantask_view"
+                    ],
+                    "create": [
+                            "internal_humantask_view"
+                    ],
+                    "read": [
+                            "internal_humantask_view"
+                    ],
+                    "feature": [
+                            "console:workflowApprovals"
+                    ]
+                }
+            },
+            "attributeDialects": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:attributes"
+                    ],
+                    "create": [
+                            "internal_claim_meta_create"
+                    ],
+                    "update": [
+                            "internal_claim_meta_update"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "delete": [
+                            "internal_claim_meta_delete"
+                    ]
+                }
+            },
+            "attributeVerification": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ]
+                }
+            },
+            "branding": {
+                "disabledFeatures": [
+                    "branding.hostnameUrlBranding"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:branding"
+                    ],
+                    "update": [
+                            "internal_branding_preference_update"
+                    ],
+                    "read": [
+                            "internal_application_mgt_view"
+                    ],
+                    "create": [
+                            "internal_branding_preference_update"
+                    ],
+                    "delete": [
+                            "internal_branding_preference_update"
+                    ]
+                }
+            },
+            "bulkUserImport": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "userLimit": 100.0,
+                "fileImportTimeout": 60000.0,
+                "scopes": {
+                    "create": [
+                            "internal_user_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_user_mgt_create",
+                            "internal_user_mgt_delete",
+                            "internal_claim_meta_view",
+                            "internal_userstore_view",
+                            "internal_role_mgt_view"
+                    ]
+                }
+            },
+            "certificates": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_keystore_update"
+                    ],
+                    "update": [
+                            "internal_keystore_update"
+                    ],
+                    "read": [
+                            "internal_keystore_view"
+                    ],
+                    "delete": [
+                            "internal_keystore_update"
+                    ],
+                    "feature": [
+                            "console:certificates"
+                    ]
+                }
+            },
+            "consoleSettings": {
+                "disabledFeatures": [
+                    "consoleSettings.invitedExternalAdmins",
+                    "consoleSettings.privilegedUsers"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_application_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_user_mgt_view",
+                            "internal_userstore_view",
+                            "internal_role_mgt_view",
+                            "internal_group_mgt_view",
+                            "internal_idp_view",
+                            "internal_session_view",
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_application_mgt_update",
+                            "internal_user_mgt_update"
+                    ],
+                    "feature": [
+                            "console:settings"
+                    ],
+                    "create": [
+                            "internal_role_mgt_create"
+                    ]
+                }
+            },
+            "notificationChannels": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_notification_senders_create"
+                    ],
+                    "read": [
+                            "internal_notification_senders_view"
+                    ],
+                    "delete": [
+                            "internal_notification_senders_delete"
+                    ],
+                    "update": [
+                            "internal_notification_senders_update"
+                    ],
+                    "feature": [
+                            "console:notificationChannels"
+                    ]
+                }
+            },
+            "emailProviders": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_notification_senders_delete"
+                    ],
+                    "update": [
+                            "internal_notification_senders_update"
+                    ],
+                    "read": [
+                            "internal_notification_senders_view"
+                    ],
+                    "create": [
+                            "internal_notification_senders_create"
+                    ]
+                }
+            },
+            "smsProviders": {
+                "disabledFeatures": [
+                    "choreoAsSMSProvider"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_notification_senders_create"
+                    ],
+                    "delete": [
+                            "internal_notification_senders_delete"
+                    ],
+                    "update": [
+                            "internal_notification_senders_update"
+                    ],
+                    "read": [
+                            "internal_notification_senders_view"
+                    ]
+                }
+            },
+            "emailTemplates": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_email_mgt_update"
+                    ],
+                    "delete": [
+                            "internal_email_mgt_delete"
+                    ],
+                    "feature": [
+                            "console:emailTemplates"
+                    ],
+                    "create": [
+                            "internal_email_mgt_create"
+                    ],
+                    "read": [
+                            "internal_email_mgt_view"
+                    ]
+                }
+            },
+            "eventPublishing": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                    "delete": [
+                            "internal_event_config_update"
+                    ],
+                    "read": [
+                            "internal_event_config_view"
+                    ],
+                    "create": [
+                            "internal_event_config_update"
+                    ],
+                    "update": [
+                            "internal_event_config_update"
+                    ],
+                    "feature": [
+                            "console:eventPublishing"
+                    ]
+                }
+            },
+            "governanceConnectors": {
+                "deprecatedFeaturesToShow": [
+                ],
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                    ],
+                    "update": [
+                            "internal_governance_update",
+                            "internal_validation_rule_mgt_update",
+                            "internal_config_update"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "create": [
+                    ]
+                }
+            },
+            "groups": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:groups"
+                    ],
+                    "create": [
+                            "internal_group_mgt_create"
+                    ],
+                    "update": [
+                            "internal_group_mgt_update"
+                    ],
+                    "read": [
+                            "internal_user_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_role_mgt_view",
+                            "internal_group_mgt_view",
+                            "internal_userstore_view"
+                    ],
+                    "delete": [
+                            "internal_group_mgt_delete"
+                    ]
+                }
+            },
+            "guestUser": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_guest_mgt_invite_delete",
+                            "internal_guest_mgt_user_delete"
+                    ],
+                    "read": [
+                            "internal_guest_mgt_invite_list"
+                    ],
+                    "create": [
+                            "internal_guest_mgt_invite_add"
+                    ],
+                    "update": [
+                            "internal_guest_mgt_invite_update"
+                    ]
+                }
+            },
+            "parentUserInvitation": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_guest_mgt_invite_list"
+                    ],
+                    "update": [
+                            "internal_guest_mgt_invite_update"
+                    ],
+                    "delete": [
+                            "internal_guest_mgt_invite_delete",
+                            "internal_guest_mgt_user_delete"
+                    ],
+                    "create": [
+                            "internal_guest_mgt_invite_add"
+                    ]
+                }
+            },
+            "policyAdministration": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "identityProviders": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_idp_delete"
+                    ],
+                    "update": [
+                            "internal_idp_update"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_idp_view",
+                            "internal_role_mgt_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "create": [
+                            "internal_idp_create"
+                    ],
+                    "feature": [
+                            "console:idps"
+                    ]
+                }
+            },
+            "identityProviderGroups": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "identityVerificationProviders": {
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_idvp_update"
+                    ],
+                    "delete": [
+                            "internal_idvp_delete"
+                    ],
+                    "read": [
+                            "internal_idvp_view"
+                    ],
+                    "feature": [
+                            "console:idvps"
+                    ],
+                    "create": [
+                            "internal_idvp_add"
+                    ]
+                }
+            },
+            "insights": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "logs": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "gettingStarted": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:home"
+                    ],
+                    "update": [
+                            "internal_application_mgt_update"
+                    ],
+                    "read": [
+                    ],
+                    "create": [
+                            "internal_application_mgt_create",
+                            "internal_idp_create",
+                            "internal_user_mgt_create",
+                            "internal_group_mgt_create"
+                    ]
+                }
+            },
+            "myAccount": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "oidcScopes": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:scopes:oidc"
+                    ],
+                    "create": [
+                            "internal_oidc_scope_mgt_create"
+                    ],
+                    "read": [
+                            "internal_oidc_scope_mgt_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "update": [
+                            "internal_oidc_scope_mgt_update"
+                    ],
+                    "delete": [
+                            "internal_oidc_scope_mgt_delete"
+                    ]
+                }
+            },
+            "organizations": {
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:organizations"
+                    ],
+                    "create": [
+                            "internal_organization_create"
+                    ],
+                    "delete": [
+                            "internal_organization_delete"
+                    ],
+                    "read": [
+                            "internal_organization_view"
+                    ],
+                    "update": [
+                            "internal_organization_update"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "organizationDiscovery": {
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_organization_discovery_delete",
+                            "internal_organization_config_delete"
+                    ],
+                    "create": [
+                            "internal_organization_discovery_update",
+                            "internal_organization_config_add"
+                    ],
+                    "feature": [
+                            "console:organizationDiscovery"
+                    ],
+                    "update": [
+                            "internal_organization_config_update",
+                            "internal_organization_discovery_update"
+                    ],
+                    "read": [
+                            "internal_organization_discovery_view",
+                            "internal_organization_config_view",
+                            "internal_organization_view"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "residentOutboundProvisioning": {
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_idp_view",
+                            "internal_application_mgt_view"
+                    ],
+                    "update": [
+                            "internal_application_mgt_update"
+                    ],
+                    "feature": [
+                            "console:residentOutboundProvisioning"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "ruleBasedPasswordExpiry": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_governance_view",
+                            "internal_group_mgt_view",
+                            "internal_role_mgt_view"
+                    ],
+                    "update": [
+                            "internal_config_update",
+                            "internal_governance_update",
+                            "internal_validation_rule_mgt_update"
+                    ]
+                }
+            },
+            "server": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "delete": [
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "feature": [
+                            "console:server"
+                    ],
+                    "create": [
+                    ]
+                }
+            },
+            "saml2Configuration": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "secretsManagement": {
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_secret_mgt_add"
+                    ],
+                    "update": [
+                            "internal_secret_mgt_update"
+                    ],
+                    "read": [
+                            "internal_secret_mgt_view"
+                    ],
+                    "delete": [
+                            "internal_secret_mgt_delete"
+                    ],
+                    "feature": [
+                            "console:secretsManagement"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "sessionManagement": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "smsTemplates": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:smsTemplates"
+                    ],
+                    "delete": [
+                            "internal_template_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_template_mgt_update"
+                    ],
+                    "create": [
+                            "internal_template_mgt_create"
+                    ],
+                    "read": [
+                            "internal_template_mgt_view"
+                    ]
+                }
+            },
+            "userOnboarding": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:loginAndRegistration"
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "update": [
+                            "internal_governance_update"
+                    ]
+                }
+            },
+            "wsFedConfiguration": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                        "create": [],
+                        "read": [],
+                        "update": [],
+                        "delete": []
+                }
+            },
+            "pushProviders": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_notification_senders_delete"
+                    ],
+                    "create": [
+                            "internal_notification_senders_create"
+                    ],
+                    "update": [
+                            "internal_notification_senders_update"
+                    ],
+                    "read": [
+                            "internal_notification_senders_view"
+                    ]
+                }
+            },
+            "remoteFetchConfig": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                    "read": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "delete": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "create": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ]
+                }
+            },
+            "userV1Roles": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_user_mgt_view",
+                            "internal_role_mgt_view",
+                            "internal_userstore_view",
+                            "internal_group_mgt_view",
+                            "internal_permission_mgt_view",
+                            "internal_user_mgt_list"
+                    ],
+                    "delete": [
+                            "internal_role_mgt_delete"
+                    ],
+                    "create": [
+                            "internal_role_mgt_create"
+                    ],
+                    "update": [
+                            "internal_role_mgt_update"
+                    ],
+                    "feature": [
+                            "console:roles"
+                    ]
+                }
+            },
+            "userRoles": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_user_mgt_view",
+                            "internal_role_mgt_view",
+                            "internal_userstore_view",
+                            "internal_group_mgt_view",
+                            "internal_application_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_idp_view"
+                    ],
+                    "feature": [
+                            "console:roles"
+                    ],
+                    "create": [
+                            "internal_role_mgt_create"
+                    ],
+                    "update": [
+                            "internal_role_mgt_update"
+                    ],
+                    "delete": [
+                            "internal_role_mgt_delete"
+                    ]
+                }
+            },
+            "tenants": {
+                "disabledFeatures": [
+                        "tenants.deletion",
+                    "tenants.add.tenant.from.dropdown",
+                    "tenants.make.default",
+                    "tenants.organizations.quick.nav.from.dropdown"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:tenants"
+                    ],
+                    "create": [
+                            "internal_create_tenants"
+                    ],
+                    "read": [
+                            "internal_list_tenants"
+                    ],
+                    "delete": [
+                            "internal_modify_tenants"
+                    ],
+                    "update": [
+                            "internal_modify_tenants"
+                    ]
+                }
+            },
+            "users": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_user_mgt_create"
+                    ],
+                    "feature": [
+                            "console:users"
+                    ],
+                    "delete": [
+                            "internal_user_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_user_mgt_update",
+                            "internal_session_delete"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_role_mgt_view",
+                            "internal_group_mgt_view",
+                            "internal_governance_view",
+                            "internal_login",
+                            "internal_user_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_session_view"
+                    ]
+                }
+            },
+            "userStores": {
+                "disabledFeatures": [
+                    "userStores.type.remote"
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_userstore_view"
+                    ],
+                    "delete": [
+                            "internal_userstore_delete"
+                    ],
+                    "create": [
+                            "internal_userstore_create"
+                    ],
+                    "feature": [
+                            "console:userstores"
+                    ],
+                    "update": [
+                            "internal_userstore_update"
+                    ]
+                }
+            }
+        },
+        "gravatarConfig": {
+               "fallback": "404"
+        },
+        "hiddenAuthenticators": [
+                "BasicAuthRequestPathAuthenticator",
+                "OAuthRequestPathAuthenticator"
+        ],
+        "hiddenConnectionTemplates": [
+                "swe-idp"
+        ],
+        "hiddenApplicationTemplates": [
+        ],
+        "hiddenUserStores": [
+        ],
+        "i18nConfigs": {
+                "showLanguageSwitcher": false,
+                "langAutoDetectEnabled": false
+        },
+        "identityProviderTemplates": {
+            "hypr": {
+                    "enabled": false
+            },
+            "github": {
+                    "enabled": true
+            }
+        },
+        "isCookieConsentBannerEnabled": false,
+        "cookiePolicyUrl": "/authenticationendpoint/cookie_policy.do",
+        "isClaimUniquenessValidationEnabled": true,
+        "isClientSecretHashEnabled": false,
+        "isCustomClaimMappingEnabled": true,
+        "isCustomClaimMappingMergeEnabled": true,
+        "isDefaultDialectEditingEnabled": false,
+        "isGroupAndRoleSeparationEnabled": true,
+        "isHeaderAvatarLabelAllowed": true,
+            "enableCustomEmailTemplates": true,
+            "enableCustomSmsTemplates": true,
+        "isPasswordInputValidationEnabled": true,
+        "passwordPolicyConfigs": {
+            "maxPasswordAllowedLength": 64
+        },
+        "isSignatureValidationCertificateAliasEnabled": false,
+        "listAllAttributeDialects": true,
+        "enableIdentityClaims": true,
+        "customUserSchemaURI": "urn:scim:schemas:extension:custom:User",
+        "enableEmailDomain": false,
+        "multiTenancy": {
+            "isTenantDomainDotExtensionMandatory": true,
+            "tenantDomainIllegalCharactersRegex": ".*[^a-z0-9._-].*",
+            "tenantDomainRegex": ""
+        },
+        "privacyPolicyConfigs": {
+        },
+        "productName": "WSO2 Identity Server",
+        "productVersionConfig": {
+                "productVersion": "BETA"
+        },
+        "routes": {
+            "organizationEnabledRoutes": [
+                "apiResources",
+                "applications",
+                "attributeDialects",
+                "branding",
+                "consoleSettings",
+                "emailTemplates",
+                "gettingStarted",
+                "governanceConnectors",
+                "groups",
+                "identityProviders",
+                "organizations",
+                "roles",
+                "smsTemplates",
+                "userRoles",
+                "userStores",
+                "users"
+            ]
+        },
+        "selfAppIdentifier": "Console",
+        "systemAppsIdentifiers": [
+                "Console",
+                "My Account"
+        ],
+        "isEditingSystemRolesAllowed": true,
+        "isXacmlConnectorEnabled": false,
+        "isTrustedAppConsentRequired": false,
+        "administratorRoleDisplayName": "Administrator",
+        "legacyMode": {
+        },
+        "theme": {
+            "name": "wso2is"
+        }
+    }
+}

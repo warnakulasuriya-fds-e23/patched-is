@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.application.authenticator.fido2.server" label="WSO2 Carbon - FIDO2 Feature" provider-name="%providerName" version="5.4.18">
+  <description>This feature contains the core fido2 functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="com.fasterxml.jackson.core.jackson-annotations" unpack="false" version="2.17.2"/>
+  <plugin id="yubico-webauthn" unpack="false" version="2.4.0.wso2v1"/>
+  <plugin id="webauthn4j" unpack="false" version="0.21.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.application.authenticator.fido2" unpack="false" version="5.4.18"/>
+  <plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-cbor" unpack="false" version="2.17.2"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-databind" unpack="false" version="2.17.2"/>
+  <plugin id="com.fasterxml.jackson.core.jackson-core" unpack="false" version="2.17.2"/>
+  <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-jdk8" unpack="false" version="2.17.2"/>
+</feature>

@@ -1,0 +1,11 @@
+{
+  "password.recovery.heading": "Mot de passe oublié?",
+  "password.recovery.body": "Nous avons ce qu'il vous faut. Entrez votre nom d'utilisateur pour commencer à réinitialiser votre mot de passe.",
+  "password.recovery.identifier.input.placeholder": "Nom d'utilisateur",
+  "password.recovery.button.email.link": "Envoyer le lien de réinitialisation",
+  "password.recovery.button.email.otp": "Envoyer un e-mail OTP",
+  "password.recovery.button.smsotp": "Envoyer le code SMS",
+  "send.email.link": "Envoyer le lien de réinitialisation par e-mail",
+  "send.email.otp": "Envoyer un OTP par e-mail",
+  "send.code.via.sms": "Envoyer un OTP par SMS"
+}

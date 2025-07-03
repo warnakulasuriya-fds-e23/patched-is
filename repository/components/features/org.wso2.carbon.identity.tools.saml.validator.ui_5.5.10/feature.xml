@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.tools.saml.validator.ui" label="SAML Request Validator UI Feature" provider-name="%providerName" version="5.5.10">
+  <description>This feature contains the bundles required for Front-end SAML request validator functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.tools.saml.validator.stub" unpack="false" version="5.5.10"/>
+  <plugin id="org.wso2.carbon.identity.tools.saml.validator.ui" unpack="false" version="5.5.10"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.6.0"/>
+  </require>
+</feature>

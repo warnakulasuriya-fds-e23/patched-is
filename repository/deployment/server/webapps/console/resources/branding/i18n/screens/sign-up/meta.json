@@ -1,0 +1,12 @@
+{
+  "sign.up.heading": {
+    "EDITABLE": true,
+    "SCREEN": "sign-up",
+    "MULTI_LINE": false
+  },
+  "sign.up.button": {
+    "EDITABLE": true,
+    "SCREEN": "sign-up",
+    "MULTI_LINE": false
+  }
+}
