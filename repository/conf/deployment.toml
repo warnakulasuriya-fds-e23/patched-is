@@ -12,7 +12,11 @@ create_admin_account = true
 type = "database_unique_id"
 
 [actions]
-types.authentication.action_request.allowed_parameters=["biometric-key"]
+types.authentication.action_request.allowed_parameters=["biometric-template"]
+
+[authentication.adaptive]
+http_function_allowed_domains = ["example.com", "api.example.org","7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io","localhost:4000", "https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io","https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate","http://localhost:4000"]
+
 
 [database.identity_db]
 type = "h2"

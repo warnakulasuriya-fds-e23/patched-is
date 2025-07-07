@@ -1,0 +1,885 @@
+TID: [] [] [2025-07-04 10:35:49,069] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-07-04 10:35:49,325] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-07-04 10:35:49,326] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-60-generic, amd64
+TID: [] [] [2025-07-04 10:35:49,326] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-07-04 10:35:49,326] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-07-04 10:35:49,327] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-07-04 10:35:49,327] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0
+TID: [] [] [2025-07-04 10:35:49,327] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/tmp
+TID: [] [] [2025-07-04 10:35:49,327] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-07-04 10:35:54,012] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-07-04 10:35:57,310] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 96ms
+TID: [] [] [2025-07-04 10:35:57,347] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 9ms
+TID: [] [] [2025-07-04 10:35:57,348] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 10ms
+TID: [] [] [2025-07-04 10:35:57,449] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-07-04 10:35:57,450] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-07-04 10:35:57,458] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-07-04 10:36:02,316] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-07-04 10:36:02,806] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-07-04 10:36:03,781] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-07-04 10:36:07,791] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-07-04 10:36:07,867] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-07-04 10:36:07,936] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-07-04 10:36:08,395] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-07-04 10:36:08,396] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-07-04 10:36:08,398] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-07-04 10:36:08,399] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-07-04 10:36:12,660] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-07-04 10:36:14,493] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-07-04 10:36:15,741] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-07-04 10:36:16,452] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-07-04 10:36:16,453] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-07-04 10:36:16,505] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-04 10:36:20,698] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-07-04 10:36:21,136] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-07-04 10:36:31,049] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-07-04 10:36:50,231] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-07-04 10:36:50,232] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-07-04 10:36:50,588] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-07-04 10:36:50,596] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-07-04 10:36:50,656] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-07-04 10:36:50,657] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-07-04 10:36:50,658] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-07-04 10:36:50,658] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 65 sec
+TID: [-1234] [] [2025-07-04 10:38:08,313] [6a88b819-9a02-4889-95e3-e1afbf05bf4b]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [oauth2] [2025-07-04 10:56:05,142] [059b4712-2d4c-4690-b33e-568d1ef7519f] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 32964db2-d104-4c15-9dbc-0050fdd8816a
+TID: [-1234] [oauth2] [2025-07-04 10:58:01,729] [f08d4943-9347-48bb-b64f-f770072e73f9]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.claims.impl.DefaultClaimHandler} - Subject claim could not be found amongst locally mapped unfiltered remote claims
+TID: [-1234] [oauth2] [2025-07-04 10:58:01,731] [f08d4943-9347-48bb-b64f-f770072e73f9]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.PostAuthenticatedSubjectIdentifierHandler} - Subject claim could not be found. Defaulting to Name Identifier.
+TID: [] [] [2025-07-04 11:03:07,760] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-04 11:03:07,763] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 11:03:07,775] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-04 11:03:07,778] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-04 11:03:07,779] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-04 11:03:07,797] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-04 11:03:07,798] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-04 11:03:07,876] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-04 11:03:07,896] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-04 11:03:07,908] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-04 11:03:07,933] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-04 11:03:07,976] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-04 11:03:08,008] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-04 11:03:08,024] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-04 11:03:08,033] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-04 11:03:08,041] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-04 11:03:08,058] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-04 11:03:08,120] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-04 11:03:08,146] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-04 11:03:08,146] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-04 11:03:08,147] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-04 11:03:08,148] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-04 11:03:08,148] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 11:03:08,148] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-04 11:03:08,177] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-04 11:03:08,179] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-04 11:03:08,368] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-04 11:03:08,907]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-04 11:03:08,908]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [] [] [2025-07-04 11:03:55,713] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-07-04 11:03:55,943] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-60-generic, amd64
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0
+TID: [] [] [2025-07-04 11:03:55,944] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/tmp
+TID: [] [] [2025-07-04 11:03:55,945] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-07-04 11:04:05,389] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-07-04 11:04:09,452] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 144ms
+TID: [] [] [2025-07-04 11:04:09,509] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 13ms
+TID: [] [] [2025-07-04 11:04:09,511] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 15ms
+TID: [] [] [2025-07-04 11:04:09,672] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 2ms
+TID: [] [] [2025-07-04 11:04:09,674] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 4ms
+TID: [] [] [2025-07-04 11:04:09,687] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-07-04 11:04:15,071] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-07-04 11:04:15,509] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-07-04 11:04:16,480] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-07-04 11:04:20,759] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-07-04 11:04:20,853] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-07-04 11:04:20,889] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-07-04 11:04:21,363] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-07-04 11:04:21,364] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-07-04 11:04:21,365] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-07-04 11:04:21,366] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-07-04 11:04:26,698] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-07-04 11:04:28,670] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-07-04 11:04:30,823] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-07-04 11:04:31,619] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-07-04 11:04:31,620] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-07-04 11:04:31,720] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-04 11:04:38,428] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-07-04 11:04:38,878] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-07-04 11:04:52,305] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-07-04 11:05:17,061] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-07-04 11:05:17,063] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-07-04 11:05:17,664] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-07-04 11:05:17,675] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-07-04 11:05:17,756] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-07-04 11:05:17,756] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-07-04 11:05:17,757] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-07-04 11:05:17,759] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 86 sec
+TID: [-1234] [] [2025-07-04 11:07:18,356] [ea6daf07-b638-4eaf-8810-72ce85653089]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [scim2] [2025-07-04 11:10:06,520] [58a1f2a9-b5a0-4d35-8f41-063444522650]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity autenticata For operation = POST
+TID: [-1234] [oauth2] [2025-07-04 11:15:43,189] [674a3749-8a40-4348-8d26-75264a896f48]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.claims.impl.DefaultClaimHandler} - Subject claim could not be found amongst locally mapped unfiltered remote claims
+TID: [-1234] [oauth2] [2025-07-04 11:15:43,193] [674a3749-8a40-4348-8d26-75264a896f48]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.PostAuthenticatedSubjectIdentifierHandler} - Subject claim could not be found. Defaulting to Name Identifier.
+TID: [-1234] [oauth2] [2025-07-04 11:52:10,300] [a646dce0-d852-44f9-8171-26288439c179]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: http://localhost:4000/api/fingerping/authorize
+TID: [-1234] [oauth2] [2025-07-04 11:52:10,302] [a646dce0-d852-44f9-8171-26288439c179] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 11:52:38,477] [16359761-d967-43ae-a51d-c5634285b63d]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: http://localhost:4000/api/fingerping/authorize
+TID: [-1234] [oauth2] [2025-07-04 11:52:38,478] [16359761-d967-43ae-a51d-c5634285b63d] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:22:28,838] [f6584eb4-9b1d-4dcf-9a00-fe0ddcd5f1d5] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Error occurred while executing action: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:23:36,169] [08295ae3-f1ac-484a-84f7-234869e48c03] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Error occurred while executing action: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:24:47,231] [05c41531-5d10-4f03-b4f4-328d933381c6] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Error occurred while executing action: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:33:56,742] [575d5170-75ca-4fcd-b6bc-85a6cf0d8ba7] ERROR {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Request for API: http://localhost:4000/api/fingerping/authorize failed due to an error. org.apache.http.conn.HttpHostConnectException: Connect to localhost:4000 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.executeRequest(APIClient.java:114)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.callAPI(APIClient.java:89)
+	at org.wso2.carbon.identity.action.execution.internal.service.impl.ActionExecutorServiceImpl.lambda$executeActionAsynchronously$0(ActionExecutorServiceImpl.java:300)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at org.wso2.carbon.identity.core.ThreadLocalAwareThreadPoolExecutor.lambda$wrapWithMdcContext$0(ThreadLocalAwareThreadPoolExecutor.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 17 more
+
+TID: [-1234] [oauth2] [2025-07-04 12:33:56,784] [575d5170-75ca-4fcd-b6bc-85a6cf0d8ba7]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: http://localhost:4000/api/fingerping/authorize
+TID: [-1234] [oauth2] [2025-07-04 12:33:56,785] [575d5170-75ca-4fcd-b6bc-85a6cf0d8ba7] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:36:24,035] [bbf6863d-2381-4e16-bbb3-6f52d7a5b8f2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 12:36:24,038] [bbf6863d-2381-4e16-bbb3-6f52d7a5b8f2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for T3JnYW5pemF0aW9uQXV0aGVudGljYXRvcjpTU08
+TID: [-1234] [oauth2] [2025-07-04 12:36:49,693] [07082783-9241-46f0-8917-2233e97b8f13] ERROR {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Request for API: http://localhost:4000/api/fingerping/authorize failed due to an error. org.apache.http.conn.HttpHostConnectException: Connect to localhost:4000 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.executeRequest(APIClient.java:114)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.callAPI(APIClient.java:89)
+	at org.wso2.carbon.identity.action.execution.internal.service.impl.ActionExecutorServiceImpl.lambda$executeActionAsynchronously$0(ActionExecutorServiceImpl.java:300)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at org.wso2.carbon.identity.core.ThreadLocalAwareThreadPoolExecutor.lambda$wrapWithMdcContext$0(ThreadLocalAwareThreadPoolExecutor.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 17 more
+
+TID: [-1234] [oauth2] [2025-07-04 12:36:49,699] [07082783-9241-46f0-8917-2233e97b8f13]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: http://localhost:4000/api/fingerping/authorize
+TID: [-1234] [oauth2] [2025-07-04 12:36:49,700] [07082783-9241-46f0-8917-2233e97b8f13] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 12:38:00,115] [86850203-2c73-4d35-b413-783bc227ae41] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 13:55:17,939] [aa3f696b-cf1a-4092-b308-16a4ee1a7cd3] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 13:55:25,085] [e36a6480-ddf5-4000-9051-18c302e5e477]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:55:25,086] [e36a6480-ddf5-4000-9051-18c302e5e477]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:56:19,342] [ba6313d4-6943-4093-a0ec-179d1bb25175]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:56:19,343] [ba6313d4-6943-4093-a0ec-179d1bb25175]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:56:26,595] [ddfacb8d-f018-47be-b168-b6bade642461]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:56:26,596] [ddfacb8d-f018-47be-b168-b6bade642461]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:56:41,578] [f2adbc21-5a31-4c80-a637-22b4edd517f2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:56:41,579] [f2adbc21-5a31-4c80-a637-22b4edd517f2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:56:54,002] [d17e2aab-82f2-4119-8990-eea08fec6456]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:56:54,003] [d17e2aab-82f2-4119-8990-eea08fec6456]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:57:16,868] [6fb68649-7b14-493d-a634-439e56326328]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:57:16,868] [6fb68649-7b14-493d-a634-439e56326328]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:58:02,978] [0e577135-02cf-4d10-9069-6e7935194410]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:58:02,978] [0e577135-02cf-4d10-9069-6e7935194410]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:58:11,477] [9fa460e6-7cbb-4fe8-980d-e49c249499fc]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:58:11,478] [9fa460e6-7cbb-4fe8-980d-e49c249499fc]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:58:33,433] [57136e2d-a628-4daf-9225-345e9c1cd6f8]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:58:33,434] [57136e2d-a628-4daf-9225-345e9c1cd6f8]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:58:54,437] [82d54d7d-d2b2-40fa-99ef-b26efdec6b53]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:58:54,438] [82d54d7d-d2b2-40fa-99ef-b26efdec6b53]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:59:01,246] [e7a27297-44b0-436f-9b3f-df869308843d]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:59:01,246] [e7a27297-44b0-436f-9b3f-df869308843d]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 13:59:23,144] [42b8f743-e008-490e-9657-359bd265fc03]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn/, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 13:59:23,144] [42b8f743-e008-490e-9657-359bd265fc03]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 14:00:45,832] [aed9b76b-a2d4-497f-b4e0-5ad6cd181b53]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:00:45,832] [aed9b76b-a2d4-497f-b4e0-5ad6cd181b53]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 14:00:57,412] [8568266a-fb00-43da-a0c3-5f62eaf282d2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:00:57,412] [8568266a-fb00-43da-a0c3-5f62eaf282d2]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 14:07:12,393] [5e301aaf-b916-44a2-9764-be86ae8ccdfc]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:07:12,394] [5e301aaf-b916-44a2-9764-be86ae8ccdfc]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 14:08:55,236] [309101c8-5f42-4928-9b2b-2652d7df3a89]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:08:55,236] [309101c8-5f42-4928-9b2b-2652d7df3a89]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for 73773c0b-8bf9-420c-a4c0-396b6ecb0e84
+TID: [-1234] [oauth2] [2025-07-04 14:10:22,849] [86c6d305-0ca8-42b4-b213-c98fedb9f031] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-04 14:18:28,682] [f06f5be2-0f67-41b4-b7d3-fc4179ec666e]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:18:28,683] [f06f5be2-0f67-41b4-b7d3-fc4179ec666e]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 14:30:38,103] [3f537e37-838b-411f-92db-ec7f53529a0a]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 14:30:38,104] [3f537e37-838b-411f-92db-ec7f53529a0a]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 14:35:31,518] [be88f59c-e4ec-4837-829a-3ec240d25bd1] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Error occurred while executing action: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [scim2] [2025-07-04 14:52:30,248] [6e4e046c-a838-448e-86c0-888208ea7d79]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity Outboundtester25 For operation = DELETE
+TID: [-1234] [scim2] [2025-07-04 14:52:51,726] [257a103e-74c2-4e01-8657-349f274723a6]  WARN {org.wso2.carbon.identity.provisioning.ProvisioningThread} - Fail the Provisioning for Entity Outboundtester8 For operation = DELETE
+TID: [-1234] [oauth2] [2025-07-04 15:05:13,954] [ec1ce5bb-e403-4e76-9027-9aa7fb25c5ba] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Failed to build the request payload for action type: AUTHENTICATION
+TID: [-1234] [oauth2] [2025-07-04 15:09:03,664] [46cc917c-2b31-45a7-a59d-b6d1b4bbdbc9]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 15:09:03,665] [46cc917c-2b31-45a7-a59d-b6d1b4bbdbc9]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 15:35:21,344] [d6094cdc-5fa5-4252-993a-af8dffd533bc] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Failed to build the request payload for action type: AUTHENTICATION
+TID: [-1234] [oauth2] [2025-07-04 16:43:03,701] [00c53a3c-e70f-46d6-a6c7-b578929dbe08] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Failed to build the request payload for action type: AUTHENTICATION
+TID: [-1234] [oauth2] [2025-07-04 16:48:26,208] [4f78df44-26e6-4a96-9567-3d31f51c8836] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:48:42,426] [f8c05c26-0c3c-4e1b-9153-5b01acdcba2b] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:51:31,223] [a7a513bb-657c-47a7-a96a-4d4bad871bbe] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:51:43,688] [baabeda6-e504-4cdb-b616-011497421d3b] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:53:54,058] [3361c554-82f3-47e8-8487-37079270eda6] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:53:59,199] [a5437bfe-499c-4b6a-9c8c-c7dedac44b80]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 16:53:59,199] [a5437bfe-499c-4b6a-9c8c-c7dedac44b80]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 16:54:58,089] [4982b193-0cd9-48d7-be3f-fd56c999bd8a] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:55:22,085] [5c5c5338-3dc4-4c6a-be3f-d636092e2782]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 16:55:22,086] [5c5c5338-3dc4-4c6a-be3f-d636092e2782]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 16:55:55,492] [28811a67-b73c-4235-9871-8fe5bc387a92] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 16:56:28,482] [5125a376-0d48-4714-8b3d-982fc6913ab2] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:02:36,283] [4f343c88-c4f8-40bf-af25-56661ba577db]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 17:02:36,284] [4f343c88-c4f8-40bf-af25-56661ba577db]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for c179694d-7837-44c5-a1d5-e94b42b62a5b
+TID: [-1234] [oauth2] [2025-07-04 17:15:10,032] [feee3475-f020-424e-9b78-047a5d5e1ad7] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:16:42,338] [af282802-42a1-4863-9aca-1e1523bf416a] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:16:53,115] [b2cd97e8-071a-405c-b59c-6bb58315788d]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Context does not exist. Probably due to invalidated cache. Requested client: 127.0.0.1, URI :POST:/oauth2/authn, User-Agent: PostmanRuntime/7.44.1 , Referer: null
+TID: [-1234] [oauth2] [2025-07-04 17:16:53,115] [b2cd97e8-071a-405c-b59c-6bb58315788d]  WARN {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Authentication context is null, redirect parameter filtering will not be done for null
+TID: [-1234] [oauth2] [2025-07-04 17:16:59,673] [7228365b-fe42-45fd-b56c-51a40943d988] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:17:21,466] [47526eb1-f647-4012-95dc-3ee7907b9a10] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:17:56,947] [c82b9a2d-6177-413d-a71a-3b635ac7b955] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:18:00,131] [81c4c766-c77b-4ef9-aca1-e282d266b100] ERROR {org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint} - Cannot find AuthenticationResult from the cache
+TID: [-1234] [oauth2] [2025-07-04 17:26:59,578] [1d45c5ca-7d23-412e-bb12-8592e3a00720] ERROR {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - print function is restricted.
+TID: [-1234] [oauth2] [2025-07-04 17:29:56,049] [36e7726a-7f0f-4fcb-ada4-820faedcd02e] ERROR {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder} - Error in executing the javascript for service provider : fingerprint-client, Javascript Fragment : 
+function (context) {
+            httpGet('https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate', {
+            "Accept": "application/json"
+        }, authConfig, {
+            onSuccess: function(context, data) {
+                Log.info('httpGet call succeeded');
+                context.selectedAcr = data.status;
+            },
+            onFail: function(context, data) {
+                Log.info('httpGet call failed');
+                context.selectedAcr = 'FAILED';
+            }
+        });
+        } ReferenceError: authConfig is not defined
+	at <js> :anonymous(Unnamed:4:175-184)
+	at org.graalvm.polyglot.Value.execute(Value.java:880)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.apply(GraalSerializableJsFunction.java:79)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder$JsBasedEvaluator.evaluate(JsGraalGraphBuilder.java:631)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.executeFunction(GraphBasedSequenceHandler.java:790)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleDecisionPoint(GraphBasedSequenceHandler.java:753)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:214)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:166)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:211)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:399)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.AuthenticationService.handleAuthentication(AuthenticationService.java:92)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthFlowThroughFramework(OAuth2AuthzEndpoint.java:4027)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleInitialAuthorizationRequest(OAuth2AuthzEndpoint.java:1498)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:350)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorizePost(OAuth2AuthzEndpoint.java:487)
+	at jdk.internal.reflect.GeneratedMethodAccessor412.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-07-04 17:30:13,788] [dc3b2370-25c4-44f1-906a-6f2c95d061d7] ERROR {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder} - Error in executing the javascript for service provider : fingerprint-client, Javascript Fragment : 
+function (context) {
+            httpGet('https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate', {
+            "Accept": "application/json"
+        }, authConfig, {
+            onSuccess: function(context, data) {
+                Log.info('httpGet call succeeded');
+                context.selectedAcr = data.status;
+            },
+            onFail: function(context, data) {
+                Log.info('httpGet call failed');
+                context.selectedAcr = 'FAILED';
+            }
+        });
+        } ReferenceError: authConfig is not defined
+	at <js> :anonymous(Unnamed:4:175-184)
+	at org.graalvm.polyglot.Value.execute(Value.java:880)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.apply(GraalSerializableJsFunction.java:79)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder$JsBasedEvaluator.evaluate(JsGraalGraphBuilder.java:631)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.executeFunction(GraphBasedSequenceHandler.java:790)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleDecisionPoint(GraphBasedSequenceHandler.java:753)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:214)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:166)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:211)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:399)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.AuthenticationService.handleAuthentication(AuthenticationService.java:92)
+	at org.wso2.carbon.identity.oauth.endpoint.api.auth.ApiAuthnEndpoint.handleAuthentication(ApiAuthnEndpoint.java:82)
+	at jdk.internal.reflect.GeneratedMethodAccessor419.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-07-04 17:31:28,608] [e252a6f4-70ee-4a9a-8120-9cb91570669e] ERROR {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder} - Error in executing the javascript for service provider : fingerprint-client, Javascript Fragment : 
+function (context) {
+            httpGet('https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate', {
+            "Accept": "application/json"
+        }, authConfig, {
+            onSuccess: function(context, data) {
+                Log.info('httpGet call succeeded');
+               
+            },
+            onFail: function(context, data) {
+                Log.info('httpGet call failed');
+                
+            }
+        });
+        } ReferenceError: authConfig is not defined
+	at <js> :anonymous(Unnamed:4:175-184)
+	at org.graalvm.polyglot.Value.execute(Value.java:880)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.apply(GraalSerializableJsFunction.java:79)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder$JsBasedEvaluator.evaluate(JsGraalGraphBuilder.java:631)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.executeFunction(GraphBasedSequenceHandler.java:790)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleDecisionPoint(GraphBasedSequenceHandler.java:753)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:214)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:166)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:211)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:399)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.AuthenticationService.handleAuthentication(AuthenticationService.java:92)
+	at org.wso2.carbon.identity.oauth.endpoint.api.auth.ApiAuthnEndpoint.handleAuthentication(ApiAuthnEndpoint.java:82)
+	at jdk.internal.reflect.GeneratedMethodAccessor419.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [oauth2] [2025-07-04 17:33:09,867] [04248c86-2165-445a-83da-adc41017d293] ERROR {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder} - Error in executing the javascript for service provider : fingerprint-client, Javascript Fragment : 
+function (context) {
+            httpGet('https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate', {
+            "Accept": "application/json"
+        });
+        } class java.lang.String cannot be cast to class org.graalvm.polyglot.Value (java.lang.String is in module java.base of loader 'bootstrap'; org.graalvm.polyglot.Value is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @b0be5cd)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.toSerializableForm(GraalSerializableJsFunction.java:102)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder.lambda$addEventListeners$1(JsGraalGraphBuilder.java:255)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1337)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder.addEventListeners(JsGraalGraphBuilder.java:253)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder.addLongWaitProcessInternal(JsGraalGraphBuilder.java:375)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.JsGraphBuilder.addLongWaitProcess(JsGraphBuilder.java:590)
+	at org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction.executeHttpMethod(AbstractHTTPFunction.java:140)
+	at org.wso2.carbon.identity.conditional.auth.functions.http.HTTPGetFunctionImpl.httpGet(HTTPGetFunctionImpl.java:87)
+	at <js> :anonymous(Unnamed:2-4:34-173)
+	at org.graalvm.polyglot.Value.execute(Value.java:880)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.GraalSerializableJsFunction.apply(GraalSerializableJsFunction.java:79)
+	at org.wso2.carbon.identity.application.authentication.framework.config.model.graph.graaljs.JsGraalGraphBuilder$JsBasedEvaluator.evaluate(JsGraalGraphBuilder.java:631)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.executeFunction(GraphBasedSequenceHandler.java:790)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleDecisionPoint(GraphBasedSequenceHandler.java:753)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:214)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:166)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:211)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:399)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.AuthenticationService.handleAuthentication(AuthenticationService.java:92)
+	at org.wso2.carbon.identity.oauth.endpoint.api.auth.ApiAuthnEndpoint.handleAuthentication(ApiAuthnEndpoint.java:82)
+	at jdk.internal.reflect.GeneratedMethodAccessor419.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:123)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:129)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.wso2.carbon.extension.identity.x509Certificate.valve.X509CertificateAuthenticationValve.invoke(X509CertificateAuthenticationValve.java:59)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+	at org.wso2.carbon.identity.core.context.valve.IdentityContextCreatorValve.invoke(IdentityContextCreatorValve.java:45)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by host exception: java.lang.ClassCastException: class java.lang.String cannot be cast to class org.graalvm.polyglot.Value (java.lang.String is in module java.base of loader 'bootstrap'; org.graalvm.polyglot.Value is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @b0be5cd)
+
+TID: [-1234] [oauth2] [2025-07-04 17:41:17,260] [9fbded2b-215c-4886-803c-71e07c24a84d]  WARN {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - External api invocation returned a client error. Status code: 404. Url: https://example.com/resource
+TID: [-1234] [oauth2] [2025-07-04 17:41:17,545] [9fbded2b-215c-4886-803c-71e07c24a84d]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 8ac16116-f595-47b2-99c8-c0473a8ee440 asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:41:17,546] [9fbded2b-215c-4886-803c-71e07c24a84d]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 8ac16116-f595-47b2-99c8-c0473a8ee440. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:41:17,564] [9fbded2b-215c-4886-803c-71e07c24a84d]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpGet call failed
+TID: [-1234] [oauth2] [2025-07-04 17:44:30,917] [2cc93619-868b-4ffb-a7f0-8ef190be2a1b]  WARN {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - External api invocation returned a client error. Status code: 400. Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate
+TID: [-1234] [oauth2] [2025-07-04 17:44:30,918] [2cc93619-868b-4ffb-a7f0-8ef190be2a1b]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 091ecae1-3779-47c1-a4a2-908cfd60701b asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:44:30,918] [2cc93619-868b-4ffb-a7f0-8ef190be2a1b]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 091ecae1-3779-47c1-a4a2-908cfd60701b. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:44:30,928] [2cc93619-868b-4ffb-a7f0-8ef190be2a1b]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [-1234] [oauth2] [2025-07-04 17:47:22,200] [4f949b1b-5bef-46ef-a481-8fd09c2f7364]  WARN {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - External api invocation returned a client error. Status code: 400. Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate
+TID: [-1234] [oauth2] [2025-07-04 17:47:22,201] [4f949b1b-5bef-46ef-a481-8fd09c2f7364]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 65e698ba-5763-415a-b738-09ec0081dc61 asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:47:22,201] [4f949b1b-5bef-46ef-a481-8fd09c2f7364]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 65e698ba-5763-415a-b738-09ec0081dc61. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:47:22,214] [4f949b1b-5bef-46ef-a481-8fd09c2f7364]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [-1234] [oauth2] [2025-07-04 17:50:24,286] [2835d5c5-17b5-4606-bcda-43e16e5fcd0c]  WARN {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - External api invocation returned a client error. Status code: 400. Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate
+TID: [-1234] [oauth2] [2025-07-04 17:50:24,287] [2835d5c5-17b5-4606-bcda-43e16e5fcd0c]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: f591057d-c58d-4f95-bf52-4cef20f556ff asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:50:24,287] [2835d5c5-17b5-4606-bcda-43e16e5fcd0c]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: f591057d-c58d-4f95-bf52-4cef20f556ff. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:50:24,297] [2835d5c5-17b5-4606-bcda-43e16e5fcd0c]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [] [] [2025-07-04 17:53:26,335] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-04 17:53:26,338] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 17:53:26,358] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-04 17:53:26,360] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-04 17:53:26,360] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-04 17:53:26,383] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-04 17:53:26,383] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-04 17:53:26,524] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-04 17:53:26,552] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-04 17:53:26,570] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-04 17:53:26,594] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-04 17:53:26,639] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-04 17:53:26,691] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-04 17:53:26,703] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-04 17:53:26,711] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-04 17:53:26,716] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-04 17:53:26,736] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-04 17:53:26,755] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-04 17:53:26,796] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-04 17:53:26,797] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-04 17:53:26,797] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-04 17:53:26,799] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-04 17:53:26,799] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 17:53:26,799] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-04 17:53:26,836] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-04 17:53:26,839] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-04 17:53:27,061] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-04 17:53:27,758]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-04 17:53:27,759]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [2025-07-04 17:55:14,592]  INFO {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-07-04 17:55:14,594]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0 {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-07-04 17:55:19,954] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-07-04 17:55:20,485] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-07-04 17:55:20,488] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-60-generic, amd64
+TID: [] [] [2025-07-04 17:55:20,488] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-07-04 17:55:20,488] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-07-04 17:55:20,489] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-07-04 17:55:20,489] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0
+TID: [] [] [2025-07-04 17:55:20,489] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/tmp
+TID: [] [] [2025-07-04 17:55:20,490] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-07-04 17:55:36,995] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-07-04 17:55:42,152] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 96ms
+TID: [] [] [2025-07-04 17:55:42,190] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 9ms
+TID: [] [] [2025-07-04 17:55:42,191] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 10ms
+TID: [] [] [2025-07-04 17:55:42,329] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-07-04 17:55:42,330] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-07-04 17:55:42,339] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-07-04 17:55:49,716] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-07-04 17:55:50,676] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-07-04 17:55:51,790] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-07-04 17:55:55,786] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-07-04 17:55:55,870] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-07-04 17:55:55,898] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-07-04 17:55:56,339] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-07-04 17:55:56,340] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-07-04 17:55:56,341] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-07-04 17:55:56,342] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-07-04 17:56:01,331] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-07-04 17:56:03,082] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-07-04 17:56:04,687] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-07-04 17:56:05,083] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-07-04 17:56:05,084] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-07-04 17:56:05,131] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-04 17:56:11,491] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-07-04 17:56:11,996] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-07-04 17:56:23,098] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-07-04 17:56:43,616] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-07-04 17:56:43,617] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-07-04 17:56:44,080] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-07-04 17:56:44,091] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-07-04 17:56:44,166] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-07-04 17:56:44,167] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-07-04 17:56:44,168] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-07-04 17:56:44,169] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 90 sec
+TID: [-1234] [] [2025-07-04 17:57:33,722] [08b73dd5-6121-41f3-a979-2a439ac81fcb]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [oauth2] [2025-07-04 17:58:13,989] [54d05606-c24c-4dc1-bb64-598993da4e79] ERROR {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - Request URL does not match with the allowed domain list. Request Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate
+TID: [-1234] [oauth2] [2025-07-04 17:58:13,990] [54d05606-c24c-4dc1-bb64-598993da4e79]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 661cd580-bb95-4cbc-b986-1d44756da510 asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:58:13,991] [54d05606-c24c-4dc1-bb64-598993da4e79]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 661cd580-bb95-4cbc-b986-1d44756da510. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:58:14,035] [54d05606-c24c-4dc1-bb64-598993da4e79]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [-1234] [oauth2] [2025-07-04 17:58:19,275] [fb092be6-f960-4388-9a81-295c1c87a355] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Failed to build the request payload for action type: AUTHENTICATION
+TID: [-1234] [oauth2] [2025-07-04 17:59:25,391] [6310765c-e9de-4868-acc6-35578f1fa445] ERROR {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - Request URL does not match with the allowed domain list. Request Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io
+TID: [-1234] [oauth2] [2025-07-04 17:59:25,392] [6310765c-e9de-4868-acc6-35578f1fa445]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 3e0d6187-5202-4648-80bb-0ab80809de43 asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:59:25,393] [6310765c-e9de-4868-acc6-35578f1fa445]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 3e0d6187-5202-4648-80bb-0ab80809de43. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:59:25,422] [6310765c-e9de-4868-acc6-35578f1fa445]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [-1234] [oauth2] [2025-07-04 17:59:31,778] [9747afe3-cc0b-4175-9424-e21d4c3dd759] ERROR {org.wso2.carbon.identity.conditional.auth.functions.http.AbstractHTTPFunction} - Request URL does not match with the allowed domain list. Request Url: https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io
+TID: [-1234] [oauth2] [2025-07-04 17:59:31,778] [9747afe3-cc0b-4175-9424-e21d4c3dd759]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - For session data key: 1fe427b9-dc37-4f42-acda-e3bc5c0f9a1a asyncReturn.accept() has been set by the async process flow of the custom function.
+TID: [-1234] [oauth2] [2025-07-04 17:59:31,779] [9747afe3-cc0b-4175-9424-e21d4c3dd759]  INFO {org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler} - This is a continuation of long wait process: 1fe427b9-dc37-4f42-acda-e3bc5c0f9a1a. The long wait status is COMPLETED
+TID: [-1234] [oauth2] [2025-07-04 17:59:31,810] [9747afe3-cc0b-4175-9424-e21d4c3dd759]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - httpPost call failed
+TID: [] [] [2025-07-04 18:02:38,973] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-04 18:02:38,974] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 18:02:38,977] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-04 18:02:38,978] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-04 18:02:38,978] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-04 18:02:38,987] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-04 18:02:38,987] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-04 18:02:39,063] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-04 18:02:39,079] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-04 18:02:39,091] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-04 18:02:39,114] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-04 18:02:39,148] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-04 18:02:39,180] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-04 18:02:39,188] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-04 18:02:39,198] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-04 18:02:39,206] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-04 18:02:39,220] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-04 18:02:39,238] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-04 18:02:39,265] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-04 18:02:39,266] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-04 18:02:39,266] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-04 18:02:39,267] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-04 18:02:39,268] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 18:02:39,268] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-04 18:02:39,288] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-04 18:02:39,289] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-04 18:02:39,452] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-04 18:02:40,070]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-04 18:02:40,070]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [2025-07-04 18:03:03,150]  INFO {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-07-04 18:03:03,152]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0 {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-07-04 18:03:07,798] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-07-04 18:03:08,395] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-07-04 18:03:08,396] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-60-generic, amd64
+TID: [] [] [2025-07-04 18:03:08,397] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-07-04 18:03:08,397] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-07-04 18:03:08,398] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-07-04 18:03:08,398] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0
+TID: [] [] [2025-07-04 18:03:08,399] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/tmp
+TID: [] [] [2025-07-04 18:03:08,399] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-07-04 18:03:19,183] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-07-04 18:03:23,461] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 124ms
+TID: [] [] [2025-07-04 18:03:23,511] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 11ms
+TID: [] [] [2025-07-04 18:03:23,512] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 13ms
+TID: [] [] [2025-07-04 18:03:23,636] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-07-04 18:03:23,638] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 3ms
+TID: [] [] [2025-07-04 18:03:23,649] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-07-04 18:03:30,945] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-07-04 18:03:31,629] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-07-04 18:03:33,138] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-07-04 18:03:38,697] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-07-04 18:03:38,763] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-07-04 18:03:38,797] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-07-04 18:03:39,273] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-07-04 18:03:39,275] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-07-04 18:03:39,277] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-07-04 18:03:39,278] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-07-04 18:03:44,881] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-07-04 18:03:47,273] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-07-04 18:03:48,945] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-07-04 18:03:49,429] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-07-04 18:03:49,430] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-07-04 18:03:49,481] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-04 18:03:55,335] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/userstores/ABCDEmployees.xml
+TID: [] [] [2025-07-04 18:04:07,914] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-07-04 18:04:32,518] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-07-04 18:04:32,519] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-07-04 18:04:32,951] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-07-04 18:04:32,960] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-07-04 18:04:33,039] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-07-04 18:04:33,040] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-07-04 18:04:33,041] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-07-04 18:04:33,042] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 90 sec
+TID: [] [] [2025-07-04 18:04:33,086] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [-1234] [] [2025-07-04 18:09:18,980] [145f74d3-e156-4e5c-96c5-e81bae9d6b65]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-04 18:29:46,291] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-04 18:29:46,294] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 18:29:46,309] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-04 18:29:46,310] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-04 18:29:46,311] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-04 18:29:46,321] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-04 18:29:46,322] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-04 18:29:46,391] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-04 18:29:46,412] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-04 18:29:46,433] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-04 18:29:46,453] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-04 18:29:46,491] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-04 18:29:46,527] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-04 18:29:46,542] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-04 18:29:46,552] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-04 18:29:46,563] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-04 18:29:46,579] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-04 18:29:46,599] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-04 18:29:46,628] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-04 18:29:46,629] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-04 18:29:46,630] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-04 18:29:46,631] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-04 18:29:46,632] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-04 18:29:46,632] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-04 18:29:46,669] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-04 18:29:46,671] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-04 18:29:46,932] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-04 18:29:47,524]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-04 18:29:47,525]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

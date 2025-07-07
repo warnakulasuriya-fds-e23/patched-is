@@ -1640,6 +1640,11 @@
             <Authentication>
                 <Enable>true</Enable>
                 <DefaultUserStore>PRIMARY</DefaultUserStore>
+                <ActionRequest>
+                    <AllowedParameters>
+                            <Parameter>biometric-template</Parameter>
+                    </AllowedParameters>
+                </ActionRequest>
             </Authentication>
         </Types>
     </Actions>
@@ -3375,6 +3380,15 @@
             <Timeout>500</Timeout>
         </ExecutionSupervisor>
 
+        <HTTPFunctionAllowedDomains>
+            <Domain>example.com</Domain>
+            <Domain>api.example.org</Domain>
+            <Domain>7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io</Domain>
+            <Domain>localhost:4000</Domain>
+            <Domain>https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io</Domain>
+            <Domain>https://7436ebec-15d2-4917-8942-de4cbdfb4fff.mock.pstmn.io/api/authenticate</Domain>
+            <Domain>http://localhost:4000</Domain>
+        </HTTPFunctionAllowedDomains>
 
 
         <!--Default configs for Choreo token endpoint-->
