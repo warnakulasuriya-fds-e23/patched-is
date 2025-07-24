@@ -1,0 +1,247 @@
+TID: [] [] [2025-07-09 08:39:34,286] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-09 08:39:34,329] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-09 08:39:34,335] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-09 08:39:34,360] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-09 08:39:34,361] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-09 08:39:34,418] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-09 08:39:34,418] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-09 08:39:34,522] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-09 08:39:34,542] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-09 08:39:34,557] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-09 08:39:34,583] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-09 08:39:34,657] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-09 08:39:34,729] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-09 08:39:34,731] [] ERROR {org.apache.catalina.session.StandardManager} - Exception unloading sessions to persistent storage java.io.FileNotFoundException: /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/lib/tomcat/work/Catalina/localhost/console/SESSIONS.ser (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:126)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:292)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:258)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:373)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4682)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:363)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:352)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:391)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:213)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1419)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:483)
+	at org.wso2.carbon.core.ServerManagement.waitForDeploymentThreadCompletion(ServerManagement.java:144)
+	at org.wso2.carbon.core.ServerManagement.startMaintenanceForShutDown(ServerManagement.java:95)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:900)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:923)
+
+TID: [] [] [2025-07-09 08:39:34,739] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-09 08:39:34,748] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-09 08:39:34,752] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-09 08:39:34,764] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-09 08:39:34,784] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-09 08:39:34,817] [] ERROR {org.apache.catalina.session.StandardManager} - Exception unloading sessions to persistent storage java.io.FileNotFoundException: /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/lib/tomcat/work/Catalina/localhost/authenticationendpoint/SESSIONS.ser (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:126)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:292)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:258)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:373)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4682)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:363)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:352)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:391)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:213)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1419)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:483)
+	at org.wso2.carbon.core.ServerManagement.waitForDeploymentThreadCompletion(ServerManagement.java:144)
+	at org.wso2.carbon.core.ServerManagement.startMaintenanceForShutDown(ServerManagement.java:95)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:900)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:923)
+
+TID: [] [] [2025-07-09 08:39:34,823] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-09 08:39:34,826] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-09 08:39:34,826] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-09 08:39:34,828] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-09 08:39:34,829] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-09 08:39:34,829] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-09 08:39:34,858] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-09 08:39:34,865] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-09 08:39:35,064] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-09 8:39:35,751]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-09 8:39:35,752]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [] [] [2025-07-09 08:55:34,414] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-07-09 08:55:34,642] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-07-09 08:55:34,642] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-60-generic, amd64
+TID: [] [] [2025-07-09 08:55:34,643] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [] [] [2025-07-09 08:55:34,643] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-07-09 08:55:34,643] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-post-Ubuntu-0ubuntu122.04,Ubuntu
+TID: [] [] [2025-07-09 08:55:34,643] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0
+TID: [] [] [2025-07-09 08:55:34,644] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/tmp
+TID: [] [] [2025-07-09 08:55:34,644] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : dheera, en-US, Asia/Colombo
+TID: [] [] [2025-07-09 08:55:44,081] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-07-09 08:55:48,905] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 114ms
+TID: [] [] [2025-07-09 08:55:48,935] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 6ms
+TID: [] [] [2025-07-09 08:55:48,936] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 7ms
+TID: [] [] [2025-07-09 08:55:49,022] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-07-09 08:55:49,023] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-07-09 08:55:49,029] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-07-09 08:55:54,769] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-07-09 08:55:55,316] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-07-09 08:55:56,603] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-07-09 08:56:00,632] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/deployment/server/
+TID: [] [] [2025-07-09 08:56:00,690] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-07-09 08:56:00,728] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-07-09 08:56:01,230] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - org.wso2.carbon.identity.core is 7.8.23.4 - Proceeding with service binding.
+TID: [] [] [2025-07-09 08:56:01,231] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Certificate Management Service.
+TID: [] [] [2025-07-09 08:56:01,233] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Manager Service.
+TID: [] [] [2025-07-09 08:56:01,235] []  INFO {org.wso2.carbon.is.migration.internal.ISMigrationServiceComponent} - Successfully registered Secret Resolve Manager Service.
+TID: [] [] [2025-07-09 08:56:05,973] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-07-09 08:56:07,689] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-07-09 08:56:09,115] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2025-07-09 08:56:09,508] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-07-09 08:56:09,508] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-07-09 08:56:09,555] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-07-09 08:56:13,850] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-07-09 08:56:24,364] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-07-09 08:56:44,246] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-07-09 08:56:44,248] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2025-07-09 08:56:44,628] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [cn_baltimore_cybertrust_root,ou_cybertrust,o_baltimore,c_ie] and DN [CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE] is not valid due to [NotAfter: Tue May 13 05:29:00 IST 2025]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-07-09 08:56:44,652] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/dheera/Research/ISWithCustAuthPatch/wso2is-7.1.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2025-07-09 08:56:44,723] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://localhost:9443/myaccount
+TID: [] [] [2025-07-09 08:56:44,724] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://localhost:9443/console
+TID: [] [] [2025-07-09 08:56:44,724] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.1.0
+TID: [] [] [2025-07-09 08:56:44,725] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 74 sec
+TID: [-1234] [oauth2] [2025-07-09 09:00:57,243] [5847a77a-583a-49ba-ba41-e012a1d13de6]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: XSA4242
+TID: [-1234] [oauth2] [2025-07-09 09:00:57,256] [5847a77a-583a-49ba-ba41-e012a1d13de6]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - else if condition running
+TID: [-1234] [oauth2] [2025-07-09 09:00:57,269] [5847a77a-583a-49ba-ba41-e012a1d13de6]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for if else condition hasaccess :true
+TID: [-1234] [oauth2] [2025-07-09 09:00:57,270] [5847a77a-583a-49ba-ba41-e012a1d13de6]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 2 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 09:04:57,000] [56c46cb6-ae49-4ef3-ad17-898cb699dabc]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: XSA4242
+TID: [-1234] [oauth2] [2025-07-09 09:04:57,001] [56c46cb6-ae49-4ef3-ad17-898cb699dabc]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - else if condition running
+TID: [-1234] [oauth2] [2025-07-09 09:04:57,027] [56c46cb6-ae49-4ef3-ad17-898cb699dabc]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for if else condition hasaccess :true
+TID: [-1234] [oauth2] [2025-07-09 09:04:57,029] [56c46cb6-ae49-4ef3-ad17-898cb699dabc]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 2 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 09:05:12,497] [343a7743-fe9b-47f7-8a82-44a6cccfc86a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: XSA4242
+TID: [-1234] [oauth2] [2025-07-09 09:05:12,498] [343a7743-fe9b-47f7-8a82-44a6cccfc86a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - else if condition running
+TID: [-1234] [oauth2] [2025-07-09 09:05:12,500] [343a7743-fe9b-47f7-8a82-44a6cccfc86a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for if else condition hasaccess :true
+TID: [-1234] [oauth2] [2025-07-09 09:05:12,501] [343a7743-fe9b-47f7-8a82-44a6cccfc86a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 2 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 10:13:22,899] [7f497ce6-dd05-4c16-8644-bafef1d1b661]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 10:13:22,905] [7f497ce6-dd05-4c16-8644-bafef1d1b661]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 10:13:22,905] [7f497ce6-dd05-4c16-8644-bafef1d1b661]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [] [2025-07-09 11:48:49,477] [7250a134-176d-4755-a388-69f5423d14a7]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [oauth2] [2025-07-09 12:33:11,571] [7395a206-d287-4dcd-99f2-57b404138415]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 12:33:11,576] [7395a206-d287-4dcd-99f2-57b404138415]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 12:33:11,577] [7395a206-d287-4dcd-99f2-57b404138415]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 13:44:59,642] [035347bd-5c59-4cc8-928e-33cbb17dcf71] ERROR {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Request for API: http://localhost:4000/api/fingerprint/authorize failed due to an error. org.apache.http.conn.HttpHostConnectException: Connect to localhost:4000 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.executeRequest(APIClient.java:114)
+	at org.wso2.carbon.identity.action.execution.internal.util.APIClient.callAPI(APIClient.java:89)
+	at org.wso2.carbon.identity.action.execution.internal.service.impl.ActionExecutorServiceImpl.lambda$executeActionAsynchronously$0(ActionExecutorServiceImpl.java:300)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at org.wso2.carbon.identity.core.ThreadLocalAwareThreadPoolExecutor.lambda$wrapWithMdcContext$0(ThreadLocalAwareThreadPoolExecutor.java:90)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 17 more
+
+TID: [-1234] [oauth2] [2025-07-09 13:44:59,689] [035347bd-5c59-4cc8-928e-33cbb17dcf71]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: http://localhost:4000/api/fingerprint/authorize
+TID: [-1234] [oauth2] [2025-07-09 13:44:59,691] [035347bd-5c59-4cc8-928e-33cbb17dcf71] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 13:45:54,026] [34a77962-1686-416d-9608-a6688698f23f]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 13:45:54,033] [34a77962-1686-416d-9608-a6688698f23f]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 13:45:54,034] [34a77962-1686-416d-9608-a6688698f23f]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 13:59:52,582] [7fd97bc1-56ba-487c-8da3-92d5d3ee300d]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 13:59:52,585] [7fd97bc1-56ba-487c-8da3-92d5d3ee300d]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 13:59:52,586] [7fd97bc1-56ba-487c-8da3-92d5d3ee300d]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 14:07:14,947] [2d25c451-4fe8-4989-8fad-f5bc6f673a69] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 14:12:11,010] [bd45ff02-7535-4320-84d8-6d186fde82c2] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 14:14:51,123] [e7ad943c-c2e1-40a7-a283-95d0b225bbb4] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 14:19:36,268] [d3894741-f820-4771-bce5-6b966fb4b9ca]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 14:19:36,272] [d3894741-f820-4771-bce5-6b966fb4b9ca]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 14:19:36,273] [d3894741-f820-4771-bce5-6b966fb4b9ca]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 14:20:50,005] [fd4c67bd-daad-45de-89f3-ef2030ea0d60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 14:20:50,019] [fd4c67bd-daad-45de-89f3-ef2030ea0d60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 14:20:50,019] [fd4c67bd-daad-45de-89f3-ef2030ea0d60]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 14:23:25,080] [06fbefa2-97d5-40bb-9e54-af713aa8793e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: XSA4242
+TID: [-1234] [oauth2] [2025-07-09 14:23:25,082] [06fbefa2-97d5-40bb-9e54-af713aa8793e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - else if condition running
+TID: [-1234] [oauth2] [2025-07-09 14:23:25,088] [06fbefa2-97d5-40bb-9e54-af713aa8793e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for if else condition hasaccess :false
+TID: [-1234] [oauth2] [2025-07-09 14:23:25,089] [06fbefa2-97d5-40bb-9e54-af713aa8793e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 2 floor access denied
+TID: [-1234] [oauth2] [2025-07-09 14:23:44,383] [538d350f-57f1-4601-8f83-367c24f68ce1]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 14:23:44,385] [538d350f-57f1-4601-8f83-367c24f68ce1]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 14:23:44,385] [538d350f-57f1-4601-8f83-367c24f68ce1]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 14:50:56,747] [a2f1ddac-0fb7-4000-b569-dc68c20fbc75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 14:50:56,752] [a2f1ddac-0fb7-4000-b569-dc68c20fbc75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 14:50:56,752] [a2f1ddac-0fb7-4000-b569-dc68c20fbc75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 14:51:06,346] [eca59328-2638-4a04-b4b5-b8337597d41a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 14:51:06,348] [eca59328-2638-4a04-b4b5-b8337597d41a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 14:51:06,349] [eca59328-2638-4a04-b4b5-b8337597d41a]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [] [] [2025-07-09 14:56:09,179] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.PushedAuthReqCleanupService} - Pushed authorization request cleanup task is running successfully for removing expired requests
+TID: [] [] [2025-07-09 14:56:09,197] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data
+TID: [-1234] [oauth2] [2025-07-09 16:43:13,690] [304980a9-b6d2-4870-9a95-e3283c52097e] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Error occurred while executing action: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 16:50:56,384] [f7bfe5ce-d412-49d3-b5a1-b12a30629e8e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 16:50:56,388] [f7bfe5ce-d412-49d3-b5a1-b12a30629e8e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 16:50:56,389] [f7bfe5ce-d412-49d3-b5a1-b12a30629e8e]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 16:55:25,690] [d7723cde-d6ee-4917-b239-3fe913d48a75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 16:55:25,710] [d7723cde-d6ee-4917-b239-3fe913d48a75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 16:55:25,711] [d7723cde-d6ee-4917-b239-3fe913d48a75]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 17:38:57,464] [77d8c878-0a8a-4987-8218-af3c9cfaf7ab]  WARN {org.wso2.carbon.identity.action.execution.internal.util.APIClient} - Maximum retry attempts reached for API: https://3ee2e1ea-a3ec-4f5b-bff1-2fa3a86782c0-prod.e1-us-east-azure.choreoapis.dev/default/bio-sdk-service/v1.0/api/fingerprint/authorize
+TID: [-1234] [oauth2] [2025-07-09 17:38:57,469] [77d8c878-0a8a-4987-8218-af3c9cfaf7ab] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler} - Authentication failed exception! An error occurred while authenticating user with authentication action.Received an invalid or unexpected response for action type: AUTHENTICATION action ID: 53971d9a-d998-4dc5-a4b6-e2cec5d152e6
+TID: [-1234] [oauth2] [2025-07-09 17:43:12,322] [a915ebe1-46dc-4213-af5f-614dbdb7b2f5]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 17:43:12,325] [a915ebe1-46dc-4213-af5f-614dbdb7b2f5]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 17:43:12,326] [a915ebe1-46dc-4213-af5f-614dbdb7b2f5]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [-1234] [oauth2] [2025-07-09 17:46:03,359] [2f74599c-bdb8-46b7-b9bc-37432a566499]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - deviceId recieved was: ABCD123
+TID: [-1234] [oauth2] [2025-07-09 17:46:03,376] [2f74599c-bdb8-46b7-b9bc-37432a566499]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - for first if condition  hasaccess : true
+TID: [-1234] [oauth2] [2025-07-09 17:46:03,377] [2f74599c-bdb8-46b7-b9bc-37432a566499]  INFO {org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js.JsLogger} - level 1 floor access granted
+TID: [] [] [2025-07-09 18:19:27,534] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [] [] [2025-07-09 18:19:27,538] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-09 18:19:27,550] []  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [] [] [2025-07-09 18:19:27,553] []  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [] [] [2025-07-09 18:19:27,554] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [] [] [2025-07-09 18:19:27,571] []  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [] [] [2025-07-09 18:19:27,572] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [] [] [2025-07-09 18:19:27,638] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount]
+TID: [] [] [2025-07-09 18:19:27,660] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0]
+TID: [] [] [2025-07-09 18:19:27,669] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut]
+TID: [] [] [2025-07-09 18:19:27,688] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [] [] [2025-07-09 18:19:27,724] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2]
+TID: [] [] [2025-07-09 18:19:27,775] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+TID: [] [] [2025-07-09 18:19:27,783] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console]
+TID: [] [] [2025-07-09 18:19:27,792] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2]
+TID: [] [] [2025-07-09 18:19:27,797] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex]
+TID: [] [] [2025-07-09 18:19:27,816] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint]
+TID: [] [] [2025-07-09 18:19:27,828] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [] [] [2025-07-09 18:19:27,847] []  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [] [] [2025-07-09 18:19:27,847] []  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [] [] [2025-07-09 18:19:27,848] []  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [] [] [2025-07-09 18:19:27,848] []  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [] [] [2025-07-09 18:19:27,848] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down WSO2 Identity Server...
+TID: [] [] [2025-07-09 18:19:27,848] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [] [] [2025-07-09 18:19:27,874] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [] [] [2025-07-09 18:19:27,875] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender Shutdown
+TID: [] [] [2025-07-09 18:19:28,028] []  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [] [2025-07-09 18:19:28,600]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2025-07-09 18:19:28,601]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 

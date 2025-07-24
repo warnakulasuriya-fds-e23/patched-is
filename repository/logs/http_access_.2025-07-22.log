@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/Jul/2025:10:41:46 +0530] POST /oauth2/token HTTP/1.1 200 95 "-" "Go-http-client/2.0" 0.962
+127.0.0.1 - - [22/Jul/2025:10:43:51 +0530] POST /oauth2/token HTTP/1.1 200 95 "-" "Go-http-client/2.0" 0.006
+127.0.0.1 - - [22/Jul/2025:10:44:01 +0530] POST /oauth2/authorize HTTP/1.1 200 905 "-" "Go-http-client/1.1" 1.716
+127.0.0.1 - - [22/Jul/2025:10:44:04 +0530] POST /oauth2/authn HTTP/1.1 200 240 "-" "Go-http-client/1.1" 2.826
